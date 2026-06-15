@@ -5,200 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="住宅 IP VPS 和 TikTok 网络环境测评站 MVP，用统一测速口径对比真实家宽、双 ISP、原生 IP 与常规 VPS。"
+      content="家宽 VPS 库存、配置、线路和站长实测记录。面向 TikTok、跨境电商和需要住宅 IP 的用户。"
     />
-    <title>住宅节点雷达 · Residential IP VPS Benchmarks</title>
+    <title>家宽 VPS 实时监控 · 住宅节点雷达</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="住宅节点雷达首页">
-        <span>住宅节点雷达</span>
-        <small>ResNode Radar</small>
+        <span>VPS 实时监控</span>
+        <small>站长自测 · 家宽库存 · 线路记录</small>
       </a>
       <nav aria-label="主导航">
-        <a href="#leaderboard">排行榜</a>
-        <a href="#method">测试方法</a>
-        <a href="#revenue">返佣测算</a>
+        <a href="#products">产品</a>
+        <a href="#guide">选购指南</a>
+        <a href="methodology.html">测试方法</a>
         <a href="disclosure.html">披露</a>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">住宅 IP VPS / 双 ISP / 原生 IP / 常规 VPS</p>
-          <h1><span>用实测数据</span><span>做推荐，</span><span>不靠软文排序。</span></h1>
-          <p class="lead">
-            这是面向中文跨境运营者的网络环境测评站：把延迟、晚高峰丢包、IP 属性、退款政策和推广佣金拆开呈现，让用户知道该买哪个，也让你通过邀请链接变现。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#leaderboard">看第一版排行</a>
-            <a class="button secondary" href="#revenue">测算返佣收入</a>
-          </div>
-          <p class="disclosure-note">
-            页面含推广链接。商业关系会明确披露，排名口径按实测指标和适用场景展示。
+      <section class="monitor-hero">
+        <div>
+          <p class="status-dot">实时监控中</p>
+          <h1><span>家宽 VPS</span><span>库存监控</span></h1>
+          <p class="hero-note">
+            这里放你自己购买、测试和维护的数据：库存、地区、线路、硬件、带宽、价格、实测备注。用户看完表格后，直接点你的链接去购买。
           </p>
         </div>
-        <figure class="hero-visual">
-          <img src="assets/benchmark-console.png" alt="网络测速仪表盘视觉图，展示节点、链路和吞吐柱状图" />
-          <figcaption>
-            <span>更新频率：每周</span>
-            <span>口径：同地区、同时间段、同脚本</span>
-          </figcaption>
-        </figure>
-      </section>
-
-      <section class="snapshot" aria-label="站点关键指标">
-        <div>
-          <strong>4</strong>
-          <span>首批服务商</span>
-        </div>
-        <div>
-          <strong>7</strong>
-          <span>评分维度</span>
-        </div>
-        <div>
-          <strong>10%</strong>
-          <span>公开 recurring 返佣样本</span>
-        </div>
-        <div>
-          <strong>0</strong>
-          <span>未披露商业排序</span>
+        <div class="sync-card" aria-label="同步状态">
+          <span>现在</span>
+          <strong data-now>--:--:--</strong>
+          <span>最后同步</span>
+          <strong data-sync>--:--:--</strong>
+          <small>静态站版本：页面每 5 分钟自动刷新显示时间，库存由站长手动更新。</small>
         </div>
       </section>
 
-      <section id="leaderboard" class="panel-section">
-        <div class="section-heading">
+      <section class="category-bar" aria-label="分类">
+        <button class="is-active" data-category="home" type="button">住宅 家宽 <b data-count-home>0</b></button>
+        <button data-category="premium" type="button">顶级线路 <b data-count-premium>0</b></button>
+        <button data-category="cheap" type="button">便宜 VPS <b data-count-cheap>0</b></button>
+        <button data-category="all" type="button">全部产品 <b data-count-all>0</b></button>
+      </section>
+
+      <section class="notice">
+        <h2>公告</h2>
+        <ul>
+          <li>家宽 VPS 优先看 IP 来源真实性，其次看线路、带宽、库存和退款政策。</li>
+          <li>线路备注采用电信 / 联通 / 移动三网口径，例如 CN2GIA、9929、CMIN2、普通线路。</li>
+          <li>状态为“待实测”的产品不会给强推荐；正式上线前需要补购买记录、IP 属性截图和晚高峰测速。</li>
+        </ul>
+      </section>
+
+      <section id="products" class="panel">
+        <div class="panel-head">
           <div>
-            <p class="eyebrow">Leaderboard</p>
-            <h2>住宅 IP VPS 推荐排行</h2>
+            <p class="eyebrow">Home Broadband VPS</p>
+            <h2><span data-title-category>家宽</span> 实时库存监控</h2>
           </div>
-          <div class="toolbar" aria-label="排行筛选">
-            <button class="is-active" data-filter="all" type="button">全部</button>
-            <button data-filter="residential" type="button">住宅/ISP</button>
-            <button data-filter="us" type="button">美国</button>
-            <button data-filter="affiliate" type="button">有返佣</button>
+          <div class="table-actions">
             <label>
               排序
-              <select id="sort">
-                <option value="score">综合分</option>
-                <option value="latency">延迟</option>
-                <option value="price">价格</option>
+              <select data-sort>
+                <option value="recommend">推荐优先</option>
+                <option value="price">价格从低到高</option>
+                <option value="stock">有货优先</option>
+                <option value="updated">最近更新</option>
               </select>
             </label>
+            <button data-refresh type="button">刷新时间</button>
           </div>
         </div>
 
         <div class="table-wrap">
-          <table>
+          <table class="product-table">
             <thead>
               <tr>
-                <th>Rank</th>
-                <th>服务商</th>
-                <th>评分</th>
-                <th>延迟</th>
-                <th>丢包</th>
+                <th>对比</th>
+                <th>推荐</th>
+                <th>产品</th>
+                <th>区域</th>
+                <th>备注</th>
+                <th>线路</th>
+                <th>硬件配置</th>
+                <th>流量/带宽</th>
                 <th>价格</th>
-                <th>佣金</th>
-                <th>入口</th>
+                <th>状态</th>
+                <th>操作</th>
               </tr>
             </thead>
-            <tbody data-leaderboard></tbody>
+            <tbody data-products></tbody>
           </table>
         </div>
-      </section>
 
-      <section class="provider-grid" data-provider-cards aria-label="服务商卡片"></section>
-
-      <section id="method" class="method-section">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Method</p>
-            <h2>评分方法先公开，再推荐</h2>
-          </div>
-          <a class="text-link" href="methodology.html">完整测试口径</a>
-        </div>
-        <div class="method-grid">
-          <article>
-            <span>01</span>
-            <h3>网络速度</h3>
-            <p>固定北京时间上午、下午、晚高峰三段测试 ping、mtr、speedtest、下载吞吐。</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3>IP 属性</h3>
-            <p>记录 ISP、ASN、住宅属性、欺诈分、历史污染风险，不把机房 IP 混成真家宽。</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3>购买体验</h3>
-            <p>标注库存、交付周期、退款政策、客服响应和 Windows / Linux 可选项。</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3>商业披露</h3>
-            <p>返佣链接不影响测试结论；如果没有实测，就只列为待测，不给强推荐。</p>
-          </article>
+        <div class="compare-bar">
+          <span>已选 <b data-selected-count>0</b> 方案</span>
+          <button data-open-compare type="button" disabled>开始对比</button>
+          <button data-clear-compare type="button">取消</button>
         </div>
       </section>
 
-      <section id="revenue" class="revenue-section">
-        <div>
-          <p class="eyebrow">Affiliate Model</p>
-          <h2>返佣收入测算</h2>
-          <p>
-            第一阶段目标不是“全网最大”，而是让 10 个高意图关键词稳定进站。下面的模型用于估算月点击、转化率和 recurring 佣金的关系。
-          </p>
-        </div>
-        <div class="calculator" aria-label="返佣收入计算器">
-          <label class="range-row">
-            <span>月有效点击 <b data-clicks></b></span>
-            <input id="clicks" type="range" min="100" max="10000" step="100" value="1500" />
-          </label>
-          <label class="range-row">
-            <span>购买转化率 <b data-conversion></b></span>
-            <input id="conversion" type="range" min="1" max="12" step="1" value="4" />
-          </label>
-          <label class="range-row">
-            <span>客单价 <b data-arpu></b></span>
-            <input id="arpu" type="range" min="60" max="360" step="10" value="149" />
-          </label>
-          <label class="range-row">
-            <span>佣金比例 <b data-commission></b></span>
-            <input id="commission" type="range" min="5" max="40" step="1" value="15" />
-          </label>
-          <div class="result-row">
-            <span>预计月成交 <b data-sales></b> 单</span>
-            <strong data-monthly></strong>
-          </div>
-        </div>
-      </section>
-
-      <section class="content-plan">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Launch Plan</p>
-            <h2>第一批 SEO 内容</h2>
-          </div>
-        </div>
+      <section id="guide" class="guide">
+        <h2>家宽选购指南</h2>
         <ol>
-          <li><strong>美国住宅 IP VPS 推荐：</strong>主关键词，承接最高购买意图。</li>
-          <li><strong>AaITR 测评：</strong>真实家宽、库存、交付周期、晚高峰表现。</li>
-          <li><strong>LisaHost 测评：</strong>多地区、双 ISP、不同 IP 段差异。</li>
-          <li><strong>TikTok VPS 怎么选：</strong>讲合规网络稳定性，不承诺规避平台风控。</li>
-          <li><strong>双 ISP 和真家宽区别：</strong>把概念讲清楚，建立信任。</li>
+          <li>先确认是不是住宅宽带 IP：看 ISP、ASN、IPinfo、欺诈分和地址归属，不要只看商家标题。</li>
+          <li>做 TikTok 或跨境电商时，独享 IP、库存稳定、可续费，比单次跑分更重要。</li>
+          <li>美国家宽通常重点看 AT&T、Frontier、Comcast 等来源；日本可以单独做 SoftBank / NTT 分类页。</li>
+          <li>每条推荐都要保留测试时间。线路变动、IP 段变动、库存变动后，旧结论必须重新标注。</li>
+          <li>购买入口可以放推广链接，但页面排序必须以你的实测记录为准。</li>
         </ol>
       </section>
     </main>
 
+    <dialog class="compare-dialog" data-compare-dialog>
+      <form method="dialog">
+        <div class="dialog-head">
+          <h2>产品参数对比</h2>
+          <button aria-label="关闭对比" type="submit">×</button>
+        </div>
+        <div class="compare-grid" data-compare-grid></div>
+      </form>
+    </dialog>
+
     <footer class="site-footer">
       <div>
         <strong>住宅节点雷达</strong>
-        <p>独立测评站 MVP。商业合作、返佣关系和测试时间都应在页面显眼披露。</p>
+        <p>这是站长自测型 VPS 目录。库存和价格可能变化，正式推荐前需要补实测证据。</p>
       </div>
-      <button data-copy type="button">复制披露文案</button>
+      <a href="methodology.html">查看测试方法</a>
     </footer>
 
     <script src="app.js" type="module"></script>

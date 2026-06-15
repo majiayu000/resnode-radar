@@ -1,197 +1,265 @@
-const providers = [
+const products = [
   {
-    name: "AaITR",
-    slug: "aaitr",
-    region: "美国 / 日本",
-    ipType: "真实家庭住宅 IP",
-    bestFor: "美区 TikTok、电商账号、需要住宅属性的远程桌面",
-    monthlyCny: 149,
-    score: 91,
-    latencyMs: 168,
-    eveningLoss: 0.4,
-    stock: "需要关注补货",
-    commission: "待后台确认",
-    affiliateUrl: "https://www.aaitr.com/",
+    id: "vircs-att-home",
+    category: "home",
+    recommended: true,
+    provider: "VIRCS",
+    name: "ATT 真实住宅",
+    region: "美国",
+    note: "独享宽带，适合 TikTok 直播和跨境电商；待补本站购买截图。",
+    route: "普通线路 · 电:163 联:4837 移:CMI",
+    hardware: "4C / 8G / 50G",
+    bandwidth: "无限流量 @ 50Mbps",
+    price: "$35.99/月",
+    priceValue: 260,
+    status: "有货",
+    stockRank: 1,
+    updated: "2026-06-15",
+    reviewUrl: "#guide",
+    buyUrl: "https://www.vircs.com/products/4",
+    evidence: "待补：IPinfo、晚高峰 speedtest、连续 24h 可用性。"
+  },
+  {
+    id: "aaitr-frontier-home",
+    category: "home",
+    recommended: true,
+    provider: "AaITR",
+    name: "Frontier 真实住宅",
+    region: "美国",
+    note: "建议预定，适合需要美国家庭宽带属性的远程桌面。",
+    route: "普通线路 · 电:163 联:4837 移:CMI",
+    hardware: "2C / 2G / 25G",
+    bandwidth: "2000G @ 100Mbps",
+    price: "¥149.00/月",
+    priceValue: 149,
+    status: "有货",
+    stockRank: 1,
+    updated: "2026-06-15",
     reviewUrl: "reviews/aaitr.html",
-    tags: ["真家宽", "AT&T/Frontier", "日本 SoftBank", "中文支持"],
-    caveat: "库存和交付周期是主要变量，推荐页必须标注更新时间。"
+    buyUrl: "https://www.aaitr.com/",
+    evidence: "待补：Frontier 段位截图、三网 ping、mtr、TikTok 可用性记录。"
   },
   {
-    name: "LisaHost",
-    slug: "lisahost",
-    region: "美国 / 新加坡 / 台湾 / 英国 / 越南",
-    ipType: "双 ISP / 原生住宅 IP",
-    bestFor: "多地区矩阵、跨境电商、流媒体与平台兼容测试",
-    monthlyCny: 88,
-    score: 86,
-    latencyMs: 142,
-    eveningLoss: 0.7,
-    stock: "常规销售",
-    commission: "有推广页面",
-    affiliateUrl: "https://lisahost.com/affiliates.php",
+    id: "aaitr-att-home",
+    category: "home",
+    recommended: false,
+    provider: "AaITR",
+    name: "ATT 真实住宅",
+    region: "美国",
+    note: "建议预定。库存变化快，缺货时不要强推。",
+    route: "普通线路 · 电:163 联:4837 移:CMI",
+    hardware: "2C / 2G / 25G",
+    bandwidth: "2000G @ 100Mbps",
+    price: "¥149.00/月",
+    priceValue: 149,
+    status: "缺货",
+    stockRank: 3,
+    updated: "2026-06-15",
+    reviewUrl: "reviews/aaitr.html",
+    buyUrl: "https://www.aaitr.com/",
+    evidence: "待补：补货时间、交付周期、退款规则。"
+  },
+  {
+    id: "lisahost-us-isp",
+    category: "home",
+    recommended: false,
+    provider: "LisaHost",
+    name: "美国双 ISP",
+    region: "美国",
+    note: "地区和 IP 段较多，必须按套餐单独记录。",
+    route: "普通线路 · 待测三网",
+    hardware: "1C / 1G / 20G 起",
+    bandwidth: "按套餐",
+    price: "¥88.00/月起",
+    priceValue: 88,
+    status: "待实测",
+    stockRank: 2,
+    updated: "2026-06-15",
     reviewUrl: "reviews/lisahost.html",
-    tags: ["地区多", "支付宝", "月付", "中文工单"],
-    caveat: "不同 IP 段表现差异明显，需要按段位记录测试结果。"
+    buyUrl: "https://lisahost.com/",
+    evidence: "待补：不同地区 IP 属性、晚高峰稳定性。"
   },
   {
-    name: "VPS.us",
-    slug: "vps-us",
+    id: "bandwagon-cn2gia",
+    category: "premium",
+    recommended: false,
+    provider: "搬瓦工",
+    name: "CN2 GIA",
     region: "美国 / 日本",
-    ipType: "常规 VPS",
-    bestFor: "对照组、建站、普通代理与服务器基准线",
-    monthlyCny: 72,
-    score: 73,
-    latencyMs: 188,
-    eveningLoss: 0.5,
-    stock: "稳定",
-    commission: "10% recurring",
-    affiliateUrl: "https://vps.us/affiliates/",
-    reviewUrl: "#",
-    tags: ["公开返佣", "90 天归因", "常规 VPS"],
-    caveat: "不是住宅 IP，不能和真家宽直接混排为同类产品。"
+    note: "顶级线路对照组，不属于家宽 IP。",
+    route: "CN2 GIA",
+    hardware: "按套餐",
+    bandwidth: "按套餐",
+    price: "$49.99/季起",
+    priceValue: 360,
+    status: "待录入",
+    stockRank: 2,
+    updated: "2026-06-15",
+    reviewUrl: "#guide",
+    buyUrl: "#",
+    evidence: "用于和家宽 VPS 搭配中转时做对照。"
   },
   {
-    name: "VPSDime",
-    slug: "vpsdime",
+    id: "evoxt-budget",
+    category: "cheap",
+    recommended: false,
+    provider: "EVOXT",
+    name: "便宜 VPS",
     region: "美国 / 欧洲",
-    ipType: "常规 VPS",
-    bestFor: "低价资源型 VPS、返佣模型验证",
-    monthlyCny: 68,
-    score: 70,
-    latencyMs: 205,
-    eveningLoss: 0.6,
-    stock: "稳定",
-    commission: "10% recurring",
-    affiliateUrl: "https://vpsdime.com/affiliate-program",
-    reviewUrl: "#",
-    tags: ["公开返佣", "资源型", "对照组"],
-    caveat: "适合作为返佣样本，不适合作为住宅 IP 推荐主力。"
+    note: "低价普通 VPS 对照组，不作为住宅 IP 推荐。",
+    route: "普通线路",
+    hardware: "1C / 512M 起",
+    bandwidth: "按套餐",
+    price: "$2.99/月起",
+    priceValue: 22,
+    status: "待录入",
+    stockRank: 2,
+    updated: "2026-06-15",
+    reviewUrl: "#guide",
+    buyUrl: "#",
+    evidence: "只做价格和线路对照，不混入家宽推荐。"
   }
 ];
 
-const filters = {
-  all: () => true,
-  residential: (provider) => provider.ipType.includes("住宅") || provider.ipType.includes("ISP"),
-  us: (provider) => provider.region.includes("美国"),
-  affiliate: (provider) => provider.commission.includes("推广") || provider.commission.includes("recurring")
+const categoryNames = {
+  all: "全部产品",
+  home: "家宽",
+  premium: "顶级线路",
+  cheap: "便宜 VPS"
 };
 
-let activeFilter = "all";
-let activeSort = "score";
+let activeCategory = "home";
+let activeSort = "recommend";
+const selected = new Set();
 
-function formatMoney(value) {
-  return new Intl.NumberFormat("zh-CN", { style: "currency", currency: "CNY", maximumFractionDigits: 0 }).format(value);
+function formatTime(date) {
+  return date.toLocaleTimeString("zh-CN", { hour12: false, hour: "2-digit", minute: "2-digit", second: "2-digit" });
 }
 
-function sortedProviders() {
-  const list = providers.filter(filters[activeFilter]);
+function refreshClock() {
+  const now = new Date();
+  document.querySelector("[data-now]").textContent = formatTime(now);
+  document.querySelector("[data-sync]").textContent = formatTime(now);
+}
+
+function visibleProducts() {
+  const list = activeCategory === "all" ? products : products.filter((product) => product.category === activeCategory);
   return [...list].sort((a, b) => {
-    if (activeSort === "latency") return a.latencyMs - b.latencyMs;
-    if (activeSort === "price") return a.monthlyCny - b.monthlyCny;
-    return b.score - a.score;
+    if (activeSort === "price") return a.priceValue - b.priceValue;
+    if (activeSort === "stock") return a.stockRank - b.stockRank;
+    if (activeSort === "updated") return b.updated.localeCompare(a.updated);
+    return Number(b.recommended) - Number(a.recommended) || a.stockRank - b.stockRank || a.priceValue - b.priceValue;
   });
 }
 
-function renderLeaderboard() {
-  const tbody = document.querySelector("[data-leaderboard]");
-  tbody.innerHTML = sortedProviders()
-    .map((provider, index) => {
-      const rank = index + 1;
+function renderCounts() {
+  document.querySelector("[data-count-all]").textContent = products.length;
+  document.querySelector("[data-count-home]").textContent = products.filter((product) => product.category === "home").length;
+  document.querySelector("[data-count-premium]").textContent = products.filter((product) => product.category === "premium").length;
+  document.querySelector("[data-count-cheap]").textContent = products.filter((product) => product.category === "cheap").length;
+}
+
+function statusClass(status) {
+  if (status === "有货") return "is-stock";
+  if (status === "缺货") return "is-empty";
+  return "is-pending";
+}
+
+function renderTable() {
+  document.querySelector("[data-title-category]").textContent = categoryNames[activeCategory];
+  const tbody = document.querySelector("[data-products]");
+  tbody.innerHTML = visibleProducts()
+    .map((product) => {
+      const checked = selected.has(product.id) ? "checked" : "";
+      const buyDisabled = product.buyUrl === "#" ? "is-disabled" : "";
       return `
         <tr>
-          <td><span class="rank">${rank}</span></td>
+          <td><input data-select="${product.id}" type="checkbox" ${checked} aria-label="选择 ${product.provider} ${product.name} 对比" /></td>
+          <td>${product.recommended ? '<span class="recommend">推荐</span>' : '<span class="muted">-</span>'}</td>
           <td>
-            <a class="provider-name" href="${provider.reviewUrl}">${provider.name}</a>
-            <span class="provider-meta">${provider.region} · ${provider.ipType}</span>
+            <a class="provider-name" href="${product.reviewUrl}">${product.provider}</a>
+            <span class="provider-meta">${product.name}</span>
           </td>
-          <td>${provider.score}</td>
-          <td>${provider.latencyMs} ms</td>
-          <td>${provider.eveningLoss}%</td>
-          <td>${formatMoney(provider.monthlyCny)}/月起</td>
-          <td>${provider.commission}</td>
-          <td><a class="table-link" href="${provider.affiliateUrl}" target="_blank" rel="nofollow sponsored noopener">查看</a></td>
+          <td>${product.region}</td>
+          <td class="note-cell">${product.note}</td>
+          <td>${product.route}</td>
+          <td>${product.hardware}</td>
+          <td>${product.bandwidth}</td>
+          <td><strong>${product.price}</strong></td>
+          <td><span class="stock ${statusClass(product.status)}">${product.status}</span></td>
+          <td><a class="table-link ${buyDisabled}" href="${product.buyUrl}" target="_blank" rel="nofollow sponsored noopener">直达购买</a></td>
         </tr>
       `;
     })
     .join("");
+  bindRowSelection();
+  renderSelectedCount();
 }
 
-function renderCards() {
-  const grid = document.querySelector("[data-provider-cards]");
-  grid.innerHTML = sortedProviders()
-    .map((provider) => {
-      const tagHtml = provider.tags.map((tag) => `<span>${tag}</span>`).join("");
-      return `
-        <article class="provider-card">
-          <div class="card-head">
-            <div>
-              <h3>${provider.name}</h3>
-              <p>${provider.bestFor}</p>
-            </div>
-            <strong>${provider.score}</strong>
-          </div>
-          <div class="metric-stack" aria-label="${provider.name} 指标">
-            <div><span>延迟</span><meter min="80" max="260" low="160" high="220" optimum="110" value="${provider.latencyMs}"></meter><b>${provider.latencyMs}ms</b></div>
-            <div><span>晚高峰丢包</span><meter min="0" max="3" low="0.5" high="1.5" optimum="0.1" value="${provider.eveningLoss}"></meter><b>${provider.eveningLoss}%</b></div>
-          </div>
-          <div class="tag-row">${tagHtml}</div>
-          <p class="caveat">${provider.caveat}</p>
-          <div class="card-actions">
-            <a href="${provider.reviewUrl}">读测评</a>
-            <a href="${provider.affiliateUrl}" target="_blank" rel="nofollow sponsored noopener">推广入口</a>
-          </div>
+function renderSelectedCount() {
+  document.querySelector("[data-selected-count]").textContent = selected.size;
+  document.querySelector("[data-open-compare]").disabled = selected.size < 2;
+}
+
+function bindRowSelection() {
+  document.querySelectorAll("[data-select]").forEach((input) => {
+    input.addEventListener("change", () => {
+      if (input.checked) selected.add(input.dataset.select);
+      else selected.delete(input.dataset.select);
+      renderSelectedCount();
+    });
+  });
+}
+
+function openCompare() {
+  const chosen = products.filter((product) => selected.has(product.id));
+  const grid = document.querySelector("[data-compare-grid]");
+  grid.innerHTML = chosen
+    .map(
+      (product) => `
+        <article class="compare-card">
+          <h3>${product.provider}</h3>
+          <p>${product.name}</p>
+          <dl>
+            <div><dt>区域</dt><dd>${product.region}</dd></div>
+            <div><dt>线路</dt><dd>${product.route}</dd></div>
+            <div><dt>配置</dt><dd>${product.hardware}</dd></div>
+            <div><dt>流量</dt><dd>${product.bandwidth}</dd></div>
+            <div><dt>价格</dt><dd>${product.price}</dd></div>
+            <div><dt>状态</dt><dd>${product.status}</dd></div>
+          </dl>
+          <p class="evidence">${product.evidence}</p>
         </article>
-      `;
-    })
+      `
+    )
     .join("");
-}
-
-function updateRevenue() {
-  const clicks = Number(document.querySelector("#clicks").value);
-  const conversion = Number(document.querySelector("#conversion").value);
-  const arpu = Number(document.querySelector("#arpu").value);
-  const commission = Number(document.querySelector("#commission").value);
-  const sales = Math.round(clicks * (conversion / 100));
-  const monthly = Math.round(sales * arpu * (commission / 100));
-  document.querySelector("[data-clicks]").textContent = clicks.toLocaleString("zh-CN");
-  document.querySelector("[data-conversion]").textContent = `${conversion}%`;
-  document.querySelector("[data-arpu]").textContent = formatMoney(arpu);
-  document.querySelector("[data-commission]").textContent = `${commission}%`;
-  document.querySelector("[data-sales]").textContent = sales.toLocaleString("zh-CN");
-  document.querySelector("[data-monthly]").textContent = formatMoney(monthly);
+  document.querySelector("[data-compare-dialog]").showModal();
 }
 
 function bindControls() {
-  document.querySelectorAll("[data-filter]").forEach((button) => {
+  document.querySelectorAll("[data-category]").forEach((button) => {
     button.addEventListener("click", () => {
-      activeFilter = button.dataset.filter;
-      document.querySelectorAll("[data-filter]").forEach((item) => item.classList.toggle("is-active", item === button));
-      renderLeaderboard();
-      renderCards();
+      activeCategory = button.dataset.category;
+      document.querySelectorAll("[data-category]").forEach((item) => item.classList.toggle("is-active", item === button));
+      renderTable();
     });
   });
 
-  document.querySelector("#sort").addEventListener("change", (event) => {
+  document.querySelector("[data-sort]").addEventListener("change", (event) => {
     activeSort = event.target.value;
-    renderLeaderboard();
-    renderCards();
+    renderTable();
   });
 
-  document.querySelectorAll(".range-row input").forEach((input) => {
-    input.addEventListener("input", updateRevenue);
-  });
-
-  document.querySelector("[data-copy]").addEventListener("click", async () => {
-    const text = "我可能通过页面里的推荐链接获得佣金，但排序优先按实测速度、IP 类型、退款政策和稳定性评分。";
-    await navigator.clipboard.writeText(text);
-    document.querySelector("[data-copy]").textContent = "已复制";
-    setTimeout(() => {
-      document.querySelector("[data-copy]").textContent = "复制披露文案";
-    }, 1600);
+  document.querySelector("[data-refresh]").addEventListener("click", refreshClock);
+  document.querySelector("[data-open-compare]").addEventListener("click", openCompare);
+  document.querySelector("[data-clear-compare]").addEventListener("click", () => {
+    selected.clear();
+    renderTable();
   });
 }
 
-renderLeaderboard();
-renderCards();
-updateRevenue();
+refreshClock();
+setInterval(refreshClock, 300000);
+renderCounts();
+renderTable();
 bindControls();

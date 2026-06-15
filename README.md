@@ -1,6 +1,6 @@
 # ResNode Radar
 
-Residential IP VPS affiliate review site MVP for Chinese cross-border operators.
+Residential IP VPS stock monitor and owner-run review site MVP for Chinese cross-border operators.
 
 ## Local Preview
 
@@ -14,4 +14,4 @@ Open `http://127.0.0.1:4173/`.
 
 ## Update Data
 
-Provider data lives in `app.js`. Replace sample `affiliateUrl` values with real invitation links before publishing promoted content.
+Provider data lives in `app.js`. Replace sample `buyUrl` values with real purchase or invitation links, then add your own test evidence before making strong recommendations.
