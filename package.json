@@ -1,0 +1,11 @@
+{
+  "name": "resnode-radar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Residential IP VPS affiliate review site MVP.",
+  "scripts": {
+    "check": "node --check app.js && node --check scripts/generate-assets.mjs",
+    "assets": "node scripts/generate-assets.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}
