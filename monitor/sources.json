@@ -1,0 +1,449 @@
+[
+  {
+    "id": "vircs-product-1",
+    "provider": "VIRCS",
+    "category": "home",
+    "adapter": "vircs_inertia_product",
+    "url": "https://www.vircs.com/products/1",
+    "regionHint": "美国",
+    "routeHint": "AT&T 住宅宽带"
+  },
+  {
+    "id": "vircs-product-2",
+    "provider": "VIRCS",
+    "category": "home",
+    "adapter": "vircs_inertia_product",
+    "url": "https://www.vircs.com/products/2",
+    "regionHint": "美国",
+    "routeHint": "专线隧道"
+  },
+  {
+    "id": "vircs-product-4",
+    "provider": "VIRCS",
+    "category": "home",
+    "adapter": "vircs_inertia_product",
+    "url": "https://www.vircs.com/products/4",
+    "regionHint": "美国",
+    "routeHint": "AT&T 住宅宽带"
+  },
+  {
+    "id": "vircs-product-5",
+    "provider": "VIRCS",
+    "category": "home",
+    "adapter": "vircs_inertia_product",
+    "url": "https://www.vircs.com/products/5",
+    "regionHint": "美国",
+    "routeHint": "AT&T / Frontier 住宅宽带"
+  },
+  {
+    "id": "vircs-product-6",
+    "provider": "VIRCS",
+    "category": "home",
+    "adapter": "vircs_inertia_product",
+    "url": "https://www.vircs.com/products/6",
+    "regionHint": "美国",
+    "routeHint": "AT&T / Frontier 住宅宽带"
+  },
+  {
+    "id": "lisahost-us-9929-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=12",
+    "regionHint": "美国",
+    "routeHint": "9929 双 ISP 家宽住宅"
+  },
+  {
+    "id": "lisahost-us-4837-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=35",
+    "regionHint": "美国",
+    "routeHint": "4837 双 ISP 家宽住宅"
+  },
+  {
+    "id": "lisahost-us-9929-phase2-native",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=31",
+    "regionHint": "美国",
+    "routeHint": "9929 二期原生 IP"
+  },
+  {
+    "id": "lisahost-us-static-residential-vds",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=33",
+    "regionHint": "美国",
+    "routeHint": "静态住宅 IP 家庭宽带 VDS"
+  },
+  {
+    "id": "lisahost-us-ny-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=38",
+    "regionHint": "美国",
+    "routeHint": "纽约双 ISP 家宽住宅"
+  },
+  {
+    "id": "lisahost-us-chicago-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=21",
+    "regionHint": "美国",
+    "routeHint": "芝加哥双 ISP 家宽住宅"
+  },
+  {
+    "id": "lisahost-us-residential-nat",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=34",
+    "regionHint": "美国",
+    "routeHint": "家宽住宅 IP NAT"
+  },
+  {
+    "id": "lisahost-hk-icable-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=39",
+    "regionHint": "香港",
+    "routeHint": "iCable 双 ISP 住宅 IP"
+  },
+  {
+    "id": "lisahost-hk-hgc-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=18",
+    "regionHint": "香港",
+    "routeHint": "HGC 双 ISP 住宅 IP"
+  },
+  {
+    "id": "lisahost-tw-hinet-dynamic",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=17",
+    "regionHint": "台湾",
+    "routeHint": "HiNet 双 ISP 动态住宅 IP"
+  },
+  {
+    "id": "lisahost-jp-iij-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=25",
+    "regionHint": "日本",
+    "routeHint": "IIJ 双 ISP 静态住宅 IP"
+  },
+  {
+    "id": "lisahost-jp-isp-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=37",
+    "regionHint": "日本",
+    "routeHint": "ISP 静态住宅 IP"
+  },
+  {
+    "id": "lisahost-uk-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=14",
+    "regionHint": "英国",
+    "routeHint": "双 ISP 住宅 IP"
+  },
+  {
+    "id": "lisahost-kr-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=23",
+    "regionHint": "韩国",
+    "routeHint": "双 ISP 家庭宽带住宅 IP"
+  },
+  {
+    "id": "lisahost-de-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=22",
+    "regionHint": "德国",
+    "routeHint": "双 ISP 原生住宅 IP"
+  },
+  {
+    "id": "lisahost-vn-residential",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=16",
+    "regionHint": "越南",
+    "routeHint": "双 ISP 原生住宅 IP"
+  },
+  {
+    "id": "lisahost-us-cn2-gia-native",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=10",
+    "regionHint": "美国",
+    "routeHint": "CN2 GIA 原生 IP"
+  },
+  {
+    "id": "lisahost-hk-isp-premium",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=11",
+    "regionHint": "香港",
+    "routeHint": "CMI / CU2 / CN2 精品网络 ISP IP"
+  },
+  {
+    "id": "lisahost-jp-native-bandwidth",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=13",
+    "regionHint": "日本",
+    "routeHint": "原生 IP 大带宽"
+  },
+  {
+    "id": "lisahost-sg-native",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=15",
+    "regionHint": "新加坡",
+    "routeHint": "原生 IP"
+  },
+  {
+    "id": "lisahost-tw-native-vds",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=24",
+    "regionHint": "台湾",
+    "routeHint": "原生 IP 大带宽 VDS"
+  },
+  {
+    "id": "lisahost-tw-native-vps",
+    "provider": "LisaHost",
+    "category": "home",
+    "adapter": "whmcs_group",
+    "url": "https://lisahost.com/cart.php?gid=36",
+    "regionHint": "台湾",
+    "routeHint": "原生 IP 大带宽 VPS"
+  },
+  {
+    "id": "zlidc-globe-dual-isp-seo",
+    "provider": "ZLIDC",
+    "category": "home",
+    "adapter": "zlidc_product_wrap",
+    "url": "https://zlidc.net/cart.php",
+    "regionHint": "全球",
+    "routeHint": "Dual ISP SEO / ISP"
+  },
+  {
+    "id": "zoro-us-4837-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/isp-4837",
+    "cardSelector": ".package",
+    "regionHint": "美国",
+    "routeHint": "4837 原生双 ISP"
+  },
+  {
+    "id": "zoro-us-bgp-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/cuvip-isp",
+    "cardSelector": ".package",
+    "regionHint": "美国",
+    "routeHint": "BGP 原生双 ISP"
+  },
+  {
+    "id": "zoro-jp-residential",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/jpisp",
+    "cardSelector": ".package",
+    "regionHint": "日本",
+    "routeHint": "家宽住宅"
+  },
+  {
+    "id": "zoro-jp-ntt-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/jp-isp-ntt",
+    "cardSelector": ".package",
+    "regionHint": "日本",
+    "routeHint": "NTT 原生双 ISP"
+  },
+  {
+    "id": "zoro-de-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/deisp",
+    "cardSelector": ".package",
+    "regionHint": "德国",
+    "routeHint": "BGP 原生双 ISP"
+  },
+  {
+    "id": "zoro-uk-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/uk-isp",
+    "cardSelector": ".package",
+    "regionHint": "英国",
+    "routeHint": "BGP 原生双 ISP"
+  },
+  {
+    "id": "zoro-kr-isp",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/kr-isp",
+    "cardSelector": ".package",
+    "regionHint": "韩国",
+    "routeHint": "BGP 原生双 ISP"
+  },
+  {
+    "id": "zoro-hk-residential",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/hk-bgp-isp",
+    "cardSelector": ".package",
+    "regionHint": "香港",
+    "routeHint": "BGP 家宽住宅"
+  },
+  {
+    "id": "zoro-my-residential",
+    "provider": "ZoroCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://my.zorocloud.com/store/mysisp",
+    "cardSelector": ".package",
+    "regionHint": "马来西亚",
+    "routeHint": "BGP 家宽住宅"
+  },
+  {
+    "id": "cstone-us-cuii-isp",
+    "provider": "CstoneCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://www.cstonecloud.com/store/cuii9929-isp",
+    "cardSelector": ".product",
+    "regionHint": "美国",
+    "routeHint": "CUII 9929 住宅双 ISP"
+  },
+  {
+    "id": "cstone-uk-bgp-isp",
+    "provider": "CstoneCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://www.cstonecloud.com/store/ukbgpisp",
+    "cardSelector": ".product",
+    "regionHint": "英国",
+    "routeHint": "BGP 住宅双 ISP"
+  },
+  {
+    "id": "xuezhang-jp-isp",
+    "provider": "学长网络",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://xuezhangvps.shop/index.php/store/isp",
+    "cardSelector": ".product",
+    "regionHint": "日本",
+    "routeHint": "住宅双 ISP"
+  },
+  {
+    "id": "yinnet-kr-dual-isp",
+    "provider": "YINNET",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
+    "cardSelector": ".product",
+    "regionHint": "韩国",
+    "routeHint": "双 ISP 住宅 IP"
+  },
+  {
+    "id": "yinnet-jp-dual-isp",
+    "provider": "YINNET",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
+    "cardSelector": ".product",
+    "regionHint": "日本",
+    "routeHint": "双 ISP 住宅 IP"
+  },
+  {
+    "id": "xuezhang-jp-home-nat",
+    "provider": "学长网络",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://xuezhangvps.shop/index.php/store/jphomevps",
+    "cardSelector": ".product",
+    "regionHint": "日本",
+    "routeHint": "真家宽 NAT / 双 ISP"
+  },
+  {
+    "id": "polocloud-tw-hinet-vds",
+    "provider": "PoloCloud",
+    "category": "home",
+    "adapter": "lagom_product_list",
+    "url": "https://polocloud.net/index.php?rp=/store/hinet-vds",
+    "cardSelector": ".package",
+    "regionHint": "台湾",
+    "routeHint": "HiNet VDS 动态 IP"
+  },
+  {
+    "id": "aaitr-srv-store",
+    "provider": "AaITR",
+    "category": "home",
+    "adapter": "aaitr_store",
+    "url": "https://www.aaitr.com/store/srv",
+    "fallbackUrls": [
+      "https://www.aaitr.com/store/srv?language=english",
+      "https://www.aaitr.com/store/srv?language=chinese",
+      "https://www.aaitr.com/cart.php?gid=1",
+      "https://www.aaitr.com/cart.php?gid=2",
+      "https://www.aaitr.com/cart.php?gid=3",
+      "https://www.aaitr.com/cart.php?gid=4"
+    ],
+    "discoveryUrls": [
+      "https://www.aaitr.com/sitemap.xml",
+      "https://www.aaitr.com/robots.txt"
+    ],
+    "readerSnapshot": {
+      "enabled": true,
+      "baseUrl": "https://r.jina.ai/",
+      "urls": [
+        "https://www.aaitr.com/store/srv?language=english",
+        "https://www.aaitr.com/store/rbn"
+      ]
+    },
+    "browserProbe": {
+      "enabled": true,
+      "maxUrls": 2,
+      "virtualTimeBudgetMs": 12000,
+      "timeoutMs": 25000
+    },
+    "regionHint": "美国 / 日本",
+    "routeHint": "住宅家宽"
+  }
+]

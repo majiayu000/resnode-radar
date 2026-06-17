@@ -2,10 +2,15 @@
   "name": "resnode-radar",
   "version": "0.1.0",
   "private": true,
-  "description": "Residential IP VPS affiliate review site MVP.",
+  "description": "VPS stock monitor and owner-run review site.",
   "scripts": {
-    "check": "node --check app.js && node --check scripts/generate-assets.mjs",
+    "check": "node --check app.js && node --check scripts/generate-assets.mjs && node --check scripts/monitor.mjs && node --check scripts/adapters/lagom-product-list.mjs && node --check scripts/adapters/zlidc-product-wrap.mjs && node --check scripts/validate-monitor-data.mjs",
     "assets": "node scripts/generate-assets.mjs",
+    "monitor": "node scripts/monitor.mjs",
+    "monitor:validate": "node scripts/validate-monitor-data.mjs",
     "serve": "python3 -m http.server 4173"
+  },
+  "dependencies": {
+    "node-html-parser": "7.0.1"
   }
 }

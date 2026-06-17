@@ -5,65 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="家宽 VPS 库存、配置、线路和站长实测记录。面向 TikTok、跨境电商和需要住宅 IP 的用户。"
+      content="VPS 库存、配置、线路和站长实测记录。面向 TikTok、跨境电商和需要稳定 IP 的用户。"
     />
-    <title>家宽 VPS 实时监控 · 住宅节点雷达</title>
+    <title>VPS 实时库存监控 · 住宅节点雷达</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="index.html" aria-label="住宅节点雷达首页">
-        <span>VPS 实时监控</span>
-        <small>站长自测 · 家宽库存 · 线路记录</small>
-      </a>
-      <nav aria-label="主导航">
-        <a href="#products">产品</a>
-        <a href="#guide">选购指南</a>
-        <a href="methodology.html">测试方法</a>
-        <a href="disclosure.html">披露</a>
-      </nav>
-    </header>
+    <div class="dashboard-layout">
+      <aside class="site-sidebar" aria-label="监控导航">
+        <a class="brand" href="index.html" aria-label="住宅节点雷达首页">
+          <span>VPS 实时监控</span>
+          <small>站长自测 · 库存监控 · 线路记录</small>
+        </a>
+        <p class="status-dot" data-monitor-status>加载监控数据中</p>
+        <section class="category-bar" aria-label="分类">
+          <button class="is-active" data-category="home" type="button">
+            <span><em>监控</em> 产品</span><b data-count-home>0</b>
+          </button>
+          <button data-category="premium" type="button">
+            <span><em>顶级</em> 线路</span><b data-count-premium>0</b>
+          </button>
+          <button data-category="cheap" type="button">
+            <span><em>便宜</em> VPS</span><b data-count-cheap>0</b>
+          </button>
+          <button data-category="all" type="button">
+            <span>全部产品</span><b data-count-all>0</b>
+          </button>
+        </section>
+        <nav class="sidebar-links" aria-label="页面导航">
+          <a href="#products">库存表</a>
+          <a href="#tools">检测脚本</a>
+          <a href="#guide">选购指南</a>
+        </nav>
+      </aside>
 
-    <main>
+      <main>
       <section class="monitor-hero">
-        <div>
-          <p class="status-dot">实时监控中</p>
-          <h1><span>家宽 VPS</span><span>库存监控</span></h1>
+        <div class="hero-copy">
+          <p class="eyebrow">Live VPS Inventory</p>
+          <h1><span data-title-category>监控产品</span> 库存、价格、证据一屏判断</h1>
           <p class="hero-note">
-            这里放你自己购买、测试和维护的数据：库存、地区、线路、硬件、带宽、价格、实测备注。用户看完表格后，直接点你的链接去购买。
+            先看可订购状态、IP 类型、线路和价格，再打开购买入口。页面只展示来自官方页面或明确快照的监控记录，不补假库存。
           </p>
+          <div class="evidence-badges" aria-label="证据口径">
+            <span class="evidence-badge">官方源抓取</span>
+            <span class="evidence-badge">购买入口优先</span>
+            <span class="evidence-badge">IP 类型保守标记</span>
+          </div>
         </div>
         <div class="sync-card" aria-label="同步状态">
-          <span>现在</span>
+          <span>本机时间</span>
           <strong data-now>--:--:--</strong>
           <span>最后同步</span>
           <strong data-sync>--:--:--</strong>
-          <small>静态站版本：页面每 5 分钟自动刷新显示时间，库存由站长手动更新。</small>
+          <small>源数据：<code>data/products.json</code></small>
         </div>
       </section>
 
-      <section class="category-bar" aria-label="分类">
-        <button class="is-active" data-category="home" type="button">住宅 家宽 <b data-count-home>0</b></button>
-        <button data-category="premium" type="button">顶级线路 <b data-count-premium>0</b></button>
-        <button data-category="cheap" type="button">便宜 VPS <b data-count-cheap>0</b></button>
-        <button data-category="all" type="button">全部产品 <b data-count-all>0</b></button>
+      <section class="trust-strip" aria-label="监控可信状态">
+        <div>
+          <span>可信状态</span>
+          <strong data-trust-state>官方源监控</strong>
+        </div>
+        <div>
+          <span>新鲜度</span>
+          <strong data-trust-age>--</strong>
+        </div>
+        <div>
+          <span>监控摘要</span>
+          <strong data-trust-freshness data-monitor-summary>监控数据尚未加载。</strong>
+        </div>
+        <div>
+          <span>购买判断</span>
+          <strong>先证据，后链接</strong>
+        </div>
       </section>
 
       <section class="notice">
         <h2>公告</h2>
         <ul>
-          <li>家宽 VPS 优先看 IP 来源真实性，其次看线路、带宽、库存和退款政策。</li>
+          <li>不是所有条目都等于真实家庭宽带；表格里的“IP 类型”只按官方页面文本做保守标记。</li>
+          <li>这类 VPS 优先看 IP 来源真实性，其次看线路、带宽、库存和退款政策。</li>
           <li>线路备注采用电信 / 联通 / 移动三网口径，例如 CN2GIA、9929、CMIN2、普通线路。</li>
-          <li>状态为“待实测”的产品不会给强推荐；正式上线前需要补购买记录、IP 属性截图和晚高峰测速。</li>
+          <li>状态来自 <code>data/products.json</code> 的官方直连结果或明确标注的第三方快照；抓不到就显示被阻断或抓取失败，不显示假库存。</li>
         </ul>
       </section>
 
-      <section id="products" class="panel">
+      <section id="products" class="panel inventory-panel">
         <div class="panel-head">
           <div>
-            <p class="eyebrow">Home Broadband VPS</p>
-            <h2><span data-title-category>家宽</span> 实时库存监控</h2>
+            <p class="eyebrow">VPS Inventory</p>
+            <h2><span data-title-category>监控产品</span> 实时库存表</h2>
           </div>
           <div class="table-actions">
             <label>
@@ -71,13 +104,82 @@
               <select data-sort>
                 <option value="recommend">推荐优先</option>
                 <option value="price">价格从低到高</option>
-                <option value="stock">有货优先</option>
+                <option value="stock">可订购优先</option>
                 <option value="updated">最近更新</option>
               </select>
             </label>
-            <button data-refresh type="button">刷新时间</button>
+              <button data-refresh type="button">重新加载</button>
+              <span class="result-count" data-result-count>显示 0 / 0 条</span>
           </div>
         </div>
+
+        <form class="filter-panel" action="#products" aria-label="筛选库存">
+          <label class="filter-search">
+            搜索
+            <input data-search name="q" type="search" placeholder="商家、区域、线路、IP 类型" autocomplete="off" />
+          </label>
+          <label>
+            区域
+            <select data-filter-region name="region">
+              <option value="">全部区域</option>
+              <option value="美国">美国</option>
+              <option value="日本">日本</option>
+              <option value="韩国">韩国</option>
+              <option value="香港">香港</option>
+              <option value="台湾">台湾</option>
+              <option value="新加坡">新加坡</option>
+              <option value="全球">全球</option>
+            </select>
+          </label>
+          <label>
+            商家
+            <select data-filter-provider name="provider">
+              <option value="">全部商家</option>
+              <option value="LisaHost">LisaHost</option>
+              <option value="YINNET">YINNET</option>
+              <option value="AaITR">AaITR</option>
+              <option value="ZoroCloud">ZoroCloud</option>
+              <option value="CstoneCloud">CstoneCloud</option>
+              <option value="PoloCloud">PoloCloud</option>
+              <option value="VIRCS">VIRCS</option>
+              <option value="ZLIDC">ZLIDC</option>
+              <option value="学长网络">学长网络</option>
+            </select>
+          </label>
+          <label>
+            IP 类型
+            <select data-filter-ip-type name="ipType">
+              <option value="">全部类型</option>
+              <option value="home">真家宽</option>
+              <option value="residential">住宅 IP</option>
+              <option value="dual-isp">双 ISP</option>
+              <option value="native">原生 IP</option>
+              <option value="pending">待核验</option>
+            </select>
+          </label>
+          <label>
+            状态
+            <select data-filter-status name="status">
+              <option value="">全部状态</option>
+              <option value="available">可订购</option>
+              <option value="unavailable">不可订购</option>
+              <option value="unknown">未知</option>
+              <option value="blocked">被阻断</option>
+              <option value="error">抓取失败</option>
+            </select>
+          </label>
+          <label>
+            价格
+            <select data-filter-price name="price">
+              <option value="">全部价格</option>
+              <option value="0-5">5 美元/元以内</option>
+              <option value="5-15">5-15 档</option>
+              <option value="15-30">15-30 档</option>
+              <option value="30+">30 以上</option>
+            </select>
+          </label>
+          <button data-filter-reset type="button">重置</button>
+        </form>
 
         <div class="table-wrap">
           <table class="product-table">
@@ -86,12 +188,13 @@
                 <th>对比</th>
                 <th>推荐</th>
                 <th>产品</th>
-                <th>区域</th>
+                <th>区域 <span class="sort-hint">▲▼</span></th>
                 <th>备注</th>
-                <th>线路</th>
-                <th>硬件配置</th>
-                <th>流量/带宽</th>
-                <th>价格</th>
+                <th>IP 类型</th>
+                <th>线路 <span class="sort-hint">▲▼</span></th>
+                <th>硬件配置 <span class="sort-hint">▲▼</span></th>
+                <th>流量/带宽 <span class="sort-hint">▲▼</span></th>
+                <th>价格 <span class="sort-hint">▲▼</span></th>
                 <th>状态</th>
                 <th>操作</th>
               </tr>
@@ -99,11 +202,40 @@
             <tbody data-products></tbody>
           </table>
         </div>
+        <div class="mobile-products" data-mobile-products aria-hidden="true"></div>
 
         <div class="compare-bar">
           <span>已选 <b data-selected-count>0</b> 方案</span>
           <button data-open-compare type="button" disabled>开始对比</button>
           <button data-clear-compare type="button">取消</button>
+        </div>
+      </section>
+
+      <section id="tools" class="tool-panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Test Scripts</p>
+            <h2>VPS 到手先测这两项</h2>
+          </div>
+          <p>第三方脚本非本站维护，正式使用前建议先查看脚本内容。</p>
+        </div>
+        <div class="tool-grid">
+          <article class="script-card">
+            <span>1</span>
+            <div>
+              <h3>测 IP 质量</h3>
+              <code>bash &lt;(curl -Ls http://IP.Check.Place)</code>
+            </div>
+            <button data-copy="bash <(curl -Ls http://IP.Check.Place)" type="button">复制</button>
+          </article>
+          <article class="script-card">
+            <span>2</span>
+            <div>
+              <h3>测线路</h3>
+              <code>bash &lt;(curl -sL http://Net.Check.Place)</code>
+            </div>
+            <button data-copy="bash <(curl -sL http://Net.Check.Place)" type="button">复制</button>
+          </article>
         </div>
       </section>
 
@@ -117,7 +249,8 @@
           <li>购买入口可以放推广链接，但页面排序必须以你的实测记录为准。</li>
         </ol>
       </section>
-    </main>
+      </main>
+    </div>
 
     <dialog class="compare-dialog" data-compare-dialog>
       <form method="dialog">
@@ -134,7 +267,6 @@
         <strong>住宅节点雷达</strong>
         <p>这是站长自测型 VPS 目录。库存和价格可能变化，正式推荐前需要补实测证据。</p>
       </div>
-      <a href="methodology.html">查看测试方法</a>
     </footer>
 
     <script src="app.js" type="module"></script>
