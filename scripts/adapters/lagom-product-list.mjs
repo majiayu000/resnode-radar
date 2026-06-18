@@ -132,7 +132,6 @@ export function parseLagomProductList(source, fetchResult, generatedAt, helpers)
       stockCount: stock.count,
       orderUrl,
       evidence: `${source.provider} Lagom product card parsed from official page; stock=${stock.label || "not stated"}; order=${orderUrl ? "yes" : "no"}`,
-      recommended: records.length === 0 && status === "available",
       raw: {
         features,
         sourceCardIndex: index

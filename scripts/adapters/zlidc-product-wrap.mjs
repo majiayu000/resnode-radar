@@ -51,10 +51,10 @@ export function parseZlidcProductWrap(source, fetchResult, generatedAt, helpers)
       stockCount: null,
       orderUrl,
       evidence: orderUrl ? `ZLIDC product-wrap order link found; pid=${pid}` : "ZLIDC product-wrap card found without order link",
-      recommended: index === 0,
       raw: {
         pid,
-        features
+        features,
+        sourceCardIndex: index
       }
     };
   });

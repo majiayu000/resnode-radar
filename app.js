@@ -1,7 +1,7 @@
 let payload = null;
 let products = [];
 let activeCategory = "home";
-let activeSort = "recommend";
+let activeSort = "stock";
 const selected = new Set();
 
 const filters = {
@@ -176,6 +176,9 @@ function numericStockCount(product) {
 }
 
 function evidenceBadge(product) {
+  if (product.evidenceLevel?.value && product.evidenceLevel?.label && product.evidenceLevel?.className) {
+    return product.evidenceLevel;
+  }
   const evidence = evidenceText(product);
   const stockCount = numericStockCount(product);
   const hasPreciseStock = stockCount !== null;
@@ -200,6 +203,13 @@ function evidenceBadge(product) {
     return { value: "official-order", label: "官方订购入口", className: "is-official" };
   }
   return { value: "unverified", label: "证据待核验", className: "is-unknown" };
+}
+
+function normalizedRiskTags(product) {
+  if (Array.isArray(product.riskTags) && product.riskTags.length > 0) {
+    return product.riskTags.filter((tag) => tag?.value && tag?.label);
+  }
+  return [{ value: "unknown", label: "风险待核验", severity: "medium" }];
 }
 
 function orderabilityRank(product) {
@@ -228,6 +238,7 @@ function normalizeProduct(product, index) {
     _searchText: searchableText(product)
   };
   normalized._evidenceBadge = evidenceBadge(normalized);
+  normalized._riskTags = normalizedRiskTags(normalized);
   return normalized;
 }
 
@@ -266,12 +277,7 @@ function visibleProducts() {
     if (activeSort === "updated") {
       return text(b.fetchedAt, "").localeCompare(text(a.fetchedAt, "")) || stableCompare(a, b);
     }
-    return (
-      Number(Boolean(b.recommended)) - Number(Boolean(a.recommended)) ||
-      orderabilityRank(a) - orderabilityRank(b) ||
-      (a.priceValue ?? 999999) - (b.priceValue ?? 999999) ||
-      stableCompare(a, b)
-    );
+    return orderabilityRank(a) - orderabilityRank(b) || (a.priceValue ?? 999999) - (b.priceValue ?? 999999) || stableCompare(a, b);
   });
 }
 
@@ -381,6 +387,13 @@ function renderEvidenceBadge(product) {
   return `<span class="stock evidence-badge ${escapeHtml(badge.className)}">${escapeHtml(badge.label)}</span>`;
 }
 
+function renderRiskTags(product) {
+  const tags = product._riskTags
+    .map((tag) => `<span class="risk-tag is-${escapeHtml(text(tag.severity, "medium"))}">${escapeHtml(tag.label)}</span>`)
+    .join("");
+  return `<span class="risk-list">${tags}</span>`;
+}
+
 function productHref(product) {
   return safeUrl(product.orderUrl || product.sourceUrl || product.finalUrl);
 }
@@ -406,7 +419,6 @@ function renderTable() {
         return `
           <tr>
             <td><input data-select="${escapeHtml(product._stableKey)}" type="checkbox" ${checked} aria-label="选择 ${escapeHtml(text(product.provider))} ${escapeHtml(text(product.name))} 对比" /></td>
-            <td>${product.recommended ? '<span class="recommend">推荐</span>' : '<span class="muted">-</span>'}</td>
             <td>
               <a class="provider-name" href="${escapeHtml(href)}" target="_blank" rel="nofollow sponsored noopener">${escapeHtml(text(product.provider))}</a>
               <span class="provider-meta">${escapeHtml(text(product.name))}</span>
@@ -418,10 +430,13 @@ function renderTable() {
             <td>${escapeHtml(text(product.hardware))}</td>
             <td>${escapeHtml(text(product.bandwidth))}</td>
             <td><strong>${escapeHtml(text(product.price))}</strong></td>
-            <td>
-              <span class="stock ${escapeHtml(statusClass(product.status))}">${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</span>
-              ${renderEvidenceBadge(product)}
+            <td class="status-cell">
+              <span class="status-list">
+                <span class="stock ${escapeHtml(statusClass(product.status))}">${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</span>
+                ${renderEvidenceBadge(product)}
+              </span>
             </td>
+            <td class="risk-cell">${renderRiskTags(product)}</td>
             <td><a class="table-link ${isActionable ? "" : "is-secondary"}" href="${escapeHtml(href)}" target="_blank" rel="nofollow sponsored noopener">${actionText}</a></td>
           </tr>
         `;
@@ -454,7 +469,6 @@ function renderMobileCards(list, emptyMessage = "没有符合当前筛选条件�
               <input data-select="${escapeHtml(product._stableKey)}" type="checkbox" ${checked} aria-label="选择 ${escapeHtml(text(product.provider))} ${escapeHtml(text(product.name))} 对比" />
               <span>${escapeHtml(text(product.provider))}</span>
             </label>
-            ${product.recommended ? '<span class="recommend">推荐</span>' : ""}
           </div>
           <h3>${escapeHtml(text(product.name))}</h3>
           <p>${escapeHtml(text(product.note || product.evidence))}</p>
@@ -467,6 +481,7 @@ function renderMobileCards(list, emptyMessage = "没有符合当前筛选条件�
             <div><dt>价格</dt><dd><strong>${escapeHtml(text(product.price))}</strong></dd></div>
             <div><dt>状态</dt><dd><span class="stock ${escapeHtml(statusClass(product.status))}">${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</span></dd></div>
             <div><dt>证据</dt><dd>${renderEvidenceBadge(product)}</dd></div>
+            <div><dt>风险</dt><dd class="risk-cell">${renderRiskTags(product)}</dd></div>
           </dl>
           <a class="table-link ${isActionable ? "" : "is-secondary"}" href="${escapeHtml(href)}" target="_blank" rel="nofollow sponsored noopener">${actionText}</a>
         </article>
@@ -515,6 +530,7 @@ function openCompare() {
             <div><dt>价格</dt><dd>${escapeHtml(text(product.price))}</dd></div>
             <div><dt>状态</dt><dd>${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</dd></div>
             <div><dt>证据</dt><dd>${escapeHtml(product._evidenceBadge.label)}</dd></div>
+            <div><dt>风险</dt><dd>${escapeHtml(product._riskTags.map((tag) => tag.label).join(" / "))}</dd></div>
             <div><dt>抓取</dt><dd>${escapeHtml(formatDateTime(product.fetchedAt))}</dd></div>
           </dl>
           <p class="evidence">${escapeHtml(text(product.evidence))}</p>

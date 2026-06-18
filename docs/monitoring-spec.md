@@ -76,7 +76,7 @@ testing/headless
 | Effects/IO | `scripts/monitor.mjs` only | HTTP GET, write JSON | UI mutating monitor data | node checks |
 | Errors | Monitor result records | blocked/error rows in JSON and UI | Warning plus fake fallback | validation and UI rendering |
 | Config/resources | `monitor/sources.json` | provider adapter name, URL, category | Secrets for public pages | JSON validation |
-| Observability | `generatedAt`, source summary, per-record evidence | UI summary and records | Silent failures | data file inspection |
+| Observability | `generatedAt`, source summary, per-record evidence, `evidenceLevel`, `riskTags` | UI summary, records, evidence/risk badges | Silent failures or unlabelled weak evidence | data file inspection |
 | Compatibility/API | Static JSON schema | GitHub Pages | Runtime server dependency | curl/browser checks |
 
 ## P0/P1/P2 Roadmap
@@ -113,6 +113,15 @@ If any attempt returns parseable WHMCS product DOM, parse:
 If direct/chrome attempts only return challenge pages but Reader snapshot succeeds, output AaITR product rows with evidence `reader_snapshot` and labels such as `快照: 库存充足`. Reader snapshot data is not treated as first-party official API data and must not claim precise price or order-link data unless the snapshot contains those fields.
 
 If every attempt fails, output one `blocked` record with `raw.attempts`. Search engine snippets can help discover candidate URLs, but must not be used as stock truth.
+
+## Evidence And Risk Contract
+
+Every monitor record must include:
+
+- `evidenceLevel`: one structured badge describing the strongest evidence behind the row, such as precise stock, official order entry, third-party snapshot, direct fetch blocked, unavailable, or fetch error.
+- `riskTags`: one or more structured tags explaining buyer-facing caveats, such as only proving an order path, unstated stock, third-party snapshot, direct fetch blocked, incomplete fields, NAT/shared access, identity requirement, refund limits, or support confirmation.
+
+These labels are evidence and risk signals, not purchase advice.
 
 ## Non-Goals
 

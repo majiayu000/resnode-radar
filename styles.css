@@ -607,6 +607,24 @@ h3 {
   border-collapse: collapse;
 }
 
+@media (min-width: 681px) {
+  .product-table th:nth-child(10),
+  .product-table td:nth-child(10) {
+    width: 178px;
+  }
+
+  .product-table th:nth-child(11),
+  .product-table td:nth-child(11) {
+    width: 150px;
+  }
+
+  .product-table th:nth-child(12),
+  .product-table td:nth-child(12) {
+    width: 122px;
+    text-align: right;
+  }
+}
+
 th,
 td {
   padding: 11px 12px;
@@ -650,8 +668,8 @@ tr:last-child td {
   font-size: 10px;
 }
 
-.recommend,
 .stock,
+.risk-tag,
 .type-badge {
   display: inline-flex;
   min-height: 28px;
@@ -664,9 +682,47 @@ tr:last-child td {
   white-space: nowrap;
 }
 
-.recommend,
 .stock {
   font-family: var(--mono);
+}
+
+.status-cell {
+  min-width: 170px;
+}
+
+.risk-cell {
+  min-width: 160px;
+}
+
+.status-list,
+.risk-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.risk-tag {
+  border: 1px solid transparent;
+  font-family: var(--mono);
+}
+
+.risk-tag.is-low {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+.risk-tag.is-medium {
+  border-color: #fed7aa;
+  background: #fff7ed;
+  color: #b45309;
+}
+
+.risk-tag.is-high {
+  border-color: #fecaca;
+  background: #fef2f2;
+  color: #b91c1c;
 }
 
 .type-badge {
@@ -699,11 +755,6 @@ tr:last-child td {
   color: #9c5f08;
 }
 
-.recommend {
-  background: #ecfdf5;
-  color: var(--green);
-}
-
 .stock.is-available {
   background: #ecfdf5;
   color: var(--green);
@@ -721,12 +772,33 @@ tr:last-child td {
   color: #9c5f08;
 }
 
+.evidence-badge.is-count {
+  border-color: #bfdbfe;
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.evidence-badge.is-official {
+  border-color: #bbf7d0;
+  background: #f0fdf4;
+  color: #15803d;
+}
+
+.evidence-badge.is-snapshot,
+.evidence-badge.is-blocked,
+.evidence-badge.is-unknown {
+  border-color: #fed7aa;
+  background: #fff7ed;
+  color: #b45309;
+}
+
 .table-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--ink);
   border-radius: var(--control-radius);
+  min-width: 92px;
   padding: 0 12px;
   background: var(--ink);
   color: var(--surface);
@@ -1119,43 +1191,43 @@ tr:last-child td {
   }
 
   .product-table td:nth-child(2)::before {
-    content: "推荐";
-  }
-
-  .product-table td:nth-child(3)::before {
     content: "产品";
   }
 
-  .product-table td:nth-child(4)::before {
+  .product-table td:nth-child(3)::before {
     content: "区域";
   }
 
-  .product-table td:nth-child(5)::before {
+  .product-table td:nth-child(4)::before {
     content: "备注";
   }
 
-  .product-table td:nth-child(6)::before {
+  .product-table td:nth-child(5)::before {
     content: "IP 类型";
   }
 
-  .product-table td:nth-child(7)::before {
+  .product-table td:nth-child(6)::before {
     content: "线路";
   }
 
-  .product-table td:nth-child(8)::before {
+  .product-table td:nth-child(7)::before {
     content: "配置";
   }
 
-  .product-table td:nth-child(9)::before {
+  .product-table td:nth-child(8)::before {
     content: "流量";
   }
 
-  .product-table td:nth-child(10)::before {
+  .product-table td:nth-child(9)::before {
     content: "价格";
   }
 
-  .product-table td:nth-child(11)::before {
+  .product-table td:nth-child(10)::before {
     content: "状态";
+  }
+
+  .product-table td:nth-child(11)::before {
+    content: "风险";
   }
 
   .product-table td:nth-child(12)::before {

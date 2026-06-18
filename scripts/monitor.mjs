@@ -40,6 +40,103 @@ function parsePriceValue(priceText) {
   return match ? Number(match[1]) : null;
 }
 
+function numericStockCount(product) {
+  if (product.stockCount === undefined || product.stockCount === null || product.stockCount === "") return null;
+  const value = Number(product.stockCount);
+  return Number.isFinite(value) ? value : null;
+}
+
+function productEvidenceText(product) {
+  return cleanText(
+    [
+      product.evidence,
+      product.status,
+      product.statusLabel,
+      product.note,
+      product.name,
+      product.route,
+      product.hardware,
+      product.bandwidth,
+      product.raw?.strategy,
+      product.raw?.stockLabel
+    ]
+      .filter(Boolean)
+      .join(" ")
+  );
+}
+
+function evidenceLevel(product) {
+  const evidence = productEvidenceText(product);
+  const stockCount = numericStockCount(product);
+  const hasPreciseStock = stockCount !== null;
+  const isSnapshot = /reader_snapshot|third-party|snapshot|第三方|快照/i.test(evidence);
+
+  if (product.status === "error" || /\berror\b|抓取失败|fetch failed|timeout/i.test(evidence)) {
+    return { value: "error", label: "抓取失败", className: "is-error", rank: 6 };
+  }
+  if (product.status === "unavailable" || stockCount === 0) {
+    return { value: "unavailable", label: "不可订购", className: "is-unavailable", rank: 5 };
+  }
+  if (hasPreciseStock) {
+    return { value: "stock-count", label: `精确库存 ${stockCount}`, className: "is-count", rank: 1 };
+  }
+  if (isSnapshot) {
+    return { value: "snapshot", label: "第三方快照", className: "is-snapshot", rank: 4 };
+  }
+  if (product.status === "blocked" || /blocked|被阻断|403|429|official direct fetch blocked/i.test(evidence)) {
+    return { value: "blocked", label: "直连受阻", className: "is-blocked", rank: 5 };
+  }
+  if (product.orderUrl || /order link found|order=yes|official page|product card parsed from official page|立即订购|product-wrap order link/i.test(evidence)) {
+    return { value: "official-order", label: "官方订购入口", className: "is-official", rank: 2 };
+  }
+  return { value: "unverified", label: "证据待核验", className: "is-unknown", rank: 6 };
+}
+
+function addRiskTag(tags, value, label, severity = "medium") {
+  if (!tags.some((tag) => tag.value === value)) tags.push({ value, label, severity });
+}
+
+function riskTags(product) {
+  const tags = [];
+  const evidence = productEvidenceText(product);
+  const stockCount = numericStockCount(product);
+
+  if (product.status === "available" && product.orderUrl && stockCount === null) {
+    addRiskTag(tags, "order-only", "仅证明可下单", "medium");
+    addRiskTag(tags, "stock-unstated", "库存未明示", "medium");
+  }
+  if (/reader_snapshot|third-party|snapshot|第三方|快照/i.test(evidence)) {
+    addRiskTag(tags, "third-party-snapshot", "第三方快照", "high");
+  }
+  if (product.status === "blocked" || /Cloudflare|challenge|blocked|被阻断|official direct fetch blocked/i.test(evidence)) {
+    addRiskTag(tags, "direct-blocked", "官方直连受阻", "high");
+  }
+  if (product.status === "error") addRiskTag(tags, "fetch-error", "抓取失败", "high");
+  if (product.status === "unknown") addRiskTag(tags, "unknown-status", "状态未知", "medium");
+  if (product.status === "unavailable") addRiskTag(tags, "unavailable", "当前不可订购", "high");
+  if (!Number.isFinite(product.priceValue)) addRiskTag(tags, "price-missing", "价格缺失", "medium");
+
+  const missingFields = ["region", "route", "hardware", "bandwidth"].filter((field) => !cleanText(product[field]));
+  if (missingFields.length > 0) addRiskTag(tags, "incomplete-fields", "字段不完整", "medium");
+  if (/NAT|共享|shared/i.test(evidence)) addRiskTag(tags, "nat-shared", "NAT/共享", "medium");
+  if (/实名|实名认证|KYC|需要认证/i.test(evidence)) addRiskTag(tags, "identity-required", "需要实名", "high");
+  if (/无退款|不退款|no refund|non[-\s]?refundable/i.test(evidence)) addRiskTag(tags, "refund-limited", "退款限制", "medium");
+  if (/预售|pre[-\s]?order|support confirmation|客服确认|人工确认/i.test(evidence)) {
+    addRiskTag(tags, "manual-confirm", "需客服确认", "medium");
+  }
+
+  if (tags.length === 0) addRiskTag(tags, "no-extra-risk", "未见额外风险", "low");
+  return tags;
+}
+
+function enrichProductSignals(product) {
+  return {
+    ...product,
+    evidenceLevel: evidenceLevel(product),
+    riskTags: riskTags(product)
+  };
+}
+
 async function fetchHtml(source, targetUrl = source.url) {
   let lastError;
   for (let attempt = 0; attempt <= fetchRetries; attempt += 1) {
@@ -109,7 +206,6 @@ function blockedRecord(source, fetchResult, reason, extra = {}) {
     orderUrl: source.url,
     evidence: reason,
     error: reason,
-    recommended: false,
     ...extra
   });
 }
@@ -127,7 +223,6 @@ function errorRecord(source, error, extra = {}) {
     orderUrl: source.url,
     evidence: error.message,
     error: error.message,
-    recommended: false,
     ...extra
   });
 }
@@ -173,7 +268,6 @@ function parseVircs(source, fetchResult) {
       stockCount: Number.isFinite(available) ? available : null,
       orderUrl: source.url,
       evidence: `VIRCS props.data.available=${available}; total=${data.total ?? "unknown"}`,
-      recommended: Boolean(product.recommend),
       raw: {
         productId: product.id,
         status: product.status,
@@ -231,10 +325,10 @@ function parseWhmcsGroup(source, fetchResult) {
       stockCount: null,
       orderUrl,
       evidence: orderUrl ? `WHMCS order link found; pid=${pid}; button=${orderText}` : "WHMCS product card found without order link",
-      recommended: index === 0,
       raw: {
         pid,
-        features
+        features,
+        sourceCardIndex: index
       }
     });
   });
@@ -419,7 +513,6 @@ function parseAaitrStorePage(source, fetchResult, strategy, attempt) {
       stockCount: null,
       orderUrl: orderUrl ?? source.url,
       evidence: `AaITR ${strategy} parsed WHMCS product; stock=${stockLabel || "not stated"}; order=${orderUrl ? "yes" : "no"}`,
-      recommended: index === 0 && status === "available",
       raw: {
         pid,
         stockLabel,
@@ -512,7 +605,6 @@ function parseAaitrReaderSnapshot(source, fetchResult, sourcePageUrl, attempt) {
       stockCount: null,
       orderUrl: sourcePageUrl,
       evidence: `AaITR reader_snapshot parsed ${sourcePageUrl}; stock=${block.stockLabel}; official direct fetch blocked`,
-      recommended: status === "available" && index === 0,
       raw: {
         stockLabel: block.stockLabel,
         features,
@@ -743,8 +835,7 @@ async function monitorSource(source) {
         stockCount: null,
         orderUrl: source.url,
         evidence: `HTTP request failed with ${fetchResult.statusCode}`,
-        error: `HTTP ${fetchResult.statusCode}`,
-        recommended: false
+        error: `HTTP ${fetchResult.statusCode}`
       })];
     }
 
@@ -775,7 +866,7 @@ async function mapWithConcurrency(items, limit, mapper) {
   return out;
 }
 
-const products = (await mapWithConcurrency(sources, monitorConcurrency, monitorSource)).flat();
+const products = (await mapWithConcurrency(sources, monitorConcurrency, monitorSource)).flat().map(enrichProductSignals);
 products.sort((a, b) => statusRank(a.status) - statusRank(b.status) || (a.priceValue ?? 999999) - (b.priceValue ?? 999999));
 
 const summary = products.reduce(
