@@ -3,9 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "license": "MIT",
   "description": "VPS stock monitor and owner-run review site.",
+  "engines": {
+    "node": ">=24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/majiayu000/resnode-radar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/majiayu000/resnode-radar/issues"
+  },
   "scripts": {
-    "check": "node --check app.js && node --check scripts/generate-assets.mjs && node --check scripts/monitor.mjs && node --check scripts/adapters/lagom-product-list.mjs && node --check scripts/adapters/zlidc-product-wrap.mjs && node --check scripts/validate-monitor-data.mjs",
+    "check": "find . -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check && find scripts -name '*.mjs' -print0 | xargs -0 -n1 node --check",
     "assets": "node scripts/generate-assets.mjs",
     "monitor": "node scripts/monitor.mjs",
     "monitor:validate": "node scripts/validate-monitor-data.mjs",
