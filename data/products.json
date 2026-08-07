@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T00:24:54.181Z",
+  "generatedAt": "2026-08-07T03:29:26.951Z",
   "sourceCount": 45,
   "summary": {
-    "total": 199,
-    "available": 185,
-    "unavailable": 3,
+    "total": 222,
+    "available": 212,
+    "unavailable": 8,
     "unknown": 0,
     "blocked": 2,
-    "error": 9
+    "error": 0
   },
   "products": [
     {
@@ -19,7 +19,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -77,7 +77,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -135,7 +135,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -191,7 +191,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -247,7 +247,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -303,7 +303,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -359,7 +359,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -415,7 +415,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -471,7 +471,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -527,7 +527,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -576,6 +576,64 @@
       ]
     },
     {
+      "id": "zoro-us-bgp-isp-us-bgp-mini",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Mini",
+      "note": "精选 / 从开始 / 1*E5v4 CPU",
+      "hardware": "1*E5v4 / 1GB DDR4 / 10GB SSD",
+      "bandwidth": "",
+      "price": "¥34.80 CNY/月缴",
+      "priceValue": 34.8,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-bgp-mini",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1*E5v4",
+          "RAM": "1GB DDR4",
+          "Storage": "10GB SSD",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "vircs-product-1",
       "sourceId": "vircs-product-1",
       "provider": "VIRCS",
@@ -583,7 +641,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/1",
       "finalUrl": "https://www.vircs.com/products/1",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国-加州",
       "route": "AT&T节点K",
@@ -594,10 +652,10 @@
       "price": "$34.98/月",
       "priceValue": 34.98,
       "status": "available",
-      "statusLabel": "可订购 · 9123",
-      "stockCount": 9123,
+      "statusLabel": "可订购 · 9116",
+      "stockCount": 9116,
       "orderUrl": "https://www.vircs.com/products/1",
-      "evidence": "VIRCS props.data.available=9123; total=34.98",
+      "evidence": "VIRCS props.data.available=9116; total=34.98",
       "raw": {
         "productId": 1,
         "status": true,
@@ -605,7 +663,7 @@
       },
       "evidenceLevel": {
         "value": "stock-count",
-        "label": "精确库存 9123",
+        "label": "精确库存 9116",
         "className": "is-count",
         "rank": 1
       },
@@ -625,7 +683,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/4",
       "finalUrl": "https://www.vircs.com/products/4",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国-加州",
       "route": "「 旧金山AT&T节点 F 」",
@@ -636,10 +694,10 @@
       "price": "$35.99/月",
       "priceValue": 35.99,
       "status": "available",
-      "statusLabel": "可订购 · 9417",
-      "stockCount": 9417,
+      "statusLabel": "可订购 · 9413",
+      "stockCount": 9413,
       "orderUrl": "https://www.vircs.com/products/4",
-      "evidence": "VIRCS props.data.available=9417; total=35.99",
+      "evidence": "VIRCS props.data.available=9413; total=35.99",
       "raw": {
         "productId": 4,
         "status": true,
@@ -647,7 +705,7 @@
       },
       "evidenceLevel": {
         "value": "stock-count",
-        "label": "精确库存 9417",
+        "label": "精确库存 9413",
         "className": "is-count",
         "rank": 1
       },
@@ -660,6 +718,123 @@
       ]
     },
     {
+      "id": "zoro-us-4837-isp-us-private-plus",
+      "sourceId": "zoro-us-4837-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/isp-4837",
+      "finalUrl": "https://my.zorocloud.com/store/isp-4837",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "4837 原生双 ISP",
+      "name": "US-Private-Plus",
+      "note": "从开始 / 1*E5v4 CPU / 1GB DDR4 RAM",
+      "hardware": "1*E5v4 / 1GB DDR4 / 20GB SSD",
+      "bandwidth": "",
+      "price": "¥50.00 CNY/月缴",
+      "priceValue": 50,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/isp-4837/us-isp-a",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1*E5v4",
+          "RAM": "1GB DDR4",
+          "Storage": "20GB SSD",
+          "NTT": "192.204.39.1",
+          "GTT": "216.44.34.1",
+          "Cogent": "38.244.32.1",
+          "双链路回程优化": "9929+CMIN2"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-us-bgp-isp-us-bgp-plus",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Plus",
+      "note": "精选 / 从开始 / 1*E5v4 CPU",
+      "hardware": "1*E5v4 / 1GB DDR4 / 20GB SSD",
+      "bandwidth": "",
+      "price": "¥50.00 CNY/月缴",
+      "priceValue": 50,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-4837-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1*E5v4",
+          "RAM": "1GB DDR4",
+          "Storage": "20GB SSD",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "cstone-us-cuii-isp-cuii-isp-a",
       "sourceId": "cstone-us-cuii-isp",
       "provider": "CstoneCloud",
@@ -667,7 +842,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -720,7 +895,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -773,7 +948,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/5",
       "finalUrl": "https://www.vircs.com/products/5",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国-加州",
       "route": "「 旧金山AT&T节点 F 」",
@@ -784,10 +959,10 @@
       "price": "$55.99/月",
       "priceValue": 55.99,
       "status": "available",
-      "statusLabel": "可订购 · 9417",
-      "stockCount": 9417,
+      "statusLabel": "可订购 · 9413",
+      "stockCount": 9413,
       "orderUrl": "https://www.vircs.com/products/5",
-      "evidence": "VIRCS props.data.available=9417; total=55.99",
+      "evidence": "VIRCS props.data.available=9413; total=55.99",
       "raw": {
         "productId": 5,
         "status": true,
@@ -795,7 +970,7 @@
       },
       "evidenceLevel": {
         "value": "stock-count",
-        "label": "精确库存 9417",
+        "label": "精确库存 9413",
         "className": "is-count",
         "rank": 1
       },
@@ -815,7 +990,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/2",
       "finalUrl": "https://www.vircs.com/products/2",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国-加州",
       "route": "AT&T专线隧道B",
@@ -826,10 +1001,10 @@
       "price": "$59.98/月",
       "priceValue": 59.98,
       "status": "available",
-      "statusLabel": "可订购 · 410",
-      "stockCount": 410,
+      "statusLabel": "可订购 · 408",
+      "stockCount": 408,
       "orderUrl": "https://www.vircs.com/products/2",
-      "evidence": "VIRCS props.data.available=410; total=59.98",
+      "evidence": "VIRCS props.data.available=408; total=59.98",
       "raw": {
         "productId": 2,
         "status": true,
@@ -837,7 +1012,7 @@
       },
       "evidenceLevel": {
         "value": "stock-count",
-        "label": "精确库存 410",
+        "label": "精确库存 408",
         "className": "is-count",
         "rank": 1
       },
@@ -857,7 +1032,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -914,7 +1089,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -971,7 +1146,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -1028,7 +1203,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -1085,7 +1260,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -1142,7 +1317,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -1192,6 +1367,160 @@
       ]
     },
     {
+      "id": "zoro-kr-isp-kr-bgp-plus",
+      "sourceId": "zoro-kr-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
+      "finalUrl": "https://my.zorocloud.com/store/kr-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "韩国",
+      "route": "BGP 原生双 ISP",
+      "name": "KR-BGP-Plus",
+      "note": "精选 / 从开始 / 1H CPU",
+      "hardware": "1H / 1GB DDR4",
+      "bandwidth": "100Mbps",
+      "price": "¥68.00 CNY/月缴",
+      "priceValue": 68,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/kr-isp/kr-bgp-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1H",
+          "RAM": "1GB DDR4",
+          "Bandwidth": "100Mbps",
+          "测试IP": "49.128.**.**"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-uk-isp-uk-isp-plus",
+      "sourceId": "zoro-uk-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
+      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "英国",
+      "route": "BGP 原生双 ISP",
+      "name": "UK-ISP-PLUS",
+      "note": "精选 / 从开始 / 1H CPU",
+      "hardware": "1H / 1GB DDR4",
+      "bandwidth": "200Mbps",
+      "price": "¥69.00 CNY/月缴",
+      "priceValue": 69,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/uk-isp/uk-isp-x1",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1H",
+          "RAM": "1GB DDR4",
+          "Bandwidth": "200Mbps",
+          "CX": "185.231.217.1",
+          "GTT": "86.53.160.254"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-de-isp-de-bgp-plus",
+      "sourceId": "zoro-de-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/deisp",
+      "finalUrl": "https://my.zorocloud.com/store/deisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "德国",
+      "route": "BGP 原生双 ISP",
+      "name": "DE-BGP-Plus",
+      "note": "精选 / 从开始 / 1H CPU",
+      "hardware": "1H / 1GB DDR4",
+      "bandwidth": "100Mbps",
+      "price": "¥78.00 CNY/月缴",
+      "priceValue": 78,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/deisp/de-isp-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1H",
+          "RAM": "1GB DDR4",
+          "Bandwidth": "100Mbps",
+          "测试IP": "45.152.21.1"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-9929-residential-pid-58",
       "sourceId": "lisahost-us-9929-residential",
       "provider": "LisaHost",
@@ -1199,7 +1528,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -1256,7 +1585,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -1313,7 +1642,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -1370,7 +1699,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -1427,7 +1756,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -1484,7 +1813,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -1534,6 +1863,114 @@
       ]
     },
     {
+      "id": "zoro-hk-residential-hk-bgp-plus",
+      "sourceId": "zoro-hk-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "香港",
+      "route": "BGP 家宽住宅",
+      "name": "HK-BGP-Plus",
+      "note": "从开始 / 1 CPU / 1GB RAM",
+      "hardware": "1 / 1GB",
+      "bandwidth": "100Mbps",
+      "price": "¥88.00 CNY/月缴",
+      "priceValue": 88,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/hk-bgp-isp/hk-bgp-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1",
+          "RAM": "1GB",
+          "Bandwidth": "100Mbps",
+          "HKC": "61.10.0.1"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-us-bgp-isp-us-bgp-pro",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Pro",
+      "note": "精选 / 从开始 / 2*E5v4 CPU",
+      "hardware": "2*E5v4 / 2GB DDR4",
+      "bandwidth": "",
+      "price": "¥89.00 CNY/月缴",
+      "priceValue": 89,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-4837-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2*E5v4",
+          "RAM": "2GB DDR4",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-hk-hgc-residential-pid-124",
       "sourceId": "lisahost-hk-hgc-residential",
       "provider": "LisaHost",
@@ -1541,7 +1978,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -1598,7 +2035,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -1655,7 +2092,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -1705,6 +2142,58 @@
       ]
     },
     {
+      "id": "zoro-uk-isp-uk-isp-pro",
+      "sourceId": "zoro-uk-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
+      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "英国",
+      "route": "BGP 原生双 ISP",
+      "name": "UK-ISP-PRO",
+      "note": "精选 / 从开始 / 2H CPU",
+      "hardware": "2H / 2GB DDR4",
+      "bandwidth": "300Mbps",
+      "price": "¥99.00 CNY/月缴",
+      "priceValue": 99,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/uk-isp/uk-isp-x2",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2H",
+          "RAM": "2GB DDR4",
+          "Bandwidth": "300Mbps",
+          "CX": "185.231.217.1",
+          "GTT": "86.53.160.254"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "vircs-product-6",
       "sourceId": "vircs-product-6",
       "provider": "VIRCS",
@@ -1712,7 +2201,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/6",
       "finalUrl": "https://www.vircs.com/products/6",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国-加州",
       "route": "「 旧金山AT&T节点 F 」",
@@ -1723,10 +2212,10 @@
       "price": "$99.99/月",
       "priceValue": 99.99,
       "status": "available",
-      "statusLabel": "可订购 · 9417",
-      "stockCount": 9417,
+      "statusLabel": "可订购 · 9413",
+      "stockCount": 9413,
       "orderUrl": "https://www.vircs.com/products/6",
-      "evidence": "VIRCS props.data.available=9417; total=99.99",
+      "evidence": "VIRCS props.data.available=9413; total=99.99",
       "raw": {
         "productId": 6,
         "status": true,
@@ -1734,7 +2223,7 @@
       },
       "evidenceLevel": {
         "value": "stock-count",
-        "label": "精确库存 9417",
+        "label": "精确库存 9413",
         "className": "is-count",
         "rank": 1
       },
@@ -1754,7 +2243,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -1811,7 +2300,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -1868,7 +2357,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -1925,7 +2414,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -1975,6 +2464,159 @@
       ]
     },
     {
+      "id": "zoro-jp-ntt-isp-jp-ntt-plus",
+      "sourceId": "zoro-jp-ntt-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "NTT 原生双 ISP",
+      "name": "JP-NTT-Plus",
+      "note": "精选 / 从开始 / 1 CPU",
+      "hardware": "1 / 1GB DDR5",
+      "bandwidth": "200Mbps",
+      "price": "¥108.00 CNY/月缴",
+      "priceValue": 108,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/jp-isp-ntt/jp-ntt-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1",
+          "RAM": "1GB DDR5",
+          "Bandwidth": "200Mbps",
+          "NTT": "103.197.208.1"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-de-isp-de-bgp-pro",
+      "sourceId": "zoro-de-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/deisp",
+      "finalUrl": "https://my.zorocloud.com/store/deisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "德国",
+      "route": "BGP 原生双 ISP",
+      "name": "DE-BGP-Pro",
+      "note": "精选 / 从开始 / 2H CPU",
+      "hardware": "2H / 2GB DDR4",
+      "bandwidth": "200Mbps",
+      "price": "¥109.00 CNY/月缴",
+      "priceValue": 109,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/deisp/de-isp-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2H",
+          "RAM": "2GB DDR4",
+          "Bandwidth": "200Mbps",
+          "测试IP": "45.152.21.1"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-kr-isp-kr-bgp-pro",
+      "sourceId": "zoro-kr-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
+      "finalUrl": "https://my.zorocloud.com/store/kr-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "韩国",
+      "route": "BGP 原生双 ISP",
+      "name": "KR-BGP-Pro",
+      "note": "精选 / 从开始 / 2H CPU",
+      "hardware": "2H / 2GB DDR4",
+      "bandwidth": "200Mbps",
+      "price": "¥109.00 CNY/月缴",
+      "priceValue": 109,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/kr-isp/kr-bgp-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2H",
+          "RAM": "2GB DDR4",
+          "Bandwidth": "200Mbps",
+          "测试IP": "49.128.**.**"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "cstone-us-cuii-isp-cuii-isp-b",
       "sourceId": "cstone-us-cuii-isp",
       "provider": "CstoneCloud",
@@ -1982,7 +2624,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -2035,7 +2677,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -2081,6 +2723,57 @@
       ]
     },
     {
+      "id": "zoro-hk-residential-hk-bgp-pro",
+      "sourceId": "zoro-hk-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "香港",
+      "route": "BGP 家宽住宅",
+      "name": "HK-BGP-Pro",
+      "note": "从开始 / 2 CPU / 2GB RAM",
+      "hardware": "2 / 2GB",
+      "bandwidth": "100Mbps",
+      "price": "¥118.00 CNY/月缴",
+      "priceValue": 118,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/hk-bgp-isp/hk-bgp-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2",
+          "RAM": "2GB",
+          "Bandwidth": "100Mbps",
+          "HKC": "61.10.0.1"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-cn2-gia-native-pid-7",
       "sourceId": "lisahost-us-cn2-gia-native",
       "provider": "LisaHost",
@@ -2088,7 +2781,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -2146,7 +2839,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -2203,7 +2896,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -2260,7 +2953,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -2317,7 +3010,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -2374,7 +3067,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -2431,7 +3124,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -2481,6 +3174,63 @@
       ]
     },
     {
+      "id": "zoro-us-bgp-isp-us-bgp-max",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Max",
+      "note": "精选 / 从开始 / 4*E5v4 CPU",
+      "hardware": "4*E5v4 / 4GB DDR4",
+      "bandwidth": "",
+      "price": "¥159.00 CNY/月缴",
+      "priceValue": 159,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-4837-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4*E5v4",
+          "RAM": "4GB DDR4",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 3
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-static-residential-vds-pid-138",
       "sourceId": "lisahost-us-static-residential-vds",
       "provider": "LisaHost",
@@ -2488,7 +3238,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -2545,7 +3295,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -2602,7 +3352,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -2659,7 +3409,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -2709,6 +3459,57 @@
       ]
     },
     {
+      "id": "zoro-jp-ntt-isp-jp-ntt-pro",
+      "sourceId": "zoro-jp-ntt-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "NTT 原生双 ISP",
+      "name": "JP-NTT-Pro",
+      "note": "从开始 / 2 CPU / 2GB DDR5 RAM",
+      "hardware": "2 / 2GB DDR5",
+      "bandwidth": "300Mbps",
+      "price": "¥169.00 CNY/月缴",
+      "priceValue": 169,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/jp-isp-ntt/jp-ntt-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2",
+          "RAM": "2GB DDR5",
+          "Bandwidth": "300Mbps",
+          "NTT": "103.197.208.1"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-jp-iij-residential-pid-197",
       "sourceId": "lisahost-jp-iij-residential",
       "provider": "LisaHost",
@@ -2716,7 +3517,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -2773,7 +3574,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -2830,7 +3631,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -2880,6 +3681,58 @@
       ]
     },
     {
+      "id": "zoro-uk-isp-uk-isp-max",
+      "sourceId": "zoro-uk-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
+      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "英国",
+      "route": "BGP 原生双 ISP",
+      "name": "UK-ISP-MAX",
+      "note": "精选 / 从开始 / 4H CPU",
+      "hardware": "4H / 4GB DDR4",
+      "bandwidth": "500Mbps",
+      "price": "¥189.00 CNY/月缴",
+      "priceValue": 189,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/uk-isp/uk-isp-x3",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "4GB DDR4",
+          "Bandwidth": "500Mbps",
+          "CX": "185.231.217.1",
+          "GTT": "86.53.160.254"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-4837-residential-pid-50",
       "sourceId": "lisahost-us-4837-residential",
       "provider": "LisaHost",
@@ -2887,7 +3740,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -2944,7 +3797,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -3001,7 +3854,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -3058,7 +3911,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -3115,7 +3968,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -3168,7 +4021,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -3214,6 +4067,108 @@
       ]
     },
     {
+      "id": "zoro-de-isp-de-bgp-max",
+      "sourceId": "zoro-de-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/deisp",
+      "finalUrl": "https://my.zorocloud.com/store/deisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "德国",
+      "route": "BGP 原生双 ISP",
+      "name": "DE-BGP-Max",
+      "note": "精选 / 从开始 / 4H CPU",
+      "hardware": "4H / 4GB DDR4",
+      "bandwidth": "200Mbps",
+      "price": "¥219.00 CNY/月缴",
+      "priceValue": 219,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/deisp/de-bgp-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "4GB DDR4",
+          "Bandwidth": "200Mbps",
+          "测试IP": "45.152.21.1"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-kr-isp-kr-bgp-max",
+      "sourceId": "zoro-kr-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
+      "finalUrl": "https://my.zorocloud.com/store/kr-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "韩国",
+      "route": "BGP 原生双 ISP",
+      "name": "KR-BGP-Max",
+      "note": "精选 / 从开始 / 4H CPU",
+      "hardware": "4H / 4GB DDR4",
+      "bandwidth": "200Mbps",
+      "price": "¥219.00 CNY/月缴",
+      "priceValue": 219,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/kr-isp/kr-bgp-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "4GB DDR4",
+          "Bandwidth": "200Mbps",
+          "测试IP": "49.128.**.**"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-9929-phase2-native-pid-27",
       "sourceId": "lisahost-us-9929-phase2-native",
       "provider": "LisaHost",
@@ -3221,7 +4176,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -3271,6 +4226,57 @@
       ]
     },
     {
+      "id": "zoro-hk-residential-hk-bgp-max",
+      "sourceId": "zoro-hk-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "香港",
+      "route": "BGP 家宽住宅",
+      "name": "HK-BGP-Max",
+      "note": "从开始 / 4H CPU / 4GB RAM",
+      "hardware": "4H / 4GB",
+      "bandwidth": "100Mbps",
+      "price": "¥238.00 CNY/月缴",
+      "priceValue": 238,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/hk-bgp-isp/hk-bgp-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "4GB",
+          "Bandwidth": "100Mbps",
+          "HKC": "61.10.0.1"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "zlidc-globe-dual-isp-seo-pid-486",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
@@ -3278,7 +4284,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -3328,6 +4334,108 @@
       ]
     },
     {
+      "id": "zoro-my-residential-mys-isp-max",
+      "sourceId": "zoro-my-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/mysisp",
+      "finalUrl": "https://my.zorocloud.com/store/mysisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "马来西亚",
+      "route": "BGP 家宽住宅",
+      "name": "MYS-ISP-Max",
+      "note": "从开始 / 4H CPU / 4GB RAM",
+      "hardware": "4H / 4GB",
+      "bandwidth": "100Mbps",
+      "price": "¥288.00 CNY/月缴",
+      "priceValue": 288,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/mysisp/mys-isp-c",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "4GB",
+          "Bandwidth": "100Mbps",
+          "TM": "203.106.128.2"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-jp-ntt-isp-jp-ntt-max",
+      "sourceId": "zoro-jp-ntt-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "NTT 原生双 ISP",
+      "name": "JP-NTT-Max",
+      "note": "从开始 / 4 CPU / 4GB DDR5 RAM",
+      "hardware": "4 / 4GB DDR5",
+      "bandwidth": "500Mbps",
+      "price": "¥289.00 CNY/月缴",
+      "priceValue": 289,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/jp-isp-ntt/jp-ntt-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4",
+          "RAM": "4GB DDR5",
+          "Bandwidth": "500Mbps",
+          "NTT": "103.197.208.1"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-static-residential-vds-pid-139",
       "sourceId": "lisahost-us-static-residential-vds",
       "provider": "LisaHost",
@@ -3335,7 +4443,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -3392,7 +4500,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -3449,7 +4557,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -3506,7 +4614,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -3563,7 +4671,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -3620,7 +4728,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -3677,7 +4785,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -3734,7 +4842,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -3791,7 +4899,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -3848,7 +4956,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -3905,7 +5013,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -3955,6 +5063,166 @@
       ]
     },
     {
+      "id": "zoro-us-bgp-isp-us-bgp-ultra",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Ultra",
+      "note": "从开始 / 4*E5v4 CPU / 8GB DDR4 RAM",
+      "hardware": "4*E5v4 / 8GB DDR4",
+      "bandwidth": "",
+      "price": "¥349.00 CNY/月缴",
+      "priceValue": 349,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-4837-ultra",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4*E5v4",
+          "RAM": "8GB DDR4",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 4
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-uk-isp-uk-isp-ultra",
+      "sourceId": "zoro-uk-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
+      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "英国",
+      "route": "BGP 原生双 ISP",
+      "name": "UK-ISP-Ultra",
+      "note": "从开始 / 4H CPU / 8GB DDR4 RAM",
+      "hardware": "4H / 8GB DDR4",
+      "bandwidth": "500Mbps",
+      "price": "¥369.00 CNY/月缴",
+      "priceValue": 369,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/uk-isp/uk-isp-ultra",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4H",
+          "RAM": "8GB DDR4",
+          "Bandwidth": "500Mbps",
+          "CX": "185.231.217.1",
+          "GTT": "86.53.160.254"
+        },
+        "sourceCardIndex": 3
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zoro-kr-isp-kr-bgp-ultra",
+      "sourceId": "zoro-kr-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
+      "finalUrl": "https://my.zorocloud.com/store/kr-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "韩国",
+      "route": "BGP 原生双 ISP",
+      "name": "KR-BGP-Ultra",
+      "note": "从开始 / 4*E5v4 CPU / 8GB DDR4 RAM",
+      "hardware": "4*E5v4 / 8GB DDR4",
+      "bandwidth": "100Mbps",
+      "price": "¥379.00 CNY/月缴",
+      "priceValue": 379,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/kr-isp/kr-bgp-ultra",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4*E5v4",
+          "RAM": "8GB DDR4",
+          "Bandwidth": "100Mbps",
+          "测试IP": "49.128.**.**"
+        },
+        "sourceCardIndex": 3
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-kr-residential-pid-131",
       "sourceId": "lisahost-kr-residential",
       "provider": "LisaHost",
@@ -3962,7 +5230,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -4019,7 +5287,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -4076,7 +5344,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -4133,7 +5401,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -4190,7 +5458,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -4247,7 +5515,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -4304,7 +5572,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -4361,7 +5629,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -4418,7 +5686,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -4475,7 +5743,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -4532,7 +5800,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -4589,7 +5857,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -4646,7 +5914,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -4703,7 +5971,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -4760,7 +6028,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -4817,7 +6085,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -4874,7 +6142,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -4927,7 +6195,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -4980,7 +6248,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -5037,7 +6305,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -5094,7 +6362,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ICable / NTT",
@@ -5150,7 +6418,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Cogent/ZL",
@@ -5206,7 +6474,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -5263,7 +6531,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -5320,7 +6588,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -5377,7 +6645,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -5434,7 +6702,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -5491,7 +6759,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -5548,7 +6816,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -5605,7 +6873,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -5655,6 +6923,57 @@
       ]
     },
     {
+      "id": "zoro-jp-residential-jp-titan-ultra",
+      "sourceId": "zoro-jp-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jpisp",
+      "finalUrl": "https://my.zorocloud.com/store/jpisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "家宽住宅",
+      "name": "JP-Titan-Ultra",
+      "note": "从开始 / 4 CPU / 8GB DDR5 RAM",
+      "hardware": "4 / 8GB DDR5",
+      "bandwidth": "500Mbps",
+      "price": "¥508.00 CNY/月缴",
+      "priceValue": 508,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/jpisp/jp-titan-ultra",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4",
+          "RAM": "8GB DDR5",
+          "Bandwidth": "500Mbps",
+          "GL": "123.100.**.**"
+        },
+        "sourceCardIndex": 3
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "zlidc-globe-dual-isp-seo-pid-698",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
@@ -5662,7 +6981,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Cogent",
@@ -5718,7 +7037,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "GTT",
@@ -5774,7 +7093,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -5831,7 +7150,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -5888,7 +7207,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -5945,7 +7264,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6002,7 +7321,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6059,7 +7378,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -6121,7 +7440,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -6178,7 +7497,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -6235,7 +7554,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -6292,7 +7611,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -6349,7 +7668,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -6406,7 +7725,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -6456,6 +7775,63 @@
       ]
     },
     {
+      "id": "zoro-us-bgp-isp-us-bgp-elite",
+      "sourceId": "zoro-us-bgp-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "美国",
+      "route": "BGP 原生双 ISP",
+      "name": "US-BGP-Elite",
+      "note": "从开始 / 8*E5v4 CPU / 16GB DDR4 RAM",
+      "hardware": "8*E5v4 / 16GB DDR4",
+      "bandwidth": "",
+      "price": "¥599.00 CNY/月缴",
+      "priceValue": 599,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp/us-4837-elite",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "8*E5v4",
+          "RAM": "16GB DDR4",
+          "NTT": "216.44.34.1",
+          "GTT": "66.134.55.0",
+          "Cogent": "38.244.46.1"
+        },
+        "sourceCardIndex": 5
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "zlidc-globe-dual-isp-seo-pid-718",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
@@ -6463,7 +7839,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -6512,6 +7888,58 @@
       ]
     },
     {
+      "id": "zoro-uk-isp-uk-isp-elite",
+      "sourceId": "zoro-uk-isp",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
+      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "英国",
+      "route": "BGP 原生双 ISP",
+      "name": "UK-ISP-Elite",
+      "note": "从开始 / 8H CPU / 16GB DDR4 RAM",
+      "hardware": "8H / 16GB DDR4",
+      "bandwidth": "1000Mbps",
+      "price": "¥619.00 CNY/月缴",
+      "priceValue": 619,
+      "status": "available",
+      "statusLabel": "可订购入口",
+      "stockCount": null,
+      "orderUrl": "https://my.zorocloud.com/store/uk-isp/uk-isp-elite",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=not stated; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "8H",
+          "RAM": "16GB DDR4",
+          "Bandwidth": "1000Mbps",
+          "CX": "185.231.217.1",
+          "GTT": "86.53.160.254"
+        },
+        "sourceCardIndex": 4
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "zlidc-globe-dual-isp-seo-pid-672",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
@@ -6519,7 +7947,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -6576,7 +8004,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6633,7 +8061,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6690,7 +8118,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -6747,7 +8175,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -6804,7 +8232,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -6861,7 +8289,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -6917,7 +8345,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Cogent/ZL",
@@ -6973,7 +8401,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -7030,7 +8458,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -7086,7 +8514,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -7143,7 +8571,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -7199,7 +8627,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -7255,7 +8683,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -7311,7 +8739,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -7364,7 +8792,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -7417,7 +8845,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -7474,7 +8902,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -7530,7 +8958,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -7587,7 +9015,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -7644,7 +9072,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -7701,7 +9129,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -7758,7 +9186,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -7815,7 +9243,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -7877,7 +9305,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -7934,7 +9362,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -7991,7 +9419,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -8048,7 +9476,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -8105,7 +9533,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -8162,7 +9590,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -8219,7 +9647,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -8276,7 +9704,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -8333,7 +9761,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -8389,7 +9817,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -8446,7 +9874,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -8503,7 +9931,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -8560,7 +9988,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ML",
@@ -8616,7 +10044,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL / TM",
@@ -8672,7 +10100,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -8728,7 +10156,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -8784,7 +10212,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -8841,7 +10269,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -8898,7 +10326,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -8955,7 +10383,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -9012,7 +10440,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "VNPT / SPT",
@@ -9068,7 +10496,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -9125,7 +10553,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -9181,7 +10609,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -9237,7 +10665,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -9293,7 +10721,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -9349,7 +10777,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -9406,7 +10834,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -9463,7 +10891,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -9525,7 +10953,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "ZL",
@@ -9581,7 +11009,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -9638,7 +11066,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -9695,7 +11123,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -9752,7 +11180,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -9809,7 +11237,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -9866,7 +11294,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -9923,7 +11351,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -9980,7 +11408,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -10037,7 +11465,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -10094,7 +11522,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -10151,7 +11579,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -10208,7 +11636,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -10265,7 +11693,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -10327,7 +11755,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/rbn",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国 加州 (普通民宅)",
       "route": "共享动态 Frontier (每日0点更换)",
@@ -10412,7 +11840,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10424,7 +11852,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10436,7 +11864,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10448,7 +11876,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10495,7 +11923,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 27575,
+            "bytes": 27553,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -10571,7 +11999,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/rbn",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "日本 东京 (普通民宅)",
       "route": "共享动态 SoftBank (每日0点更换)",
@@ -10656,7 +12084,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10668,7 +12096,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10680,7 +12108,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10692,7 +12120,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10739,7 +12167,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 27575,
+            "bytes": 27553,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -10808,6 +12236,190 @@
       ]
     },
     {
+      "id": "zoro-jp-residential-jp-titan-plus",
+      "sourceId": "zoro-jp-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jpisp",
+      "finalUrl": "https://my.zorocloud.com/store/jpisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "家宽住宅",
+      "name": "JP-Titan-Plus",
+      "note": "精选 / 从开始 / 1 CPU",
+      "hardware": "1 / 1GB DDR5",
+      "bandwidth": "200Mbps",
+      "price": "¥138.00 CNY/月缴",
+      "priceValue": 138,
+      "status": "unavailable",
+      "statusLabel": "0 可用",
+      "stockCount": 0,
+      "orderUrl": "https://my.zorocloud.com/store/jpisp/jp-titan-plus",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=0 可用; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1",
+          "RAM": "1GB DDR5",
+          "Bandwidth": "200Mbps",
+          "GL": "123.100.**.**"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "unavailable",
+        "label": "不可订购",
+        "className": "is-unavailable",
+        "rank": 5
+      },
+      "riskTags": [
+        {
+          "value": "unavailable",
+          "label": "当前不可订购",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "zoro-my-residential-mys-isp-plus",
+      "sourceId": "zoro-my-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/mysisp",
+      "finalUrl": "https://my.zorocloud.com/store/mysisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "马来西亚",
+      "route": "BGP 家宽住宅",
+      "name": "MYS-ISP-Plus",
+      "note": "从开始 / 1 CPU / 1GB RAM",
+      "hardware": "1 / 1GB",
+      "bandwidth": "100Mbps",
+      "price": "¥149.00 CNY/月缴",
+      "priceValue": 149,
+      "status": "unavailable",
+      "statusLabel": "0 可用",
+      "stockCount": 0,
+      "orderUrl": "https://my.zorocloud.com/store/mysisp/mys-isp-a",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=0 可用; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "1",
+          "RAM": "1GB",
+          "Bandwidth": "100Mbps",
+          "TM": "203.106.128.2"
+        },
+        "sourceCardIndex": 0
+      },
+      "evidenceLevel": {
+        "value": "unavailable",
+        "label": "不可订购",
+        "className": "is-unavailable",
+        "rank": 5
+      },
+      "riskTags": [
+        {
+          "value": "unavailable",
+          "label": "当前不可订购",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "zoro-jp-residential-jp-titan-pro",
+      "sourceId": "zoro-jp-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jpisp",
+      "finalUrl": "https://my.zorocloud.com/store/jpisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "家宽住宅",
+      "name": "JP-Titan-Pro",
+      "note": "从开始 / 2 CPU / 2GB DDR5 RAM",
+      "hardware": "2 / 2GB DDR5",
+      "bandwidth": "400Mbps",
+      "price": "¥188.00 CNY/月缴",
+      "priceValue": 188,
+      "status": "unavailable",
+      "statusLabel": "0 可用",
+      "stockCount": 0,
+      "orderUrl": "https://my.zorocloud.com/store/jpisp/jp-titan-pro",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=0 可用; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2",
+          "RAM": "2GB DDR5",
+          "Bandwidth": "400Mbps",
+          "GL": "123.100.**.**"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "unavailable",
+        "label": "不可订购",
+        "className": "is-unavailable",
+        "rank": 5
+      },
+      "riskTags": [
+        {
+          "value": "unavailable",
+          "label": "当前不可订购",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "zoro-my-residential-mys-isp-pro",
+      "sourceId": "zoro-my-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/mysisp",
+      "finalUrl": "https://my.zorocloud.com/store/mysisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "马来西亚",
+      "route": "BGP 家宽住宅",
+      "name": "MYS-ISP-Pro",
+      "note": "从开始 / 2 CPU / 2GB RAM",
+      "hardware": "2 / 2GB",
+      "bandwidth": "100Mbps",
+      "price": "¥188.00 CNY/月缴",
+      "priceValue": 188,
+      "status": "unavailable",
+      "statusLabel": "0 可用",
+      "stockCount": 0,
+      "orderUrl": "https://my.zorocloud.com/store/mysisp/mys-isp-b",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=0 可用; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "2",
+          "RAM": "2GB",
+          "Bandwidth": "100Mbps",
+          "TM": "203.106.128.2"
+        },
+        "sourceCardIndex": 1
+      },
+      "evidenceLevel": {
+        "value": "unavailable",
+        "label": "不可订购",
+        "className": "is-unavailable",
+        "rank": 5
+      },
+      "riskTags": [
+        {
+          "value": "unavailable",
+          "label": "当前不可订购",
+          "severity": "high"
+        }
+      ]
+    },
+    {
       "id": "polocloud-tw-hinet-vds-hinet-vds",
       "sourceId": "polocloud-tw-hinet-vds",
       "provider": "PoloCloud",
@@ -10815,7 +12427,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://polocloud.net/index.php?rp=/store/hinet-vds",
       "finalUrl": "https://polocloud.net/index.php?rp=/store/hinet-vds",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet VDS 动态 IP",
@@ -10861,6 +12473,52 @@
       ]
     },
     {
+      "id": "zoro-jp-residential-jp-titan-max",
+      "sourceId": "zoro-jp-residential",
+      "provider": "ZoroCloud",
+      "category": "home",
+      "adapter": "lagom_product_list",
+      "sourceUrl": "https://my.zorocloud.com/store/jpisp",
+      "finalUrl": "https://my.zorocloud.com/store/jpisp",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
+      "httpStatus": 200,
+      "region": "日本",
+      "route": "家宽住宅",
+      "name": "JP-Titan-Max",
+      "note": "从开始 / 4 CPU / 4GB DDR5 RAM",
+      "hardware": "4 / 4GB DDR5",
+      "bandwidth": "500Mbps",
+      "price": "¥328.00 CNY/月缴",
+      "priceValue": 328,
+      "status": "unavailable",
+      "statusLabel": "0 可用",
+      "stockCount": 0,
+      "orderUrl": "https://my.zorocloud.com/store/jpisp/jp-titan-max",
+      "evidence": "ZoroCloud Lagom product card parsed from official page; stock=0 可用; order=yes",
+      "raw": {
+        "features": {
+          "CPU": "4",
+          "RAM": "4GB DDR5",
+          "Bandwidth": "500Mbps",
+          "GL": "123.100.**.**"
+        },
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "unavailable",
+        "label": "不可订购",
+        "className": "is-unavailable",
+        "rank": 5
+      },
+      "riskTags": [
+        {
+          "value": "unavailable",
+          "label": "当前不可订购",
+          "severity": "high"
+        }
+      ]
+    },
+    {
       "id": "aaitr-srv-store-reader-store-srv-1",
       "sourceId": "aaitr-srv-store",
       "provider": "AaITR",
@@ -10868,7 +12526,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/srv?language=english",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "住宅家宽",
@@ -10950,7 +12608,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10962,7 +12620,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10974,7 +12632,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -10986,7 +12644,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11033,7 +12691,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 27575,
+            "bytes": 27553,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -11104,7 +12762,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/srv?language=english",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "住宅家宽",
@@ -11190,7 +12848,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11202,7 +12860,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11214,7 +12872,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11226,7 +12884,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5674,
+            "bytes": 5696,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11273,7 +12931,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 27575,
+            "bytes": 27553,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -11344,7 +13002,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://xuezhangvps.shop/index.php/store/isp",
       "finalUrl": "https://xuezhangvps.shop/index.php/store/isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 403,
       "region": "日本",
       "route": "住宅双 ISP",
@@ -11391,7 +13049,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://xuezhangvps.shop/index.php/store/jphomevps",
       "finalUrl": "https://xuezhangvps.shop/index.php/store/jphomevps",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
+      "fetchedAt": "2026-08-07T03:29:26.951Z",
       "httpStatus": 403,
       "region": "日本",
       "route": "真家宽 NAT / 双 ISP",
@@ -11431,429 +13089,6 @@
         {
           "value": "nat-shared",
           "label": "NAT/共享",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-us-4837-isp",
-      "sourceId": "zoro-us-4837-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/isp-4837",
-      "finalUrl": "https://my.zorocloud.com/store/isp-4837",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "美国",
-      "route": "4837 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/isp-4837",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-us-bgp-isp",
-      "sourceId": "zoro-us-bgp-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "美国",
-      "route": "BGP 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-jp-residential",
-      "sourceId": "zoro-jp-residential",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/jpisp",
-      "finalUrl": "https://my.zorocloud.com/store/jpisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "日本",
-      "route": "家宽住宅",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/jpisp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-jp-ntt-isp",
-      "sourceId": "zoro-jp-ntt-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "日本",
-      "route": "NTT 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-de-isp",
-      "sourceId": "zoro-de-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/deisp",
-      "finalUrl": "https://my.zorocloud.com/store/deisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "德国",
-      "route": "BGP 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/deisp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-uk-isp",
-      "sourceId": "zoro-uk-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
-      "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "英国",
-      "route": "BGP 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/uk-isp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-kr-isp",
-      "sourceId": "zoro-kr-isp",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
-      "finalUrl": "https://my.zorocloud.com/store/kr-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "韩国",
-      "route": "BGP 原生双 ISP",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/kr-isp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-hk-residential",
-      "sourceId": "zoro-hk-residential",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "香港",
-      "route": "BGP 家宽住宅",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zoro-my-residential",
-      "sourceId": "zoro-my-residential",
-      "provider": "ZoroCloud",
-      "category": "home",
-      "adapter": "lagom_product_list",
-      "sourceUrl": "https://my.zorocloud.com/store/mysisp",
-      "finalUrl": "https://my.zorocloud.com/store/mysisp",
-      "fetchedAt": "2026-08-07T00:24:54.181Z",
-      "httpStatus": null,
-      "region": "马来西亚",
-      "route": "BGP 家宽住宅",
-      "name": "ZoroCloud 监控源",
-      "status": "error",
-      "statusLabel": "抓取失败",
-      "price": null,
-      "priceValue": null,
-      "hardware": null,
-      "bandwidth": null,
-      "stockCount": null,
-      "orderUrl": "https://my.zorocloud.com/store/mysisp",
-      "evidence": "fetch failed",
-      "error": "fetch failed",
-      "evidenceLevel": {
-        "value": "error",
-        "label": "抓取失败",
-        "className": "is-error",
-        "rank": 6
-      },
-      "riskTags": [
-        {
-          "value": "fetch-error",
-          "label": "抓取失败",
-          "severity": "high"
-        },
-        {
-          "value": "price-missing",
-          "label": "价格缺失",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
           "severity": "medium"
         }
       ]
