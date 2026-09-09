@@ -27,6 +27,23 @@ function renderEvidenceBadge(product) {
   return `<span class="chip chip-evidence ${escapeHtml(badge.className)}">${escapeHtml(badge.label)}</span>`;
 }
 
+function riskTagSeverity(tag) {
+  const severity = String(tag?.severity || "").toLowerCase();
+  return severity === "low" || severity === "medium" || severity === "high" ? severity : "medium";
+}
+
+function renderRiskTags(product) {
+  const tags = Array.isArray(product.riskTags) ? product.riskTags : [];
+  return tags
+    .filter((tag) => tag && hasDisplayValue(tag.label))
+    .map((tag) => {
+      const severity = riskTagSeverity(tag);
+      const title = hasDisplayValue(tag.value) ? text(tag.value) : text(tag.label);
+      return `<span class="chip chip-risk is-${escapeHtml(severity)}" title="${escapeHtml(title)}">${escapeHtml(text(tag.label))}</span>`;
+    })
+    .join("");
+}
+
 function productHref(product) {
   return safeUrl(product.orderUrl || product.sourceUrl || product.finalUrl);
 }
@@ -70,6 +87,7 @@ function detailRowHtml(product) {
             <div><dt>库存</dt><dd>${stock !== null ? escapeHtml(String(stock)) : "未注明"}</dd></div>
             <div><dt>状态</dt><dd>${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</dd></div>
             <div><dt>证据口径</dt><dd>${escapeHtml(product._evidenceBadge.label)}</dd></div>
+            <div><dt>风险标签</dt><dd class="detail-risk-tags">${renderRiskTags(product) || "—"}</dd></div>
             <div><dt>抓取时间</dt><dd>${escapeHtml(formatDateTime(product.fetchedAt))}</dd></div>
             <div><dt>来源</dt><dd><a href="${escapeHtml(sourceHref)}" target="_blank" rel="nofollow noopener">${escapeHtml(text(product.sourceUrl || product.finalUrl, "—"))}</a></dd></div>
           </dl>
@@ -119,6 +137,7 @@ function renderTable(animate = false) {
             <td class="cell-status">
               <span class="chip chip-status ${escapeHtml(statusClass(product.status))}">${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</span>
               ${renderEvidenceBadge(product)}
+              ${renderRiskTags(product)}
             </td>
             <td><a class="link ${isActionable ? "" : "is-soft"}" href="${escapeHtml(href)}" target="_blank" rel="nofollow sponsored noopener">${actionText}</a></td>
           </tr>
@@ -192,6 +211,7 @@ function renderMobileCards(list, emptyMessage = "没有符合当前筛选条件�
             <div><dt>价格</dt><dd><strong>${escapeHtml(displayValue(product.price, "价格未标明"))}</strong></dd></div>
             <div><dt>状态</dt><dd><span class="chip chip-status ${escapeHtml(statusClass(product.status))}">${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</span></dd></div>
             <div><dt>证据</dt><dd>${renderEvidenceBadge(product)}</dd></div>
+            <div><dt>风险</dt><dd class="detail-risk-tags">${renderRiskTags(product) || "—"}</dd></div>
           </dl>
           <a class="link ${isActionable ? "" : "is-soft"}" href="${escapeHtml(href)}" target="_blank" rel="nofollow sponsored noopener">${actionText}</a>
         </article>
@@ -396,6 +416,7 @@ function openCompare() {
             <div><dt>价格</dt><dd>${escapeHtml(displayValue(product.price, "价格未标明"))}</dd></div>
             <div><dt>状态</dt><dd>${escapeHtml(text(product.statusLabel, statusLabels[product.status] ?? product.status))}</dd></div>
             <div><dt>证据</dt><dd>${escapeHtml(product._evidenceBadge.label)}</dd></div>
+            <div><dt>风险</dt><dd class="detail-risk-tags">${renderRiskTags(product) || "—"}</dd></div>
             <div><dt>抓取</dt><dd>${escapeHtml(formatDateTime(product.fetchedAt))}</dd></div>
           </dl>
           <p class="evidence">${escapeHtml(text(product.evidence))}</p>
