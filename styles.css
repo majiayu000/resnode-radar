@@ -1082,14 +1082,30 @@ tr.is-open td {
 
 .cell-status {
   min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
 }
 
 .cell-status .chip {
-  margin: 2px 0;
+  margin: 0;
 }
 
 .cell-status .chip + .chip {
   margin-left: 0;
+}
+
+.detail-risk-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  justify-content: inherit;
+}
+
+.compare-card .detail-risk-tags {
+  justify-content: flex-end;
 }
 
 .empty-row {
@@ -1166,7 +1182,8 @@ tr.is-open td {
 }
 
 .chip-status::before,
-.chip-evidence::before {
+.chip-evidence::before,
+.chip-risk::before {
   content: "";
   width: 6px;
   height: 6px;
@@ -1270,6 +1287,21 @@ tr.is-open td {
   background: var(--surface);
   color: var(--muted);
   border: 1px solid var(--line-2);
+}
+
+.chip-risk.is-low {
+  background: var(--ok-soft);
+  color: var(--ok);
+}
+
+.chip-risk.is-medium {
+  background: var(--warn-soft);
+  color: var(--warn);
+}
+
+.chip-risk.is-high {
+  background: var(--bad-soft);
+  color: var(--bad);
 }
 
 .link {
