@@ -123,7 +123,7 @@ export function evidenceBadge(product) {
   const evidence = evidenceText(product);
   const stockCount = numericStockCount(product);
   const hasPreciseStock = stockCount !== null;
-  const isSnapshot = /reader_snapshot|third-party|snapshot|快照/i.test(evidence);
+  const isSnapshot = /reader_snapshot|third-party|snapshot|第三方|快照/i.test(evidence);
 
   if (product.status === "error" || /\berror\b|抓取失败|fetch failed|timeout/i.test(evidence)) {
     return { value: "error", label: "抓取失败", className: "is-error" };
@@ -162,6 +162,15 @@ export function stableCompare(a, b) {
   return a._stableKey.localeCompare(b._stableKey, "zh-CN");
 }
 
+/** Prefer monitor-authored evidenceLevel when complete; otherwise fall back to client heuristics. */
+export function preferredEvidenceBadge(product) {
+  const level = product.evidenceLevel;
+  if (level?.value && level?.label && level?.className) {
+    return { value: level.value, label: level.label, className: level.className };
+  }
+  return evidenceBadge(product);
+}
+
 export function normalizeProduct(product, index) {
   const ipType = inferIpType(product);
   const normalized = {
@@ -171,7 +180,7 @@ export function normalizeProduct(product, index) {
     _ipType: ipType,
     _searchText: searchableText(product)
   };
-  normalized._evidenceBadge = evidenceBadge(normalized);
+  normalized._evidenceBadge = preferredEvidenceBadge(normalized);
   return normalized;
 }
 

@@ -20,6 +20,7 @@
     "assets": "node scripts/generate-assets.mjs",
     "monitor": "node scripts/monitor.mjs",
     "monitor:validate": "node scripts/validate-monitor-data.mjs",
+    "check:evidence-badge": "node scripts/check-evidence-badge.mjs",
     "serve": "python3 -m http.server 4173"
   },
   "dependencies": {
