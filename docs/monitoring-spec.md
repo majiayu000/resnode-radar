@@ -99,7 +99,7 @@ Attempt order:
 1. Direct HTTP on `https://www.aaitr.com/store/srv`.
 2. Direct HTTP on configured fallbacks: language variants and common `cart.php?gid=` paths.
 3. Discovery fetches for `sitemap.xml` and `robots.txt`; discovered AaITR store/cart URLs are tried if present.
-4. Optional headless Chrome `--dump-dom` probe for the first configured product URLs.
+4. Optional headless Chrome `--dump-dom` probe for the first configured product URLs. Chrome runs sandboxed by default (no `--no-sandbox`) because remote pages expand renderer blast radius; set `MONITOR_CHROME_NO_SANDBOX=1` only in constrained CI/containers that cannot use the sandbox.
 5. Third-party Reader snapshot for configured public AaITR pages when official direct fetch remains blocked.
 
 If any attempt returns parseable WHMCS product DOM, parse:
