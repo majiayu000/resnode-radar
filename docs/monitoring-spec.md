@@ -118,7 +118,7 @@ If every attempt fails, output one `blocked` record with `raw.attempts`. Search 
 
 Every monitor record must include:
 
-- `evidenceLevel`: one structured badge describing the strongest evidence behind the row, such as precise stock, official order entry, third-party snapshot, direct fetch blocked, unavailable, or fetch error.
+- `evidenceLevel`: one structured badge describing the strongest evidence behind the row, such as precise stock, official order entry, third-party snapshot, direct fetch blocked, unavailable, or fetch error. The UI prefers this field for badges when present; client heuristics are fallback only.
 - `riskTags`: one or more structured tags explaining buyer-facing caveats, such as only proving an order path, unstated stock, third-party snapshot, direct fetch blocked, incomplete fields, NAT/shared access, identity requirement, refund limits, or support confirmation.
 
 These labels are evidence and risk signals, not purchase advice.
