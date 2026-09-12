@@ -635,18 +635,21 @@ function findChromeExecutable() {
 async function renderWithChrome(source, targetUrl, chromeBin) {
   const timeoutMs = Number(source.browserProbe?.timeoutMs ?? 25000);
   const virtualTimeBudgetMs = Number(source.browserProbe?.virtualTimeBudgetMs ?? 12000);
+  // Sandbox is the default. Opt into --no-sandbox only for constrained CI/containers:
+  // remote pages increase blast radius when the renderer runs unsandboxed.
+  const chromeArgs = [
+    "--headless=new",
+    "--disable-gpu",
+    "--disable-dev-shm-usage",
+    "--no-first-run",
+    ...(process.env.MONITOR_CHROME_NO_SANDBOX === "1" ? ["--no-sandbox"] : []),
+    `--virtual-time-budget=${virtualTimeBudgetMs}`,
+    "--dump-dom",
+    targetUrl
+  ];
   const { stdout } = await execFileAsync(
     chromeBin,
-    [
-      "--headless=new",
-      "--disable-gpu",
-      "--disable-dev-shm-usage",
-      "--no-first-run",
-      "--no-sandbox",
-      `--virtual-time-budget=${virtualTimeBudgetMs}`,
-      "--dump-dom",
-      targetUrl
-    ],
+    chromeArgs,
     { timeout: timeoutMs, maxBuffer: 8 * 1024 * 1024 }
   );
   return {
