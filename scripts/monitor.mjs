@@ -321,7 +321,7 @@ function parseWhmcsGroup(source, fetchResult) {
       price,
       priceValue: parsePriceValue(priceCore),
       status: orderUrl ? "available" : "unknown",
-      statusLabel: orderUrl ? "可订购" : "未知",
+      statusLabel: orderUrl ? "可订购入口" : "未知",
       stockCount: null,
       orderUrl,
       evidence: orderUrl ? `WHMCS order link found; pid=${pid}; button=${orderText}` : "WHMCS product card found without order link",
@@ -497,7 +497,7 @@ function parseAaitrStorePage(source, fetchResult, strategy, attempt) {
     if (!hasProductSignal) return;
 
     const status = soldOut ? "unavailable" : orderUrl || availableSignal ? "available" : "unknown";
-    const statusLabel = status === "available" ? stockLabel || "可订购" : status === "unavailable" ? stockLabel || "售罄" : "未知";
+    const statusLabel = status === "available" ? stockLabel || "可订购入口" : status === "unavailable" ? stockLabel || "售罄" : "未知";
     records.push(baseRecord(source, fetchResult, {
       id: `${source.id}-${pid ? `pid-${pid}` : `idx-${index + 1}`}`,
       name,

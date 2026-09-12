@@ -47,7 +47,7 @@ export function parseZlidcProductWrap(source, fetchResult, generatedAt, helpers)
       price,
       priceValue: parsePriceValue(price),
       status: orderUrl ? "available" : "unknown",
-      statusLabel: orderUrl ? "可订购" : "未知",
+      statusLabel: orderUrl ? "可订购入口" : "未知",
       stockCount: null,
       orderUrl,
       evidence: orderUrl ? `ZLIDC product-wrap order link found; pid=${pid}` : "ZLIDC product-wrap card found without order link",
