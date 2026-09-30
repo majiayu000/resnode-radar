@@ -75,9 +75,12 @@ function orderLink(card, baseUrl, absoluteUrl, cleanText) {
   return null;
 }
 
-function recordId(source, name, index) {
+function recordId(source, name, orderUrl, index) {
+  const url = orderUrl ? new URL(orderUrl) : null;
+  const path = url?.searchParams.get("rp") ?? url?.pathname;
+  const orderSlug = path?.match(/\/store\/[^/]+\/([^/]+)\/?$/i)?.[1];
   const slug = name.toLowerCase().replace(/[^a-z0-9]+/gi, "-").replace(/^-+|-+$/g, "");
-  return `${source.id}-${slug || index + 1}`;
+  return `${source.id}-${orderSlug || (slug ? `${slug}-${index + 1}` : index + 1)}`;
 }
 
 export function parseLagomProductList(source, fetchResult, generatedAt, helpers) {
@@ -110,7 +113,7 @@ export function parseLagomProductList(source, fetchResult, generatedAt, helpers)
       .slice(0, 3);
 
     records.push({
-      id: recordId(source, name, index),
+      id: recordId(source, name, orderUrl, index),
       sourceId: source.id,
       provider: source.provider,
       category: source.category,
