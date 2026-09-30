@@ -67,23 +67,25 @@ function runMonitor(routes, overrides = {}) {
   }
 }
 
-for (const [label, body] of [
+for (const [label, body, status = 200] of [
   ["empty product payload", productHtml({ data: {} })],
   ["valid zero stock product", productHtml({ data: product, available: 0 })],
   ["valid positive stock product", productHtml()],
-  ["non-Inertia HTML", "Provider landing page"]
+  ["non-Inertia HTML", "Provider landing page"],
+  ["HTTP 403 anti-bot response", "Cloudflare Ray ID", 403],
+  ["HTTP 503 failure", "Unavailable", 503]
 ]) {
   test(`off-host redirect with ${label} is an error with redirect evidence`, () => {
     const { payload, calls } = runMonitor({
       [sourceUrl]: { status: 302, location: offHost },
-      [offHost]: { body }
+      [offHost]: { body, status }
     });
     const record = payload.products[0];
     assert.deepEqual(calls.map((call) => call.url), [sourceUrl, offHost]);
     assert.equal(record.status, "error");
     assert.equal(record.stockCount, null);
     assert.equal(record.finalUrl, offHost);
-    assert.equal(record.httpStatus, 200);
+    assert.equal(record.httpStatus, status);
     assert.match(record.evidence, /VIRCS.*redirect/i);
     assert.ok(record.evidence.includes(sourceUrl));
     assert.ok(record.evidence.includes(offHost));

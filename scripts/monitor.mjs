@@ -235,13 +235,6 @@ function extractInertiaPage(html) {
 }
 
 function parseVircs(source, fetchResult) {
-  if (new URL(fetchResult.finalUrl).host !== new URL(source.url).host) {
-    return [errorRecord(source, new Error(`VIRCS redirected outside source host: ${source.url} -> ${fetchResult.finalUrl}`), {
-      finalUrl: fetchResult.finalUrl,
-      httpStatus: fetchResult.statusCode
-    })];
-  }
-
   if (isAntiBotResult(fetchResult)) {
     return [blockedRecord(source, fetchResult, "Provider returned Cloudflare challenge")];
   }
@@ -831,6 +824,13 @@ async function monitorSource(source) {
     if (source.adapter === "aaitr_store") return await monitorAaitrStore(source);
 
     const fetchResult = await fetchHtml(source);
+    if (source.adapter === "vircs_inertia_product" && new URL(fetchResult.finalUrl).host !== new URL(source.url).host) {
+      return [errorRecord(source, new Error(`VIRCS redirected outside source host: ${source.url} -> ${fetchResult.finalUrl}`), {
+        finalUrl: fetchResult.finalUrl,
+        httpStatus: fetchResult.statusCode
+      })];
+    }
+
     if (!fetchResult.ok && isAntiBotResult(fetchResult)) {
       return [blockedRecord(source, fetchResult, `Provider returned anti-bot response with HTTP ${fetchResult.statusCode}`)];
     }
