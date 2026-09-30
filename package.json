@@ -16,6 +16,7 @@
     "url": "https://github.com/majiayu000/resnode-radar/issues"
   },
   "scripts": {
+    "test": "node --test scripts/*.test.mjs",
     "check": "find . -maxdepth 1 -name '*.js' -print0 | xargs -0 -n1 node --check && find scripts -name '*.mjs' -print0 | xargs -0 -n1 node --check",
     "assets": "node scripts/generate-assets.mjs",
     "monitor": "node scripts/monitor.mjs",
