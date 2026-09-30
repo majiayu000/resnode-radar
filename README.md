@@ -6,6 +6,9 @@
 
 VPS stock monitor and owner-run review site for Chinese cross-border operators.
 
+[Browse the live inventory](https://majiayu000.github.io/resnode-radar/) ·
+[Quick start](#quick-start) · [Monitoring contract](docs/monitoring-spec.md)
+
 ResNode Radar tracks provider-backed VPS availability, records parser evidence,
 and renders a static frontend for quick comparison. It is intentionally
 data-first: no fallback mock products are shown when live provider parsing fails.
@@ -48,6 +51,19 @@ npm run serve
 ```
 
 Open `http://127.0.0.1:4173/`.
+
+## Public Site
+
+GitHub Pages serves the repository root from `main` at
+<https://majiayu000.github.io/resnode-radar/>. The homepage uses that project
+path for its canonical URL and sharing preview. `sitemap.xml` lists the homepage;
+the unfinished review templates use `noindex` until real test evidence is added.
+The committed preview is a screenshot of the public inventory interface, not
+a promise of current stock or prices.
+
+GitHub Pages crawler rules are read at the host root
+(`https://majiayu000.github.io/robots.txt`), outside this project's deployment
+path. A project-local `robots.txt` would not control crawling of this site.
 
 ## Release Policy
 
