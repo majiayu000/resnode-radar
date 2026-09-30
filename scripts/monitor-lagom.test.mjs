@@ -61,7 +61,7 @@ for (const [region, label, group] of [["kr", "韓國", "krisp"], ["jp", "日本"
     assert.equal(byId.size, 4);
     assert.equal(summary.available, 4);
     plans.forEach((plan, index) => {
-      const product = byId.get(`yinnet-${region}-dual-isp-${region}isp${index + 1}`);
+      const product = byId.get(`yinnet-${region}-dual-isp:store:${region}isp${index + 1}`);
       assert.ok(product);
       assert.equal(product.name, plan.name);
       assert.equal(product.priceValue, plan.price);
@@ -88,7 +88,7 @@ test("relative direct store links and encoded rp links extract product paths", (
     card({ name: "雙ISP VPS", href: "krisp1", className: "package" }),
     card({ name: "雙ISP VPS", href: "/index.php?rp=%2Fstore%2Fkrisp%2Fkrisp2%2F", className: "package" })
   ].join(""), { finalUrl });
-  assert.deepEqual(products.map((p) => p.id), ["yinnet-kr-dual-isp-krisp1", "yinnet-kr-dual-isp-krisp2"]);
+  assert.deepEqual(products.map((p) => p.id), ["yinnet-kr-dual-isp:store:krisp1", "yinnet-kr-dual-isp:store:krisp2"]);
   assert.equal(products[0].orderUrl, "https://www.yin-net.com/store/krisp/krisp1");
   assert.ok(products.every((p) => p.finalUrl === finalUrl));
 });
@@ -96,10 +96,61 @@ test("relative direct store links and encoded rp links extract product paths", (
 test("product path punctuation is retained rather than collapsed by the name slug", () => {
   const { products } = runMonitor(["plan-a", "plan_a"].map((slug) => card({ name: "同名 VPS", href: `/store/krisp/${slug}` })).join(""));
   assert.equal(new Map(products.map((p) => [p.id, p])).size, 2);
-  assert.deepEqual(products.map((p) => p.id), ["yinnet-kr-dual-isp-plan-a", "yinnet-kr-dual-isp-plan_a"]);
+  assert.deepEqual(products.map((p) => p.id), ["yinnet-kr-dual-isp:store:plan-a", "yinnet-kr-dual-isp:store:plan_a"]);
 });
 
-test("cards without a product path use distinct card indices and keep stock evidence", () => {
+test("route plan-2 and an unlinked Plan card keep separate identities", () => {
+  const { products } = runMonitor([
+    card({ name: "Routed plan", href: "/store/group/plan-2" }),
+    card({ name: "Plan" })
+  ].join(""));
+  assert.equal(products.length, 2);
+  assert.equal(new Map(products.map((p) => [p.id, p])).size, 2);
+});
+
+test("cart pid identities survive reordering, renaming and repricing", () => {
+  const plans = [3, 4].map((pid) => ({ name: "中文 VPS", href: `/cart.php?a=add&amp;pid=${pid}` }));
+  const before = runMonitor(plans.map(card).join("")).products;
+  const reordered = runMonitor(plans.toReversed().map(card).join("")).products;
+  const after = runMonitor(plans.toReversed().map((plan) => card({ ...plan, name: "Changed name", price: 50 })).join("")).products;
+  assert.equal(new Set(before.map((p) => p.id)).size, 2);
+  assert.deepEqual(new Map(reordered.map((p) => [p.orderUrl, p.id])), new Map(before.map((p) => [p.orderUrl, p.id])));
+  assert.deepEqual(new Map(after.map((p) => [p.orderUrl, p.id])), new Map(before.map((p) => [p.orderUrl, p.id])));
+});
+
+test("unique fallback names keep their name IDs across insertion and reordering", () => {
+  const plans = [{ name: "Basic", href: "/contact" }, { name: "Premium" }];
+  const before = runMonitor(plans.map(card).join("")).products;
+  const after = runMonitor([card({ name: "New plan" }), ...plans.toReversed().map(card)].join("")).products;
+  for (const product of before) {
+    assert.equal(product.id, `yinnet-kr-dual-isp-${product.name.toLowerCase()}`);
+    assert.equal(after.find((p) => p.name === product.name).id, product.id);
+  }
+});
+
+test("store, pid and fallback names cannot alias each other's identities", () => {
+  const plans = [
+    { name: "Routed", href: "/store/group/pid-3" },
+    { name: "Cart", href: "/cart.php?a=add&amp;pid=3" },
+    { name: "pid 3" },
+    { name: "store pid 3" },
+    { name: "Plan ①" },
+    { name: "Plan ②" },
+    { name: "Plan 5" },
+    { name: "純中文" }
+  ];
+  const before = runMonitor(plans.map(card).join("")).products;
+  const after = runMonitor(plans.toReversed().map(card).join("")).products;
+  for (const products of [before, after]) {
+    assert.equal(products.length, plans.length);
+    assert.equal(new Map(products.map((p) => [p.id, p])).size, plans.length);
+  }
+  for (const name of ["Routed", "Cart", "pid 3", "store pid 3", "Plan 5"]) {
+    assert.equal(after.find((p) => p.name === name).id, before.find((p) => p.name === name).id);
+  }
+});
+
+test("colliding fallback names and cart links keep distinct IDs and stock evidence", () => {
   const { products } = runMonitor([
     card({ name: "中文 VPS ①", stock: "Sold Out" }),
     card({ name: "中文 VPS ②" }),
