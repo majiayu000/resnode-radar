@@ -83,6 +83,7 @@
           <a href="#products">库存表</a>
           <a href="#tools">检测脚本</a>
           <a href="#guide">选购指南</a>
+          <a href="#faq">库存常见问题</a>
         </nav>
         <button class="theme-toggle" data-theme-toggle type="button" aria-label="切换深浅模式">☾</button>
       </aside>
@@ -289,14 +290,28 @@
         </section>
 
         <section id="guide" class="guide">
-          <h2>家宽选购指南</h2>
+          <h2>怎样用库存表比较 VPS</h2>
           <ol>
-            <li>先确认是不是住宅宽带 IP：看 ISP、ASN、IPinfo、欺诈分和地址归属，不要只看商家标题。</li>
-            <li>做 TikTok 或跨境电商时，独享 IP、库存稳定、可续费，比单次跑分更重要。</li>
-            <li>美国家宽通常重点看 AT&T、Frontier、Comcast 等来源；日本可以单独做 SoftBank / NTT 分类页。</li>
-            <li>每条推荐都要保留测试时间。线路变动、IP 段变动、库存变动后，旧结论必须重新标注。</li>
-            <li>购买入口可以放推广链接，但页面排序必须以你的实测记录为准。</li>
+            <li>在<a href="#products">库存表</a>按区域、商家和状态筛选，或搜索线路名称。勾选方案后点击“开始对比”，查看配置、带宽和价格。</li>
+            <li>比较价格时一起看币种和计费周期。月付、季付和年付的标价需要先换成同一周期；购买前还要核对供应商的续费价格和退款条款。</li>
+            <li>查看记录里的来源、更新时间和证据标签。精确库存、官方订购入口和第三方快照各自能说明什么，见<a href="#faq-stock">库存状态说明</a>。</li>
+            <li>打开官方购买入口，重新确认当前库存和配置。IP 类型按页面文本保守标记，实际 IP 来源和线路仍需结合供应商说明与到手测试核验。</li>
           </ol>
+        </section>
+
+        <section id="faq" class="guide" aria-labelledby="faq-heading">
+          <h2 id="faq-heading">VPS 库存监控常见问题</h2>
+          <h3 id="faq-stock">“可订购”代表有多少台库存吗？</h3>
+          <p>“可订购”表示监控发现了供应商的库存信号或订购入口。只有“精确库存”标签附带明确数量；“官方订购入口”说明存在下单链接，未必提供剩余台数。下单时以供应商页面为准。</p>
+          <h3 id="faq-blocked">“直连受阻”或“抓取失败”是不是售罄？</h3>
+          <p>这两种标签记录的是监控访问或解析遇到的问题。它们无法确认供应商是否有货。请打开来源页面核对，明确的无货记录会标成“不可订购”。</p>
+          <h3 id="faq-snapshot">第三方快照可以当作实时库存吗？</h3>
+          <p>第三方快照来自 reader_snapshot 等读取方式，页面会标明快照证据。它反映的是读取到的页面内容；官方直连受阻时尤其要查看更新时间，并在购买入口再次核对。</p>
+          <h3 id="faq-refresh">点击“重新加载”会立即检查所有商家吗？</h3>
+          <p>按钮重新读取本站已有的监控数据。供应商检查由后台监控流程完成，计划每 30 分钟运行一次，实际同步时间以页面显示为准。刷新后没有变化时，先查看“最后同步”和各条记录的更新时间。</p>
+          <h3 id="faq-ip">“住宅 IP”分类能保证真实家庭宽带吗？</h3>
+          <p>分类依据供应商页面文字做保守标记。它不包含对每个实际分配 IP 的现场核验，也无法保证特定平台可用。购买前确认 IP 来源，到手后可使用<a href="#tools">检测脚本</a>辅助检查，并保留测试时间。</p>
+          <p>发现记录错误时，请在<a href="https://github.com/majiayu000/resnode-radar/issues">项目问题页</a>附上产品链接、观察时间和页面证据。监控方式与字段说明见<a href="https://github.com/majiayu000/resnode-radar/blob/main/docs/monitoring-spec.md">监控文档</a>。</p>
         </section>
       </main>
     </div>
@@ -315,6 +330,7 @@
       <div>
         <strong>住宅节点雷达</strong>
         <p>这是站长自测型 VPS 目录。库存和价格可能变化，正式推荐前需要补实测证据。</p>
+        <p><a href="https://github.com/majiayu000/resnode-radar">源码与部署说明</a> · <a href="https://github.com/majiayu000/resnode-radar/blob/main/LICENSE">MIT 许可证</a></p>
       </div>
     </footer>
 
