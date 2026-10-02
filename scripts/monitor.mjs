@@ -263,11 +263,16 @@ function parseVircs(source, fetchResult) {
   const data = page?.props?.data;
   const product = data?.data;
   if (!product) throw new Error("VIRCS product payload missing props.data.data");
+  const name = cleanText(product.name);
+  if (typeof product.name !== "string" || !name) throw new Error("VIRCS product name missing or empty");
+  const available = Number(data.available);
+  if (!["number", "string"].includes(typeof data.available) || !cleanText(data.available) || !Number.isInteger(available) || available < 0) {
+    throw new Error("VIRCS props.data.available missing or invalid");
+  }
 
   const description = Array.isArray(product.description) ? product.description : [];
   const byKey = Object.fromEntries(description.map((item) => [cleanText(item.key), cleanText(item.value)]));
   const summary = data.summary ?? {};
-  const available = Number(data.available ?? 0);
   const bandwidth = cleanText([summary?.["带宽"]?.name, summary?.["流量"]?.name].filter(Boolean).join(" / "));
   const hardware = cleanText([byKey.CPU, byKey["内存"], byKey["硬盘"]].filter(Boolean).join(" / "));
   const network = cleanText(summary?.["网络"]?.name ?? source.routeHint ?? "");
@@ -275,7 +280,7 @@ function parseVircs(source, fetchResult) {
 
   return [
     baseRecord(source, fetchResult, {
-      name: cleanText(product.name),
+      name,
       region: cleanText(product.location ?? source.regionHint),
       route: network,
       note: cleanText(product.subtitle ?? ""),
@@ -285,7 +290,7 @@ function parseVircs(source, fetchResult) {
       priceValue: parsePriceValue(price),
       status: available > 0 && product.payable ? "available" : "unavailable",
       statusLabel: available > 0 && product.payable ? `可订购 · ${available}` : "不可订购",
-      stockCount: Number.isFinite(available) ? available : null,
+      stockCount: available,
       orderUrl: source.url,
       evidence: `VIRCS props.data.available=${available}; total=${data.total ?? "unknown"}`,
       raw: {
@@ -839,6 +844,13 @@ async function monitorSource(source) {
     if (source.adapter === "aaitr_store") return await monitorAaitrStore(source);
 
     const fetchResult = await fetchHtml(source);
+    if (source.adapter === "vircs_inertia_product" && new URL(fetchResult.finalUrl).host !== new URL(source.url).host) {
+      return [errorRecord(source, new Error(`VIRCS redirected outside source host: ${source.url} -> ${fetchResult.finalUrl}`), {
+        finalUrl: fetchResult.finalUrl,
+        httpStatus: fetchResult.statusCode
+      })];
+    }
+
     if (!fetchResult.ok && isAntiBotResult(fetchResult)) {
       return [blockedRecord(source, fetchResult, `Provider returned anti-bot response with HTTP ${fetchResult.statusCode}`)];
     }
