@@ -75,9 +75,15 @@ function orderLink(card, baseUrl, absoluteUrl, cleanText) {
   return null;
 }
 
-function recordId(source, name, index) {
+function recordId(source, name, orderUrl, index) {
+  const url = orderUrl ? new URL(orderUrl) : null;
+  const path = url?.searchParams.get("rp") ?? url?.pathname;
+  const orderSlug = path?.match(/\/store\/[^/]+\/([^/]+)\/?$/i)?.[1];
+  if (orderSlug) return `${source.id}:store:${orderSlug}`;
+  const pid = url?.searchParams.get("pid");
+  if (pid) return `${source.id}:pid:${pid}`;
   const slug = name.toLowerCase().replace(/[^a-z0-9]+/gi, "-").replace(/^-+|-+$/g, "");
-  return `${source.id}-${slug || index + 1}`;
+  return slug ? `${source.id}-${slug}` : `${source.id}:card:${index + 1}`;
 }
 
 export function parseLagomProductList(source, fetchResult, generatedAt, helpers) {
@@ -110,7 +116,7 @@ export function parseLagomProductList(source, fetchResult, generatedAt, helpers)
       .slice(0, 3);
 
     records.push({
-      id: recordId(source, name, index),
+      id: recordId(source, name, orderUrl, index),
       sourceId: source.id,
       provider: source.provider,
       category: source.category,
@@ -140,5 +146,14 @@ export function parseLagomProductList(source, fetchResult, generatedAt, helpers)
   });
 
   if (records.length === 0) throw new Error("Lagom product cards found but no priced products");
+  // Only colliding name fallbacks need positions; ':' cannot occur in a name slug.
+  const fallbackCounts = new Map();
+  for (const record of records) {
+    if (!record.id.startsWith(`${source.id}-`)) continue;
+    fallbackCounts.set(record.id, (fallbackCounts.get(record.id) ?? 0) + 1);
+  }
+  for (const record of records) {
+    if (fallbackCounts.get(record.id) > 1) record.id += `:${record.raw.sourceCardIndex + 1}`;
+  }
   return records;
 }
