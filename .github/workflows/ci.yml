@@ -27,6 +27,9 @@ jobs:
       - name: Syntax check
         run: npm run check
 
+      - name: Offline monitor regression tests
+        run: npm test
+
       - name: Validate monitor data
         run: npm run monitor:validate
 
