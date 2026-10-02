@@ -137,20 +137,40 @@ function enrichProductSignals(product) {
   };
 }
 
-async function fetchHtml(source, targetUrl = source.url) {
+function aaitrUrl(targetUrl, baseUrl) {
+  const url = new URL(targetUrl, baseUrl);
+  if (!["http:", "https:"].includes(url.protocol) ||
+      !["aaitr.com", "www.aaitr.com"].includes(url.hostname) ||
+      url.username || url.password) {
+    throw new Error("AaITR URL must use HTTP(S), an allowed hostname and no credentials");
+  }
+  return url.toString();
+}
+
+async function fetchHtml(source, targetUrl = source.url, restrictAaitr = false) {
+  const initialUrl = restrictAaitr ? aaitrUrl(targetUrl) : targetUrl;
   let lastError;
   for (let attempt = 0; attempt <= fetchRetries; attempt += 1) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 20000);
     try {
-      const response = await fetch(targetUrl, {
-        headers: {
-          "user-agent": userAgent,
-          accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
-        },
-        redirect: "follow",
-        signal: controller.signal
-      });
+      let currentUrl = initialUrl;
+      let response;
+      for (let redirects = 0; ; redirects += 1) {
+        response = await fetch(currentUrl, {
+          headers: {
+            "user-agent": userAgent,
+            accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+          },
+          redirect: restrictAaitr ? "manual" : "follow",
+          signal: controller.signal
+        });
+        const location = response.headers.get("location");
+        if (!restrictAaitr || ![301, 302, 303, 307, 308].includes(response.status) || !location) break;
+        await response.body?.cancel();
+        if (redirects === 20) throw new Error("AaITR HTTP redirect limit exceeded");
+        currentUrl = aaitrUrl(location, currentUrl);
+      }
       const html = await response.text();
       return {
         ok: response.ok,
@@ -384,12 +404,12 @@ function summarizeErrorAttempt(strategy, targetUrl, error) {
 }
 
 function extractUrlsFromText(baseUrl, text) {
-  const matches = String(text ?? "").matchAll(/(?:https?:\/\/(?:www\.)?aaitr\.com[^\s"'<>)]*|\/(?:store\/[a-z0-9_-]+|cart\.php\?gid=\d+))/gi);
+  const matches = String(text ?? "").matchAll(/(?:(?:[a-z][a-z0-9+.-]*:)?\/\/[^\s"'<>)]*|\/(?:store\/[a-z0-9_-]+|cart\.php\?gid=\d+))/gi);
   const urls = [];
   for (const match of matches) {
     const rawUrl = match[0].replace(/[.,;]+$/, "");
     try {
-      urls.push(new URL(rawUrl, baseUrl).toString());
+      urls.push(aaitrUrl(rawUrl, baseUrl));
     } catch {
       continue;
     }
@@ -660,7 +680,7 @@ async function renderWithChrome(source, targetUrl, chromeBin) {
 }
 
 async function tryAaitrHttp(source, targetUrl, strategy, attempts) {
-  const fetchResult = await fetchHtml(source, targetUrl);
+  const fetchResult = await fetchHtml(source, targetUrl, true);
   if (isAntiBotResult(fetchResult)) {
     const attempt = summarizeAttempt(strategy, targetUrl, fetchResult, "blocked", "anti-bot challenge");
     attempts.push(attempt);
@@ -686,7 +706,7 @@ async function discoverAaitrUrls(source, attempts) {
   const discovered = [];
   for (const targetUrl of source.discoveryUrls ?? []) {
     try {
-      const fetchResult = await fetchHtml(source, targetUrl);
+      const fetchResult = await fetchHtml(source, targetUrl, true);
       if (isAntiBotResult(fetchResult)) {
         attempts.push(summarizeAttempt("discovery", targetUrl, fetchResult, "blocked", "anti-bot challenge"));
         continue;
