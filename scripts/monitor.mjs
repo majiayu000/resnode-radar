@@ -100,6 +100,8 @@ function riskTags(product) {
   const tags = [];
   const evidence = productEvidenceText(product);
   const stockCount = numericStockCount(product);
+  const blockedOfficialAttempt = product.raw?.strategy === "reader_snapshot" &&
+    product.raw?.attempts?.some((attempt) => attempt.strategy !== "reader_snapshot" && attempt.outcome === "blocked");
 
   if (product.status === "available" && product.orderUrl && stockCount === null) {
     addRiskTag(tags, "order-only", "仅证明可下单", "medium");
@@ -108,7 +110,7 @@ function riskTags(product) {
   if (/reader_snapshot|third-party|snapshot|第三方|快照/i.test(evidence)) {
     addRiskTag(tags, "third-party-snapshot", "第三方快照", "high");
   }
-  if (product.status === "blocked" || /Cloudflare|challenge|blocked|被阻断|official direct fetch blocked/i.test(evidence)) {
+  if (blockedOfficialAttempt || product.status === "blocked" || /Cloudflare|challenge|blocked|被阻断|official direct fetch blocked/i.test(evidence)) {
     addRiskTag(tags, "direct-blocked", "官方直连受阻", "high");
   }
   if (product.status === "error") addRiskTag(tags, "fetch-error", "抓取失败", "high");
