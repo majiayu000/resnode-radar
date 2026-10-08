@@ -620,7 +620,7 @@ function parseAaitrReaderSnapshot(source, fetchResult, sourcePageUrl, attempt) {
       name: block.name,
       region: features["位置"] ?? source.regionHint ?? null,
       route,
-      note: "第三方 Reader 快照；官方页面直连仍受 Cloudflare challenge 保护",
+      note: "第三方 Reader 快照；本轮未取得可解析的官方数据，详见尝试记录",
       hardware,
       bandwidth,
       price,
@@ -629,7 +629,7 @@ function parseAaitrReaderSnapshot(source, fetchResult, sourcePageUrl, attempt) {
       statusLabel,
       stockCount: null,
       orderUrl: sourcePageUrl,
-      evidence: `AaITR reader_snapshot parsed ${sourcePageUrl}; stock=${block.stockLabel}; official direct fetch blocked`,
+      evidence: `AaITR reader_snapshot parsed ${sourcePageUrl}; stock=${block.stockLabel}; no parseable official product data obtained; see attempts`,
       raw: {
         stockLabel: block.stockLabel,
         features,
