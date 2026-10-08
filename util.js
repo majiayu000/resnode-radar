@@ -1,3 +1,5 @@
+const countAnimations = new WeakMap();
+
 export function formatClock(date) {
   return date.toLocaleTimeString("zh-CN", { hour12: false, hour: "2-digit", minute: "2-digit", second: "2-digit" });
 }
@@ -57,6 +59,7 @@ export function formatRelativeAge(value) {
 
 export function setText(selector, value) {
   document.querySelectorAll(selector).forEach((node) => {
+    countAnimations.delete(node);
     node.textContent = value;
   });
 }
@@ -69,14 +72,19 @@ export function setHidden(selector, hidden) {
 
 export function countUp(el, target) {
   if (!el) return;
+  const animation = {};
+  countAnimations.set(el, animation);
   const to = Number(target) || 0;
   const duration = 650;
   const start = performance.now();
   function step(now) {
+    // A newer render may have replaced the count with an unknown/error state.
+    if (countAnimations.get(el) !== animation) return;
     const p = Math.min(1, (now - start) / duration);
     const eased = 1 - Math.pow(1 - p, 3);
     el.textContent = String(Math.round(to * eased));
     if (p < 1) requestAnimationFrame(step);
+    else countAnimations.delete(el);
   }
   requestAnimationFrame(step);
 }

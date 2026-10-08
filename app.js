@@ -3,6 +3,8 @@ import { setText, setHidden, countUp, refreshClock, debounce, formatDateTime, fo
 import { statusLabels, categoryNames, ipTypeCategories, ipTypeOrder, priceBands, statusClass, statusRank, normalizeProduct, priceBandFor, numericStockCount } from "./product.js";
 import { filterBaseProducts, visibleProducts } from "./filter.js";
 
+let dataLoadError = "";
+
 function toggleTheme() {
   const current = document.documentElement.getAttribute("data-theme");
   const next = current === "dark" ? "light" : "dark";
@@ -105,7 +107,7 @@ function renderTable(animate = false) {
   syncTableSortIndicator();
   const list = visibleProducts();
   if (list.length === 0) {
-    renderEmpty("没有符合当前筛选条件的真实监控记录。");
+    renderEmpty(dataLoadError || "没有符合当前筛选条件的真实监控记录。");
     renderSelectedCount();
     return;
   }
@@ -323,22 +325,22 @@ function renderSummary() {
     "[data-monitor-summary]",
     state.payload
       ? `来源 ${state.payload.sourceCount} 个，记录 ${state.payload.summary.total} 条，可订购 ${state.payload.summary.available ?? 0} 条，不可订购 ${state.payload.summary.unavailable ?? 0} 条，被阻断 ${state.payload.summary.blocked ?? 0} 条，失败 ${state.payload.summary.error ?? 0} 条。`
-      : "监控数据尚未加载。"
+      : dataLoadError || "监控数据尚未加载。"
   );
 
   const statusNodes = document.querySelectorAll("[data-monitor-status]");
   if (!state.payload) {
     statusNodes.forEach((status) => {
-      status.textContent = "加载监控数据中";
-      status.classList.remove("has-warning");
+      status.textContent = dataLoadError ? "本站数据加载失败" : "加载监控数据中";
+      status.classList.toggle("has-warning", Boolean(dataLoadError));
     });
     setText("[data-stat-total]", "-");
     setText("[data-stat-available]", "-");
     setText("[data-stat-unavailable]", "-");
     setText("[data-stat-sources]", "-");
-    setText("[data-trust-state]", "等待真实监控数据");
+    setText("[data-trust-state]", dataLoadError ? "本站监控数据不可用" : "等待真实监控数据");
     setText("[data-trust-age]", "-");
-    setText("[data-trust-freshness]", "加载中");
+    setText("[data-trust-freshness]", dataLoadError ? "当前库存未知" : "加载中");
     renderRing();
     return;
   }
@@ -641,10 +643,15 @@ function bindControls() {
 
 async function loadMonitorData() {
   refreshClock();
+  dataLoadError = "";
+  if (!state.payload) {
+    renderSummary();
+    renderMobileCards([], "加载监控数据中…");
+  }
   renderSkeleton();
   try {
     const response = await fetch(`data/products.json?t=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`监控数据加载失败：HTTP ${response.status}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
     state.payload = await response.json();
     state.products = Array.isArray(state.payload.products) ? state.payload.products.map(normalizeProduct) : [];
     state.selected.clear();
@@ -654,13 +661,14 @@ async function loadMonitorData() {
     renderSummary();
     renderTable(true);
   } catch (error) {
+    dataLoadError = `本站监控数据加载失败：${error.message}。当前库存未知。`;
     state.payload = null;
     state.products = [];
     state.selected.clear();
     hydrateFilterOptions();
     renderCounts();
     renderSummary();
-    renderEmpty(error.message);
+    renderEmpty(dataLoadError);
     renderSelectedCount();
   }
 }
