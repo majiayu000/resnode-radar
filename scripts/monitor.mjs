@@ -100,6 +100,8 @@ function riskTags(product) {
   const tags = [];
   const evidence = productEvidenceText(product);
   const stockCount = numericStockCount(product);
+  const blockedOfficialAttempt = product.raw?.strategy === "reader_snapshot" &&
+    product.raw?.attempts?.some((attempt) => attempt.strategy !== "reader_snapshot" && attempt.outcome === "blocked");
 
   if (product.status === "available" && product.orderUrl && stockCount === null) {
     addRiskTag(tags, "order-only", "仅证明可下单", "medium");
@@ -108,7 +110,7 @@ function riskTags(product) {
   if (/reader_snapshot|third-party|snapshot|第三方|快照/i.test(evidence)) {
     addRiskTag(tags, "third-party-snapshot", "第三方快照", "high");
   }
-  if (product.status === "blocked" || /Cloudflare|challenge|blocked|被阻断|official direct fetch blocked/i.test(evidence)) {
+  if (blockedOfficialAttempt || product.status === "blocked" || /Cloudflare|challenge|blocked|被阻断|official direct fetch blocked/i.test(evidence)) {
     addRiskTag(tags, "direct-blocked", "官方直连受阻", "high");
   }
   if (product.status === "error") addRiskTag(tags, "fetch-error", "抓取失败", "high");
@@ -620,7 +622,7 @@ function parseAaitrReaderSnapshot(source, fetchResult, sourcePageUrl, attempt) {
       name: block.name,
       region: features["位置"] ?? source.regionHint ?? null,
       route,
-      note: "第三方 Reader 快照；官方页面直连仍受 Cloudflare challenge 保护",
+      note: "第三方 Reader 快照；本轮未取得可解析的官方数据，详见尝试记录",
       hardware,
       bandwidth,
       price,
@@ -629,7 +631,7 @@ function parseAaitrReaderSnapshot(source, fetchResult, sourcePageUrl, attempt) {
       statusLabel,
       stockCount: null,
       orderUrl: sourcePageUrl,
-      evidence: `AaITR reader_snapshot parsed ${sourcePageUrl}; stock=${block.stockLabel}; official direct fetch blocked`,
+      evidence: `AaITR reader_snapshot parsed ${sourcePageUrl}; stock=${block.stockLabel}; no parseable official product data obtained; see attempts`,
       raw: {
         stockLabel: block.stockLabel,
         features,
