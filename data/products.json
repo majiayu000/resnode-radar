@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T01:08:50.933Z",
+  "generatedAt": "2026-10-13T08:11:36.964Z",
   "sourceCount": 45,
   "summary": {
     "total": 221,
@@ -19,7 +19,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -77,7 +77,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -135,7 +135,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -191,7 +191,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -247,7 +247,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -303,7 +303,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -359,7 +359,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -415,7 +415,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -471,7 +471,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/ispip-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/krisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 住宅 IP",
@@ -527,7 +527,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
       "finalUrl": "https://www.yin-net.com/index.php?rp=/store/jpvsp-vps",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "双 ISP 住宅 IP",
@@ -583,7 +583,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -641,7 +641,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/isp-4837",
       "finalUrl": "https://my.zorocloud.com/store/isp-4837",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 原生双 ISP",
@@ -700,7 +700,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -758,7 +758,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -811,7 +811,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -864,7 +864,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -921,7 +921,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -978,7 +978,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -1035,7 +1035,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -1092,7 +1092,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -1149,7 +1149,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -1206,7 +1206,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
       "finalUrl": "https://my.zorocloud.com/store/kr-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "BGP 原生双 ISP",
@@ -1257,7 +1257,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
       "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 原生双 ISP",
@@ -1309,7 +1309,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/deisp",
       "finalUrl": "https://my.zorocloud.com/store/deisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "BGP 原生双 ISP",
@@ -1360,7 +1360,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -1417,7 +1417,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -1474,7 +1474,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -1531,7 +1531,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -1588,7 +1588,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -1645,7 +1645,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -1702,7 +1702,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
       "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "BGP 家宽住宅",
@@ -1753,7 +1753,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -1810,7 +1810,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -1867,7 +1867,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -1924,7 +1924,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -1981,7 +1981,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
       "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 原生双 ISP",
@@ -2033,7 +2033,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -2090,7 +2090,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -2147,7 +2147,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -2204,7 +2204,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -2261,7 +2261,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
       "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "NTT 原生双 ISP",
@@ -2312,7 +2312,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/deisp",
       "finalUrl": "https://my.zorocloud.com/store/deisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "BGP 原生双 ISP",
@@ -2363,7 +2363,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
       "finalUrl": "https://my.zorocloud.com/store/kr-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "BGP 原生双 ISP",
@@ -2414,7 +2414,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -2467,7 +2467,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -2520,7 +2520,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
       "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "BGP 家宽住宅",
@@ -2571,7 +2571,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -2629,7 +2629,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -2686,7 +2686,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -2743,7 +2743,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -2800,7 +2800,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -2857,7 +2857,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -2914,7 +2914,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -2971,7 +2971,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -3028,7 +3028,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -3085,7 +3085,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -3142,7 +3142,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -3199,7 +3199,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
       "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "NTT 原生双 ISP",
@@ -3250,7 +3250,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -3307,7 +3307,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -3364,7 +3364,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -3421,7 +3421,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
       "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 原生双 ISP",
@@ -3473,7 +3473,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -3530,7 +3530,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -3587,7 +3587,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -3644,7 +3644,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -3697,7 +3697,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -3750,7 +3750,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/deisp",
       "finalUrl": "https://my.zorocloud.com/store/deisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "BGP 原生双 ISP",
@@ -3801,7 +3801,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
       "finalUrl": "https://my.zorocloud.com/store/kr-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "BGP 原生双 ISP",
@@ -3852,7 +3852,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -3909,7 +3909,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
       "finalUrl": "https://my.zorocloud.com/store/hk-bgp-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "BGP 家宽住宅",
@@ -3960,7 +3960,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -4017,7 +4017,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
       "finalUrl": "https://my.zorocloud.com/store/jp-isp-ntt",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "NTT 原生双 ISP",
@@ -4068,7 +4068,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -4125,7 +4125,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -4182,7 +4182,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -4239,7 +4239,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -4296,7 +4296,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -4353,7 +4353,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -4410,7 +4410,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -4467,7 +4467,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -4524,7 +4524,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -4581,7 +4581,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -4638,7 +4638,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -4688,6 +4688,120 @@
       ]
     },
     {
+      "id": "zlidc-globe-dual-isp-seo-pid-680",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "CA-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$359.00 USD Monthly",
+      "priceValue": 359,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=680",
+      "evidence": "ZLIDC product-wrap order link found; pid=680",
+      "raw": {
+        "pid": "680",
+        "features": {},
+        "sourceCardIndex": 9
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-489",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "UK-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$359.00 USD Monthly",
+      "priceValue": 359,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=489",
+      "evidence": "ZLIDC product-wrap order link found; pid=489",
+      "raw": {
+        "pid": "489",
+        "features": {},
+        "sourceCardIndex": 16
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "zoro-uk-isp:store:uk-isp-ultra",
       "sourceId": "zoro-uk-isp",
       "provider": "ZoroCloud",
@@ -4695,7 +4809,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
       "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 原生双 ISP",
@@ -4747,7 +4861,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/kr-isp",
       "finalUrl": "https://my.zorocloud.com/store/kr-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "BGP 原生双 ISP",
@@ -4798,7 +4912,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -4855,7 +4969,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -4912,7 +5026,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -4969,7 +5083,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -5026,7 +5140,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -5083,7 +5197,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -5140,7 +5254,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -5197,7 +5311,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -5254,7 +5368,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -5311,7 +5425,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -5368,7 +5482,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -5425,7 +5539,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -5482,7 +5596,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -5539,7 +5653,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -5596,7 +5710,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -5653,7 +5767,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -5703,63 +5817,6 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-680",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "CA-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$399.00 USD Monthly",
-      "priceValue": 399,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=680",
-      "evidence": "ZLIDC product-wrap order link found; pid=680",
-      "raw": {
-        "pid": "680",
-        "features": {},
-        "sourceCardIndex": 9
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
       "id": "cstone-us-cuii-isp:store:cuii-isp-d",
       "sourceId": "cstone-us-cuii-isp",
       "provider": "CstoneCloud",
@@ -5767,7 +5824,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -5820,7 +5877,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -5866,6 +5923,120 @@
       ]
     },
     {
+      "id": "zlidc-globe-dual-isp-seo-pid-639",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "HK-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$439.00 USD Monthly",
+      "priceValue": 439,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=639",
+      "evidence": "ZLIDC product-wrap order link found; pid=639",
+      "raw": {
+        "pid": "639",
+        "features": {},
+        "sourceCardIndex": 2
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-689",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "DE-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$439.00 USD Monthly",
+      "priceValue": 439,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=689",
+      "evidence": "ZLIDC product-wrap order link found; pid=689",
+      "raw": {
+        "pid": "689",
+        "features": {},
+        "sourceCardIndex": 15
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-uk-residential-pid-173",
       "sourceId": "lisahost-uk-residential",
       "provider": "LisaHost",
@@ -5873,7 +6044,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -5930,7 +6101,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -5980,120 +6151,6 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-639",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "HK-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$469.00 USD Monthly",
-      "priceValue": 469,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=639",
-      "evidence": "ZLIDC product-wrap order link found; pid=639",
-      "raw": {
-        "pid": "639",
-        "features": {},
-        "sourceCardIndex": 2
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-689",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "DE-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$469.00 USD Monthly",
-      "priceValue": 469,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=689",
-      "evidence": "ZLIDC product-wrap order link found; pid=689",
-      "raw": {
-        "pid": "689",
-        "features": {},
-        "sourceCardIndex": 15
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
       "id": "lisahost-us-9929-residential-pid-62",
       "sourceId": "lisahost-us-9929-residential",
       "provider": "LisaHost",
@@ -6101,7 +6158,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -6158,7 +6215,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=38",
       "finalUrl": "https://lisahost.com/cart.php?gid=38",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "纽约双 ISP 家宽住宅",
@@ -6215,7 +6272,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=21",
       "finalUrl": "https://lisahost.com/cart.php?gid=21",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "芝加哥双 ISP 家宽住宅",
@@ -6272,7 +6329,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -6329,7 +6386,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -6379,6 +6436,63 @@
       ]
     },
     {
+      "id": "zlidc-globe-dual-isp-seo-pid-698",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "FR-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$499.00 USD Monthly",
+      "priceValue": 499,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=698",
+      "evidence": "ZLIDC product-wrap order link found; pid=698",
+      "raw": {
+        "pid": "698",
+        "features": {},
+        "sourceCardIndex": 8
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-cn2-gia-native-pid-9",
       "sourceId": "lisahost-us-cn2-gia-native",
       "provider": "LisaHost",
@@ -6386,7 +6500,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=10",
       "finalUrl": "https://lisahost.com/cart.php?gid=10",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CN2 GIA 原生 IP",
@@ -6436,120 +6550,6 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-698",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "FR-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$539.00 USD Monthly",
-      "priceValue": 539,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=698",
-      "evidence": "ZLIDC product-wrap order link found; pid=698",
-      "raw": {
-        "pid": "698",
-        "features": {},
-        "sourceCardIndex": 8
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-489",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "UK-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$539.00 USD Monthly",
-      "priceValue": 539,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=489",
-      "evidence": "ZLIDC product-wrap order link found; pid=489",
-      "raw": {
-        "pid": "489",
-        "features": {},
-        "sourceCardIndex": 16
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
       "id": "lisahost-hk-isp-premium-pid-175",
       "sourceId": "lisahost-hk-isp-premium",
       "provider": "LisaHost",
@@ -6557,7 +6557,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -6607,6 +6607,63 @@
       ]
     },
     {
+      "id": "zlidc-globe-dual-isp-seo-pid-718",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "NL-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$569.00 USD Monthly",
+      "priceValue": 569,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=718",
+      "evidence": "ZLIDC product-wrap order link found; pid=718",
+      "raw": {
+        "pid": "718",
+        "features": {},
+        "sourceCardIndex": 20
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-jp-native-bandwidth-pid-86",
       "sourceId": "lisahost-jp-native-bandwidth",
       "provider": "LisaHost",
@@ -6614,7 +6671,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -6671,7 +6728,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6728,7 +6785,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6785,7 +6842,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -6842,7 +6899,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -6904,7 +6961,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -6961,7 +7018,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -7018,7 +7075,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -7075,7 +7132,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -7132,7 +7189,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -7189,7 +7246,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -7246,7 +7303,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/cuvip-isp",
       "finalUrl": "https://my.zorocloud.com/store/cuvip-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "BGP 原生双 ISP",
@@ -7296,63 +7353,6 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-718",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "NL-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$619.00 USD Monthly",
-      "priceValue": 619,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=718",
-      "evidence": "ZLIDC product-wrap order link found; pid=718",
-      "raw": {
-        "pid": "718",
-        "features": {},
-        "sourceCardIndex": 20
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
       "id": "zoro-uk-isp:store:uk-isp-elite",
       "sourceId": "zoro-uk-isp",
       "provider": "ZoroCloud",
@@ -7360,7 +7360,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/uk-isp",
       "finalUrl": "https://my.zorocloud.com/store/uk-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 原生双 ISP",
@@ -7412,7 +7412,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -7462,6 +7462,291 @@
       ]
     },
     {
+      "id": "zlidc-globe-dual-isp-seo-pid-681",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "ZA-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$649.00 USD Monthly",
+      "priceValue": 649,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=681",
+      "evidence": "ZLIDC product-wrap order link found; pid=681",
+      "raw": {
+        "pid": "681",
+        "features": {},
+        "sourceCardIndex": 10
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-701",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "ES-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$649.00 USD Monthly",
+      "priceValue": 649,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=701",
+      "evidence": "ZLIDC product-wrap order link found; pid=701",
+      "raw": {
+        "pid": "701",
+        "features": {},
+        "sourceCardIndex": 23
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-722",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "AT-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$649.00 USD Monthly",
+      "priceValue": 649,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=722",
+      "evidence": "ZLIDC product-wrap order link found; pid=722",
+      "raw": {
+        "pid": "722",
+        "features": {},
+        "sourceCardIndex": 26
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-723",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "DK-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$649.00 USD Monthly",
+      "priceValue": 649,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=723",
+      "evidence": "ZLIDC product-wrap order link found; pid=723",
+      "raw": {
+        "pid": "723",
+        "features": {},
+        "sourceCardIndex": 28
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-706",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "IL-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$649.00 USD Monthly",
+      "priceValue": 649,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=706",
+      "evidence": "ZLIDC product-wrap order link found; pid=706",
+      "raw": {
+        "pid": "706",
+        "features": {},
+        "sourceCardIndex": 29
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
       "id": "lisahost-us-4837-residential-pid-49",
       "sourceId": "lisahost-us-4837-residential",
       "provider": "LisaHost",
@@ -7469,7 +7754,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -7526,7 +7811,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -7583,7 +7868,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -7640,7 +7925,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -7697,7 +7982,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -7754,7 +8039,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -7804,18 +8089,18 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-681",
+      "id": "zlidc-globe-dual-isp-seo-pid-497",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "ZA-ISP SEO",
+      "name": "TW-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
@@ -7824,12 +8109,12 @@
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=681",
-      "evidence": "ZLIDC product-wrap order link found; pid=681",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=497",
+      "evidence": "ZLIDC product-wrap order link found; pid=497",
       "raw": {
-        "pid": "681",
+        "pid": "497",
         "features": {},
-        "sourceCardIndex": 10
+        "sourceCardIndex": 3
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -7861,32 +8146,260 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-701",
+      "id": "zlidc-globe-dual-isp-seo-pid-699",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "ES-ISP SEO",
+      "name": "HU-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$699.00 USD Monthly",
-      "priceValue": 699,
+      "price": "$719.00 USD Monthly",
+      "priceValue": 719,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=701",
-      "evidence": "ZLIDC product-wrap order link found; pid=701",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=699",
+      "evidence": "ZLIDC product-wrap order link found; pid=699",
       "raw": {
-        "pid": "701",
+        "pid": "699",
         "features": {},
-        "sourceCardIndex": 23
+        "sourceCardIndex": 12
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-714",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "TR-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$719.00 USD Monthly",
+      "priceValue": 719,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=714",
+      "evidence": "ZLIDC product-wrap order link found; pid=714",
+      "raw": {
+        "pid": "714",
+        "features": {},
+        "sourceCardIndex": 21
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-704",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "AU-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$719.00 USD Monthly",
+      "priceValue": 719,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=704",
+      "evidence": "ZLIDC product-wrap order link found; pid=704",
+      "raw": {
+        "pid": "704",
+        "features": {},
+        "sourceCardIndex": 25
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-715",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "PL-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$719.00 USD Monthly",
+      "priceValue": 719,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=715",
+      "evidence": "ZLIDC product-wrap order link found; pid=715",
+      "raw": {
+        "pid": "715",
+        "features": {},
+        "sourceCardIndex": 27
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-682",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "ID-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$729.00 USD Monthly",
+      "priceValue": 729,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=682",
+      "evidence": "ZLIDC product-wrap order link found; pid=682",
+      "raw": {
+        "pid": "682",
+        "features": {},
+        "sourceCardIndex": 11
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -7925,7 +8438,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -7975,291 +8488,6 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-497",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "TW-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$779.00 USD Monthly",
-      "priceValue": 779,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=497",
-      "evidence": "ZLIDC product-wrap order link found; pid=497",
-      "raw": {
-        "pid": "497",
-        "features": {},
-        "sourceCardIndex": 3
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-682",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "ID-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$779.00 USD Monthly",
-      "priceValue": 779,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=682",
-      "evidence": "ZLIDC product-wrap order link found; pid=682",
-      "raw": {
-        "pid": "682",
-        "features": {},
-        "sourceCardIndex": 11
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-699",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "HU-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$779.00 USD Monthly",
-      "priceValue": 779,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=699",
-      "evidence": "ZLIDC product-wrap order link found; pid=699",
-      "raw": {
-        "pid": "699",
-        "features": {},
-        "sourceCardIndex": 12
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-714",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "TR-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$779.00 USD Monthly",
-      "priceValue": 779,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=714",
-      "evidence": "ZLIDC product-wrap order link found; pid=714",
-      "raw": {
-        "pid": "714",
-        "features": {},
-        "sourceCardIndex": 21
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-704",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "AU-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$779.00 USD Monthly",
-      "priceValue": 779,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=704",
-      "evidence": "ZLIDC product-wrap order link found; pid=704",
-      "raw": {
-        "pid": "704",
-        "features": {},
-        "sourceCardIndex": 25
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
       "id": "cstone-us-cuii-isp:store:cuii-isp-e",
       "sourceId": "cstone-us-cuii-isp",
       "provider": "CstoneCloud",
@@ -8267,7 +8495,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
       "finalUrl": "https://www.cstonecloud.com/store/cuii9929-isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "CUII 9929 住宅双 ISP",
@@ -8320,7 +8548,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://www.cstonecloud.com/store/ukbgpisp",
       "finalUrl": "https://www.cstonecloud.com/store/ukbgpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "BGP 住宅双 ISP",
@@ -8373,7 +8601,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -8423,32 +8651,32 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-722",
+      "id": "zlidc-globe-dual-isp-seo-pid-705",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "MO-ISP SEO",
+      "name": "BG-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$800.00 USD Monthly",
-      "priceValue": 800,
+      "price": "$859.00 USD Monthly",
+      "priceValue": 859,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=722",
-      "evidence": "ZLIDC product-wrap order link found; pid=722",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=705",
+      "evidence": "ZLIDC product-wrap order link found; pid=705",
       "raw": {
-        "pid": "722",
+        "pid": "705",
         "features": {},
-        "sourceCardIndex": 26
+        "sourceCardIndex": 22
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -8487,7 +8715,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=15",
       "finalUrl": "https://lisahost.com/cart.php?gid=15",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "新加坡",
       "route": "原生 IP",
@@ -8544,7 +8772,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -8601,7 +8829,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -8658,7 +8886,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -8715,7 +8943,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=33",
       "finalUrl": "https://lisahost.com/cart.php?gid=33",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "静态住宅 IP 家庭宽带 VDS",
@@ -8772,7 +9000,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -8834,7 +9062,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -8891,7 +9119,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -8948,7 +9176,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=17",
       "finalUrl": "https://lisahost.com/cart.php?gid=17",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet 双 ISP 动态住宅 IP",
@@ -9005,7 +9233,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -9062,7 +9290,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -9119,7 +9347,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -9176,7 +9404,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -9233,7 +9461,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -9283,32 +9511,146 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-705",
+      "id": "zlidc-globe-dual-isp-seo-pid-695",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "BG-ISP SEO",
+      "name": "JP-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$929.00 USD Monthly",
-      "priceValue": 929,
+      "price": "$939.00 USD Monthly",
+      "priceValue": 939,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=705",
-      "evidence": "ZLIDC product-wrap order link found; pid=705",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=695",
+      "evidence": "ZLIDC product-wrap order link found; pid=695",
       "raw": {
-        "pid": "705",
+        "pid": "695",
         "features": {},
-        "sourceCardIndex": 22
+        "sourceCardIndex": 4
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-686",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "BR-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$939.00 USD Monthly",
+      "priceValue": 939,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=686",
+      "evidence": "ZLIDC product-wrap order link found; pid=686",
+      "raw": {
+        "pid": "686",
+        "features": {},
+        "sourceCardIndex": 6
+      },
+      "evidenceLevel": {
+        "value": "official-order",
+        "label": "官方订购入口",
+        "className": "is-official",
+        "rank": 2
+      },
+      "riskTags": [
+        {
+          "value": "order-only",
+          "label": "仅证明可下单",
+          "severity": "medium"
+        },
+        {
+          "value": "stock-unstated",
+          "label": "库存未明示",
+          "severity": "medium"
+        },
+        {
+          "value": "incomplete-fields",
+          "label": "字段不完整",
+          "severity": "medium"
+        },
+        {
+          "value": "manual-confirm",
+          "label": "需客服确认",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "zlidc-globe-dual-isp-seo-pid-683",
+      "sourceId": "zlidc-globe-dual-isp-seo",
+      "provider": "ZLIDC",
+      "category": "home",
+      "adapter": "zlidc_product_wrap",
+      "sourceUrl": "https://zlidc.net/cart.php",
+      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
+      "httpStatus": 200,
+      "region": "全球",
+      "route": "Dual ISP SEO / ISP",
+      "name": "IN-ISP SEO",
+      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
+      "hardware": null,
+      "bandwidth": null,
+      "price": "$939.00 USD Monthly",
+      "priceValue": 939,
+      "status": "available",
+      "statusLabel": "可订购",
+      "stockCount": null,
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=683",
+      "evidence": "ZLIDC product-wrap order link found; pid=683",
+      "raw": {
+        "pid": "683",
+        "features": {},
+        "sourceCardIndex": 18
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -9347,7 +9689,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=35",
       "finalUrl": "https://lisahost.com/cart.php?gid=35",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "4837 双 ISP 家宽住宅",
@@ -9404,7 +9746,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -9461,7 +9803,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -9511,32 +9853,32 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-695",
+      "id": "zlidc-globe-dual-isp-seo-pid-500",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "JP-ISP SEO",
+      "name": "VN-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,009.00 USD Monthly",
-      "priceValue": 1009,
+      "price": "$1,079.00 USD Monthly",
+      "priceValue": 1079,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=695",
-      "evidence": "ZLIDC product-wrap order link found; pid=695",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=500",
+      "evidence": "ZLIDC product-wrap order link found; pid=500",
       "raw": {
-        "pid": "695",
+        "pid": "500",
         "features": {},
-        "sourceCardIndex": 4
+        "sourceCardIndex": 5
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -9568,146 +9910,32 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-686",
+      "id": "zlidc-globe-dual-isp-seo-pid-717",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "BR-ISP SEO",
+      "name": "TH-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,009.00 USD Monthly",
-      "priceValue": 1009,
+      "price": "$1,079.00 USD Monthly",
+      "priceValue": 1079,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=686",
-      "evidence": "ZLIDC product-wrap order link found; pid=686",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=717",
+      "evidence": "ZLIDC product-wrap order link found; pid=717",
       "raw": {
-        "pid": "686",
+        "pid": "717",
         "features": {},
-        "sourceCardIndex": 6
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-702",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "MY-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,009.00 USD Monthly",
-      "priceValue": 1009,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=702",
-      "evidence": "ZLIDC product-wrap order link found; pid=702",
-      "raw": {
-        "pid": "702",
-        "features": {},
-        "sourceCardIndex": 7
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-683",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "IN-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,009.00 USD Monthly",
-      "priceValue": 1009,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=683",
-      "evidence": "ZLIDC product-wrap order link found; pid=683",
-      "raw": {
-        "pid": "683",
-        "features": {},
-        "sourceCardIndex": 18
+        "sourceCardIndex": 14
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -9746,7 +9974,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -9754,8 +9982,8 @@
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,009.00 USD Monthly",
-      "priceValue": 1009,
+      "price": "$1,079.00 USD Monthly",
+      "priceValue": 1079,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
@@ -9803,7 +10031,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -9860,7 +10088,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -9917,7 +10145,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -9974,7 +10202,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -10024,260 +10252,32 @@
       ]
     },
     {
-      "id": "zlidc-globe-dual-isp-seo-pid-500",
+      "id": "zlidc-globe-dual-isp-seo-pid-702",
       "sourceId": "zlidc-globe-dual-isp-seo",
       "provider": "ZLIDC",
       "category": "home",
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
-      "name": "VN-ISP SEO",
+      "name": "MY-ISP SEO",
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,159.00 USD Monthly",
-      "priceValue": 1159,
+      "price": "$1,149.00 USD Monthly",
+      "priceValue": 1149,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=500",
-      "evidence": "ZLIDC product-wrap order link found; pid=500",
+      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=702",
+      "evidence": "ZLIDC product-wrap order link found; pid=702",
       "raw": {
-        "pid": "500",
+        "pid": "702",
         "features": {},
-        "sourceCardIndex": 5
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-717",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "TH-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,159.00 USD Monthly",
-      "priceValue": 1159,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=717",
-      "evidence": "ZLIDC product-wrap order link found; pid=717",
-      "raw": {
-        "pid": "717",
-        "features": {},
-        "sourceCardIndex": 14
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-715",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "PL-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,200.00 USD Monthly",
-      "priceValue": 1200,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=715",
-      "evidence": "ZLIDC product-wrap order link found; pid=715",
-      "raw": {
-        "pid": "715",
-        "features": {},
-        "sourceCardIndex": 27
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-723",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "LV-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,200.00 USD Monthly",
-      "priceValue": 1200,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=723",
-      "evidence": "ZLIDC product-wrap order link found; pid=723",
-      "raw": {
-        "pid": "723",
-        "features": {},
-        "sourceCardIndex": 28
-      },
-      "evidenceLevel": {
-        "value": "official-order",
-        "label": "官方订购入口",
-        "className": "is-official",
-        "rank": 2
-      },
-      "riskTags": [
-        {
-          "value": "order-only",
-          "label": "仅证明可下单",
-          "severity": "medium"
-        },
-        {
-          "value": "stock-unstated",
-          "label": "库存未明示",
-          "severity": "medium"
-        },
-        {
-          "value": "incomplete-fields",
-          "label": "字段不完整",
-          "severity": "medium"
-        },
-        {
-          "value": "manual-confirm",
-          "label": "需客服确认",
-          "severity": "medium"
-        }
-      ]
-    },
-    {
-      "id": "zlidc-globe-dual-isp-seo-pid-706",
-      "sourceId": "zlidc-globe-dual-isp-seo",
-      "provider": "ZLIDC",
-      "category": "home",
-      "adapter": "zlidc_product_wrap",
-      "sourceUrl": "https://zlidc.net/cart.php",
-      "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
-      "httpStatus": 200,
-      "region": "全球",
-      "route": "Dual ISP SEO / ISP",
-      "name": "IL-ISP SEO",
-      "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
-      "hardware": null,
-      "bandwidth": null,
-      "price": "$1,200.00 USD Monthly",
-      "priceValue": 1200,
-      "status": "available",
-      "statusLabel": "可订购",
-      "stockCount": null,
-      "orderUrl": "https://zlidc.net/cart.php?a=add&pid=706",
-      "evidence": "ZLIDC product-wrap order link found; pid=706",
-      "raw": {
-        "pid": "706",
-        "features": {},
-        "sourceCardIndex": 29
+        "sourceCardIndex": 7
       },
       "evidenceLevel": {
         "value": "official-order",
@@ -10316,7 +10316,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -10324,8 +10324,8 @@
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,239.00 USD Monthly",
-      "priceValue": 1239,
+      "price": "$1,149.00 USD Monthly",
+      "priceValue": 1149,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
@@ -10373,7 +10373,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -10381,8 +10381,8 @@
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,239.00 USD Monthly",
-      "priceValue": 1239,
+      "price": "$1,149.00 USD Monthly",
+      "priceValue": 1149,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
@@ -10430,7 +10430,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=12",
       "finalUrl": "https://lisahost.com/cart.php?gid=12",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 双 ISP 家宽住宅",
@@ -10487,7 +10487,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -10549,7 +10549,7 @@
       "adapter": "zlidc_product_wrap",
       "sourceUrl": "https://zlidc.net/cart.php",
       "finalUrl": "https://zlidc.net/store/globe-isp-servers",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "全球",
       "route": "Dual ISP SEO / ISP",
@@ -10557,8 +10557,8 @@
       "note": "ZLIDC SEO/ISP product page; stock may require support confirmation for pre-order products",
       "hardware": null,
       "bandwidth": null,
-      "price": "$1,469.00 USD Monthly",
-      "priceValue": 1469,
+      "price": "$1,359.00 USD Monthly",
+      "priceValue": 1359,
       "status": "available",
       "statusLabel": "可订购",
       "stockCount": null,
@@ -10606,7 +10606,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=14",
       "finalUrl": "https://lisahost.com/cart.php?gid=14",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "英国",
       "route": "双 ISP 住宅 IP",
@@ -10663,7 +10663,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=13",
       "finalUrl": "https://lisahost.com/cart.php?gid=13",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "原生 IP 大带宽",
@@ -10720,7 +10720,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=24",
       "finalUrl": "https://lisahost.com/cart.php?gid=24",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VDS",
@@ -10777,7 +10777,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=36",
       "finalUrl": "https://lisahost.com/cart.php?gid=36",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "原生 IP 大带宽 VPS",
@@ -10834,7 +10834,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=23",
       "finalUrl": "https://lisahost.com/cart.php?gid=23",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "韩国",
       "route": "双 ISP 家庭宽带住宅 IP",
@@ -10891,7 +10891,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=31",
       "finalUrl": "https://lisahost.com/cart.php?gid=31",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "9929 二期原生 IP",
@@ -10948,7 +10948,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=39",
       "finalUrl": "https://lisahost.com/cart.php?gid=39",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "iCable 双 ISP 住宅 IP",
@@ -11005,7 +11005,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=18",
       "finalUrl": "https://lisahost.com/cart.php?gid=18",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "HGC 双 ISP 住宅 IP",
@@ -11062,7 +11062,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=25",
       "finalUrl": "https://lisahost.com/cart.php?gid=25",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "IIJ 双 ISP 静态住宅 IP",
@@ -11119,7 +11119,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=37",
       "finalUrl": "https://lisahost.com/cart.php?gid=37",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "ISP 静态住宅 IP",
@@ -11176,7 +11176,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=22",
       "finalUrl": "https://lisahost.com/cart.php?gid=22",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "德国",
       "route": "双 ISP 原生住宅 IP",
@@ -11233,7 +11233,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=16",
       "finalUrl": "https://lisahost.com/cart.php?gid=16",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "越南",
       "route": "双 ISP 原生住宅 IP",
@@ -11290,7 +11290,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=11",
       "finalUrl": "https://lisahost.com/cart.php?gid=11",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "香港",
       "route": "CMI / CU2 / CN2 精品网络 ISP IP",
@@ -11347,7 +11347,7 @@
       "adapter": "whmcs_group",
       "sourceUrl": "https://lisahost.com/cart.php?gid=34",
       "finalUrl": "https://lisahost.com/cart.php?gid=34",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "家宽住宅 IP NAT",
@@ -11409,7 +11409,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/rbn",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "47.148.171.153 , 47.148.209.155",
@@ -11493,7 +11493,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11505,7 +11505,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11517,7 +11517,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11529,7 +11529,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11577,7 +11577,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 28980,
+            "bytes": 28959,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -11658,7 +11658,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/rbn",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "60.157.123.163 , 126.12.105.61",
@@ -11742,7 +11742,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11754,7 +11754,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11766,7 +11766,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11778,7 +11778,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -11826,7 +11826,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 28980,
+            "bytes": 28959,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -11907,7 +11907,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jpisp",
       "finalUrl": "https://my.zorocloud.com/store/jpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "家宽住宅",
@@ -11953,7 +11953,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/mysisp",
       "finalUrl": "https://my.zorocloud.com/store/mysisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "马来西亚",
       "route": "BGP 家宽住宅",
@@ -11999,7 +11999,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jpisp",
       "finalUrl": "https://my.zorocloud.com/store/jpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "家宽住宅",
@@ -12045,7 +12045,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/mysisp",
       "finalUrl": "https://my.zorocloud.com/store/mysisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "马来西亚",
       "route": "BGP 家宽住宅",
@@ -12091,7 +12091,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/mysisp",
       "finalUrl": "https://my.zorocloud.com/store/mysisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "马来西亚",
       "route": "BGP 家宽住宅",
@@ -12137,7 +12137,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://polocloud.net/index.php?rp=/store/hinet-vds",
       "finalUrl": "https://polocloud.net/index.php?rp=/store/hinet-vds",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "台湾",
       "route": "HiNet VDS 动态 IP",
@@ -12190,7 +12190,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jpisp",
       "finalUrl": "https://my.zorocloud.com/store/jpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "家宽住宅",
@@ -12236,7 +12236,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://my.zorocloud.com/store/jpisp",
       "finalUrl": "https://my.zorocloud.com/store/jpisp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "日本",
       "route": "家宽住宅",
@@ -12282,7 +12282,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/srv?language=english",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "住宅家宽",
@@ -12364,7 +12364,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12376,7 +12376,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12388,7 +12388,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12400,7 +12400,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12448,7 +12448,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 28980,
+            "bytes": 28959,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -12519,7 +12519,7 @@
       "adapter": "aaitr_store",
       "sourceUrl": "https://www.aaitr.com/store/srv",
       "finalUrl": "https://r.jina.ai/https://www.aaitr.com/store/srv?language=english",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国 / 日本",
       "route": "住宅家宽",
@@ -12601,7 +12601,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12613,7 +12613,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12625,7 +12625,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12637,7 +12637,7 @@
             "httpStatus": 403,
             "ok": false,
             "via": "http",
-            "bytes": 5663,
+            "bytes": 5685,
             "outcome": "blocked",
             "note": "anti-bot challenge",
             "title": "Just a moment..."
@@ -12685,7 +12685,7 @@
             "httpStatus": null,
             "ok": true,
             "via": "headless_chrome",
-            "bytes": 28980,
+            "bytes": 28959,
             "outcome": "blocked",
             "note": "rendered anti-bot challenge",
             "title": "Just a moment..."
@@ -12756,7 +12756,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://xuezhangvps.shop/index.php/store/isp",
       "finalUrl": "https://xuezhangvps.shop/index.php/store/isp",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 403,
       "region": "日本",
       "route": "住宅双 ISP",
@@ -12803,7 +12803,7 @@
       "adapter": "lagom_product_list",
       "sourceUrl": "https://xuezhangvps.shop/index.php/store/jphomevps",
       "finalUrl": "https://xuezhangvps.shop/index.php/store/jphomevps",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 403,
       "region": "日本",
       "route": "真家宽 NAT / 双 ISP",
@@ -12855,7 +12855,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/1",
       "finalUrl": "https://www.nodemach.com/products/1",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "AT&T 住宅宽带",
@@ -12902,7 +12902,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/2",
       "finalUrl": "https://www.nodemach.com/products/2",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "专线隧道",
@@ -12949,7 +12949,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/4",
       "finalUrl": "https://www.nodemach.com/products/4",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "AT&T 住宅宽带",
@@ -12996,7 +12996,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/5",
       "finalUrl": "https://www.nodemach.com/products/5",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "AT&T / Frontier 住宅宽带",
@@ -13043,7 +13043,7 @@
       "adapter": "vircs_inertia_product",
       "sourceUrl": "https://www.vircs.com/products/6",
       "finalUrl": "https://www.nodemach.com/products/6",
-      "fetchedAt": "2026-10-13T01:08:50.933Z",
+      "fetchedAt": "2026-10-13T08:11:36.964Z",
       "httpStatus": 200,
       "region": "美国",
       "route": "AT&T / Frontier 住宅宽带",
