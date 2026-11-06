@@ -928,4 +928,3 @@ mkdirSync("data", { recursive: true });
 writeFileSync("data/products.json", `${JSON.stringify(payload, null, 2)}\n`);
 console.log(`Wrote data/products.json with ${products.length} records`);
 console.log(JSON.stringify(summary));
-
