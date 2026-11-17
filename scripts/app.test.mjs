@@ -11,13 +11,14 @@ function installPage(t) {
   const handlers = new WeakMap();
   const styles = new WeakMap();
   const frames = new Map();
+  const intervals = new Map();
   let nextFrame = 0;
   const globals = {
     document,
     window: { location: { href: "https://example.invalid/" }, addEventListener() {} },
     HTMLSelectElement: class { static [Symbol.hasInstance](node) { return node.tagName === "SELECT"; } },
     requestAnimationFrame(callback) { frames.set(++nextFrame, callback); return nextFrame; },
-    setInterval() {}
+    setInterval(callback, delay) { intervals.set(delay, callback); }
   };
   for (const [name, value] of Object.entries(globals)) {
     const original = Object.getOwnPropertyDescriptor(globalThis, name);
@@ -41,6 +42,7 @@ function installPage(t) {
     document,
     text: (selector) => document.querySelector(selector).textContent.trim(),
     click(selector) { const node = document.querySelector(selector); handlers.get(node).click({ target: node }); },
+    tick(delay) { intervals.get(delay)(); },
     finishAnimations() {
       const callbacks = [...frames.values()];
       frames.clear();
@@ -60,7 +62,8 @@ function assertUnavailable(page) {
   assert.ok(page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));
   assert.equal(page.text("[data-trust-state]"), "本站监控数据不可用");
   assert.equal(page.text("[data-trust-freshness]"), "当前库存未知");
-  assert.equal(page.text("[data-monitor-summary]"), "当前库存未知");
+  assert.equal(page.text("[data-monitor-summary]"), "监控数据不可用");
+  assert.equal(page.text("[data-evidence-summary]"), "-");
   for (const selector of ["[data-products]", "[data-mobile-products]"]) {
     assert.match(page.text(selector), /本站监控数据加载失败/);
     assert.doesNotMatch(page.text(selector), /Synthetic product/);
@@ -73,19 +76,21 @@ function assertUnavailable(page) {
 
 test("site data loading, errors, and repeated refreshes stay consistent", async (t) => {
   const page = installPage(t);
+  let now = Date.parse(payload.generatedAt);
+  t.mock.method(Date, "now", () => now);
   const requests = [];
   t.mock.method(globalThis, "fetch", (url, options) => {
     assert.match(url, /^data\/products\.json\?t=\d+$/);
     assert.equal(options.cache, "no-store");
     return new Promise((resolve, reject) => requests.push({ resolve, reject }));
   });
-  const settle = async (kind) => {
+  const settle = async (kind, responsePayload = payload) => {
     const request = requests.shift();
     assert.ok(request);
     if (kind === "network") request.reject(new TypeError("Failed to fetch"));
     else if (kind === "http") request.resolve(new Response("Unavailable", { status: 503 }));
     else if (kind === "json") request.resolve(new Response("{invalid"));
-    else request.resolve(new Response(JSON.stringify(payload)));
+    else request.resolve(new Response(JSON.stringify(responsePayload)));
     await new Promise(setImmediate);
   };
   const assertLoading = () => {
@@ -97,7 +102,7 @@ test("site data loading, errors, and repeated refreshes stay consistent", async 
   };
   const assertSuccess = () => {
     page.finishAnimations();
-    assert.equal(page.text("[data-monitor-status]"), "监控正常");
+    assert.equal(page.text("[data-monitor-status]"), "监控快照已加载");
     assert.ok(!page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));
     assert.equal(page.text("[data-stat-total]"), "1");
     assert.equal(page.text("[data-stat-unavailable]"), "0");
@@ -132,5 +137,55 @@ test("site data loading, errors, and repeated refreshes stay consistent", async 
   page.click("[data-refresh]");
   await settle("success");
   await t.test("a later success clears the error and warning", assertSuccess);
+
+  await t.test("the displayed snapshot ages without a reload and expires at two hours", () => {
+    now += 119 * 60_000;
+    page.tick(60_000);
+    assert.equal(page.text("[data-trust-age]"), "1 小时前");
+    assert.equal(page.text("[data-trust-freshness]"), "已发布快照");
+    now += 60_000;
+    page.tick(60_000);
+    assert.equal(page.text("[data-trust-age]"), "2 小时前");
+    assert.equal(page.text("[data-trust-freshness]"), "快照已过期");
+    assert.equal(page.text("[data-monitor-status]"), "快照已过期");
+    assert.ok(page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));
+    assert.match(page.text("[data-products]"), /Synthetic product/);
+    assert.equal(requests.length, 0);
+  });
+
+  await t.test("unknown or future timestamps never appear current", async () => {
+    for (const invalid of [undefined, "invalid", new Date(now + 60_000).toISOString()]) {
+      page.click("[data-refresh]");
+      await settle("success", { ...payload, generatedAt: invalid });
+      assert.equal(page.text("[data-trust-age]"), "未知");
+      assert.equal(page.text("[data-sync]"), "-");
+      assert.equal(page.text("[data-monitor-status]"), "快照时间未知");
+      assert.ok(page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));
+      assert.match(page.text("[data-products]"), /Synthetic product/);
+    }
+  });
+
+  await t.test("fresh data separates order entries, precise stock, snapshots, and source errors", async () => {
+    const product = payload.products[0];
+    const products = [product,
+      { ...product, id: "order-only", stockCount: null },
+      { ...product, id: "snapshot", evidenceLevel: { value: "snapshot", label: "第三方快照", className: "is-snapshot" } },
+      { ...product, id: "failed", status: "error", stockCount: null, orderUrl: null }
+    ];
+    page.click("[data-refresh]");
+    await settle("success", {
+      ...payload,
+      generatedAt: new Date(now).toISOString(),
+      summary: { ...payload.summary, total: 4, available: 3, error: 1 },
+      products
+    });
+    assert.equal(page.text("[data-monitor-status]"), "监控有异常源");
+    assert.equal(page.text("[data-monitor-summary]"), "直连受阻 0 条 · 抓取失败 1 条");
+    assert.equal(page.text("[data-evidence-summary]"), "精确库存 1 条 · 官方订购入口 1 条 · 第三方快照 1 条 · 待核验 0 条");
+    assert.equal(page.text("[data-trust-age]"), "刚刚更新");
+    assert.equal(page.text("[data-trust-freshness]"), "已发布快照");
+    const rowBadges = [...page.document.querySelectorAll("[data-products] .chip-evidence")].map((node) => node.textContent.trim());
+    assert.deepEqual(rowBadges.sort(), ["官方订购入口", "抓取失败", "精确库存 3", "第三方快照"].sort());
+  });
   assert.equal(requests.length, 0);
 });

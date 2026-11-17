@@ -41,14 +41,16 @@ export function normalizeSearch(value) {
   return text(value, "").normalize("NFKC").toLocaleLowerCase("zh-CN");
 }
 
-export function formatRelativeAge(value) {
-  if (!value) return "未知";
-  const date = new Date(value);
-  const timestamp = date.getTime();
-  if (Number.isNaN(timestamp)) return "未知";
-  const diffMs = Date.now() - timestamp;
-  if (diffMs < 0) return "刚刚更新";
-  const minutes = Math.floor(diffMs / 60000);
+export function timestampAgeMs(value, now = Date.now()) {
+  if (typeof value !== "string" || !value) return null;
+  const ageMs = now - Date.parse(value);
+  return Number.isFinite(ageMs) && ageMs >= 0 ? ageMs : null;
+}
+
+export function formatRelativeAge(value, now = Date.now()) {
+  const ageMs = timestampAgeMs(value, now);
+  if (ageMs === null) return "未知";
+  const minutes = Math.floor(ageMs / 60000);
   if (minutes < 1) return "刚刚更新";
   if (minutes < 60) return `${minutes} 分钟前`;
   const hours = Math.floor(minutes / 60);
