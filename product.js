@@ -162,6 +162,8 @@ export function stableCompare(a, b) {
   return a._stableKey.localeCompare(b._stableKey, "zh-CN");
 }
 
+const evidenceLevels = new Set(["stock-count", "official-order", "snapshot", "unavailable", "blocked", "error", "unverified"]);
+
 export function normalizeProduct(product, index) {
   const ipType = inferIpType(product);
   const normalized = {
@@ -171,7 +173,12 @@ export function normalizeProduct(product, index) {
     _ipType: ipType,
     _searchText: searchableText(product)
   };
-  normalized._evidenceBadge = evidenceBadge(normalized);
+  const evidence = product.evidenceLevel;
+  normalized._evidenceBadge = evidenceLevels.has(evidence?.value)
+    && typeof evidence.label === "string" && evidence.label.trim()
+    && typeof evidence.className === "string" && evidence.className.trim()
+    ? evidence
+    : evidenceBadge(normalized);
   return normalized;
 }
 
