@@ -138,14 +138,21 @@ test("site data loading, errors, and repeated refreshes stay consistent", async 
   await settle("success");
   await t.test("a later success clears the error and warning", assertSuccess);
 
-  await t.test("the displayed snapshot ages without a reload and expires at two hours", () => {
-    now += 119 * 60_000;
+  await t.test("the displayed snapshot ages without a reload and expires at 18 hours", () => {
+    // Longest observed gap between scheduled monitor runs: 11 h 47 m.
+    now += (11 * 60 + 47) * 60_000;
     page.tick(60_000);
-    assert.equal(page.text("[data-trust-age]"), "1 小时前");
+    assert.equal(page.text("[data-trust-age]"), "11 小时前");
+    assert.equal(page.text("[data-trust-freshness]"), "已发布快照");
+    assert.equal(page.text("[data-monitor-status]"), "监控快照已加载");
+    assert.ok(!page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));
+    now += (6 * 60 + 12) * 60_000;
+    page.tick(60_000);
+    assert.equal(page.text("[data-trust-age]"), "17 小时前");
     assert.equal(page.text("[data-trust-freshness]"), "已发布快照");
     now += 60_000;
     page.tick(60_000);
-    assert.equal(page.text("[data-trust-age]"), "2 小时前");
+    assert.equal(page.text("[data-trust-age]"), "18 小时前");
     assert.equal(page.text("[data-trust-freshness]"), "快照已过期");
     assert.equal(page.text("[data-monitor-status]"), "快照已过期");
     assert.ok(page.document.querySelector("[data-monitor-status]").classList.contains("has-warning"));

@@ -4,7 +4,10 @@ import { statusLabels, categoryNames, ipTypeCategories, ipTypeOrder, priceBands,
 import { filterBaseProducts, visibleProducts } from "./filter.js";
 
 let dataLoadError = "";
-const snapshotStaleAfterMs = 2 * 60 * 60 * 1000;
+// GitHub delays the */30 schedule: from 2026-10-28 to 2026-11-24, 100 scheduled
+// monitor runs were 3.3-11.8 h apart (median 6.6 h). 18 h stays quiet for a
+// normal delayed run and flags a snapshot once a run has clearly been missed.
+const snapshotStaleAfterMs = 18 * 60 * 60 * 1000;
 
 function toggleTheme() {
   const current = document.documentElement.getAttribute("data-theme");
