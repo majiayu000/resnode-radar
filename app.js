@@ -1,9 +1,13 @@
 import { state } from "./state.js";
-import { setText, setHidden, countUp, refreshClock, debounce, formatDateTime, formatRelativeAge, text, escapeHtml, safeUrl } from "./util.js";
+import { setText, setHidden, countUp, refreshClock, debounce, formatDateTime, formatRelativeAge, timestampAgeMs, text, escapeHtml, safeUrl } from "./util.js";
 import { statusLabels, categoryNames, ipTypeCategories, ipTypeOrder, priceBands, statusClass, statusRank, normalizeProduct, priceBandFor, numericStockCount } from "./product.js";
 import { filterBaseProducts, visibleProducts } from "./filter.js";
 
 let dataLoadError = "";
+// GitHub delays the */30 schedule: from 2026-10-28 to 2026-11-24, 100 scheduled
+// monitor runs were 3.3-11.8 h apart (median 6.6 h). 18 h stays quiet for a
+// normal delayed run and flags a snapshot once a run has clearly been missed.
+const snapshotStaleAfterMs = 18 * 60 * 60 * 1000;
 
 function toggleTheme() {
   const current = document.documentElement.getAttribute("data-theme");
@@ -319,18 +323,29 @@ function renderCounts() {
   renderIpDist();
 }
 
-function renderSummary() {
-  setText("[data-sync]", state.payload ? formatDateTime(state.payload.generatedAt) : "-");
-  setText(
-    "[data-monitor-summary]",
-    state.payload
-      ? `来源 ${state.payload.sourceCount} 个，记录 ${state.payload.summary.total} 条，可订购 ${state.payload.summary.available ?? 0} 条，不可订购 ${state.payload.summary.unavailable ?? 0} 条，被阻断 ${state.payload.summary.blocked ?? 0} 条，失败 ${state.payload.summary.error ?? 0} 条。`
-      : dataLoadError || "监控数据尚未加载。"
-  );
+function renderFreshness() {
+  if (!state.payload) return;
+  const { generatedAt, summary } = state.payload;
+  const now = Date.now();
+  const ageMs = timestampAgeMs(generatedAt, now);
+  const timeUnknown = ageMs === null;
+  const stale = !timeUnknown && ageMs >= snapshotStaleAfterMs;
+  const sourceProblems = (summary.blocked ?? 0) + (summary.error ?? 0) > 0;
+  const freshness = timeUnknown ? "快照时间未知" : stale ? "快照已过期" : "已发布快照";
+  const statusText = timeUnknown || stale ? freshness : sourceProblems ? "监控有异常源" : "监控快照已加载";
 
-  const statusNodes = document.querySelectorAll("[data-monitor-status]");
+  setText("[data-sync]", timeUnknown ? "-" : formatDateTime(generatedAt));
+  setText("[data-trust-age]", formatRelativeAge(generatedAt, now));
+  setText("[data-trust-freshness]", freshness);
+  document.querySelectorAll("[data-monitor-status]").forEach((status) => {
+    status.textContent = statusText;
+    status.classList.toggle("has-warning", timeUnknown || stale || sourceProblems);
+  });
+}
+
+function renderSummary() {
   if (!state.payload) {
-    statusNodes.forEach((status) => {
+    document.querySelectorAll("[data-monitor-status]").forEach((status) => {
       status.textContent = dataLoadError ? "本站数据加载失败" : "加载监控数据中";
       status.classList.toggle("has-warning", Boolean(dataLoadError));
     });
@@ -338,7 +353,10 @@ function renderSummary() {
     setText("[data-stat-available]", "-");
     setText("[data-stat-unavailable]", "-");
     setText("[data-stat-sources]", "-");
-    setText("[data-trust-state]", dataLoadError ? "本站监控数据不可用" : "等待真实监控数据");
+    setText("[data-sync]", "-");
+    setText("[data-trust-state]", dataLoadError ? "本站监控数据不可用" : "等待监控数据");
+    setText("[data-evidence-summary]", "-");
+    setText("[data-monitor-summary]", dataLoadError ? "监控数据不可用" : "监控数据尚未加载。");
     setText("[data-trust-age]", "-");
     setText("[data-trust-freshness]", dataLoadError ? "当前库存未知" : "加载中");
     renderRing();
@@ -350,25 +368,21 @@ function renderSummary() {
   countUp(document.querySelector("[data-stat-unavailable]"), state.payload.summary.unavailable ?? 0);
   countUp(document.querySelector("[data-stat-sources]"), state.payload.sourceCount);
 
-  const directProblems = (state.payload.summary.blocked ?? 0) + (state.payload.summary.error ?? 0);
-  const snapshotCount = state.products.filter((product) => product._evidenceBadge.value === "snapshot").length;
-  const unavailableCount = state.products.filter((product) => product.status === "unavailable").length;
-  const hasProblems = directProblems > 0;
-  statusNodes.forEach((status) => {
-    status.textContent = hasProblems ? "监控有异常源" : "监控正常";
-    status.classList.toggle("has-warning", hasProblems);
-  });
-
-  setText("[data-trust-state]", `已加载 ${state.products.length} 条真实记录`);
-  setText("[data-trust-age]", formatRelativeAge(state.payload.generatedAt));
-  setText(
-    "[data-trust-freshness]",
-    snapshotCount > 0
-      ? `${snapshotCount} 条第三方快照需复核`
-      : unavailableCount > 0
-        ? `${unavailableCount} 条不可订购`
-        : "官方入口可核验"
-  );
+  const { summary } = state.payload;
+  const evidenceCounts = new Map();
+  for (const product of state.products) {
+    const level = product._evidenceBadge.value;
+    evidenceCounts.set(level, (evidenceCounts.get(level) ?? 0) + 1);
+  }
+  setText("[data-trust-state]", `已加载 ${state.products.length} 条记录`);
+  setText("[data-monitor-summary]", `直连受阻 ${summary.blocked ?? 0} 条 · 抓取失败 ${summary.error ?? 0} 条`);
+  setText("[data-evidence-summary]", [
+    `精确库存 ${evidenceCounts.get("stock-count") ?? 0} 条`,
+    `官方订购入口 ${evidenceCounts.get("official-order") ?? 0} 条`,
+    `第三方快照 ${evidenceCounts.get("snapshot") ?? 0} 条`,
+    `待核验 ${evidenceCounts.get("unverified") ?? 0} 条`
+  ].join(" · "));
+  renderFreshness();
   renderRing();
 }
 
@@ -678,3 +692,4 @@ renderSummary();
 bindControls();
 loadMonitorData();
 setInterval(refreshClock, 1000);
+setInterval(renderFreshness, 60_000);

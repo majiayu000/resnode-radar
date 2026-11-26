@@ -110,7 +110,12 @@ npm run monitor
 npm run monitor:validate
 ```
 
-GitHub Actions runs `.github/workflows/monitor.yml` every 30 minutes and commits `data/products.json` when live provider data changes.
+The GitHub Actions schedule requests a run of `.github/workflows/monitor.yml`
+every 30 minutes, but GitHub delays scheduled runs: between 2026-10-28 and
+2026-11-24 runs were 3.3 to 11.8 hours apart. The homepage uses `generatedAt`
+from the published `data/products.json` and marks the snapshot stale at 18 hours
+of age, so a normally delayed run does not trigger the warning. Reloading the
+page only reads the published snapshot.
 
 Current adapters cover VIRCS, LisaHost, ZoroCloud, CstoneCloud, 学长网络, YINNET, PoloCloud, ZLIDC, and AaITR. `available` means the parser found a provider-backed positive stock count or an official order path; when stock count is not stated, the evidence field labels it as an order entry rather than precise stock.
 

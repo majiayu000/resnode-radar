@@ -116,12 +116,12 @@
               </svg>
               <div class="ring-label">
                 <strong data-ring-pct>-</strong>
-                <span>可订购率</span>
+                <span>快照可订购比例</span>
               </div>
             </div>
             <div class="sync-card">
               <div class="sync-row"><span>本机时间</span><strong data-now>--:--:--</strong></div>
-              <div class="sync-row"><span>最后同步</span><strong data-sync>--:--:--</strong></div>
+              <div class="sync-row"><span>快照生成时间</span><strong data-sync>--:--:--</strong></div>
               <small>源数据：<code>data/products.json</code></small>
             </div>
           </aside>
@@ -133,7 +133,7 @@
             <strong data-stat-total>-</strong>
           </article>
           <article class="stat is-good">
-            <span>可订购</span>
+            <span>可订购记录</span>
             <strong data-stat-available>-</strong>
           </article>
           <article class="stat is-warn">
@@ -156,16 +156,18 @@
 
         <section class="trust" aria-label="监控可信状态">
           <div>
-            <span>可信状态</span>
-            <strong data-trust-state>官方源监控</strong>
+            <span>监控摘要</span>
+            <strong data-trust-state>等待监控数据</strong>
+            <div data-monitor-summary>监控数据尚未加载。</div>
           </div>
           <div>
             <span>新鲜度</span>
-            <strong data-trust-age>-</strong>
+            <strong data-trust-freshness>加载中</strong>
+            <div data-trust-age>-</div>
           </div>
           <div class="trust-wide">
-            <span>监控摘要</span>
-            <strong data-trust-freshness data-monitor-summary>监控数据尚未加载。</strong>
+            <span>证据口径</span>
+            <strong data-evidence-summary>-</strong>
           </div>
         </section>
 
@@ -308,7 +310,7 @@
           <h3 id="faq-snapshot">第三方快照可以当作实时库存吗？</h3>
           <p>第三方快照来自 reader_snapshot 等读取方式，页面会标明快照证据。它反映的是读取到的页面内容；官方直连受阻时尤其要查看更新时间，并在购买入口再次核对。</p>
           <h3 id="faq-refresh">点击“重新加载”会立即检查所有商家吗？</h3>
-          <p>按钮重新读取本站已有的监控数据。供应商检查由后台监控流程完成，计划每 30 分钟运行一次，实际同步时间以页面显示为准。刷新后没有变化时，先查看“最后同步”和各条记录的更新时间。</p>
+          <p>按钮重新读取本站已有的监控数据。供应商检查由后台监控流程完成，计划每 30 分钟运行一次，但 GitHub 会延迟定时任务，实际约每 3–12 小时运行一次。页面按快照生成时间计算新鲜度，达到 18 小时就标记过期。过期数据仍可浏览，订购前请核对供应商页面。</p>
           <h3 id="faq-ip">“住宅 IP”分类能保证真实家庭宽带吗？</h3>
           <p>分类依据供应商页面文字做保守标记。它不包含对每个实际分配 IP 的现场核验，也无法保证特定平台可用。购买前确认 IP 来源，到手后可使用<a href="#tools">检测脚本</a>辅助检查，并保留测试时间。</p>
           <p>发现记录错误时，请在<a href="https://github.com/majiayu000/resnode-radar/issues">项目问题页</a>附上产品链接、观察时间和页面证据。监控方式与字段说明见<a href="https://github.com/majiayu000/resnode-radar/blob/main/docs/monitoring-spec.md">监控文档</a>。</p>
